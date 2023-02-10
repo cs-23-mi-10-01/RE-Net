@@ -30,6 +30,9 @@ From: ubuntu:18.04
 
     # Activate conda env
     . /opt/miniconda/bin/activate renet
+    
+    # Install correct verson of torch and cuda
+    #python3 -m pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 
     # Test
     echo "PWD and contents:"
@@ -49,7 +52,8 @@ From: ubuntu:18.04
     Version v0.0.2
 
 
-
+#sudo singularity build --nv --sandbox renet-image singularity.def
+#sudo singularity shell --pwd /app/ --nv --writable renet-image
 
 # TO CREATE THE IMAGE ON THE CLOUD:
 #srun singularity build --nv --fakeroot --sandbox renet-image singularity.def

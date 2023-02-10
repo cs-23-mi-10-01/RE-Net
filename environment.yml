@@ -3,9 +3,12 @@ channels:
   - pytorch
   - nvidia
   - dglteam
+  - intel
 dependencies:
   - python=3.6
   - numpy
   - pytorch=1.6.0
   - dgl-cuda10.1<0.5
+  - dataclasses
+  - icc_rt
 
