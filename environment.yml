@@ -2,13 +2,16 @@ name: renet
 channels:
   - pytorch
   - nvidia
-  - dglteam
+  - dglteam/label/cu102
   - intel
+  - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.9
   - numpy
-  - pytorch=1.6.0
-  - dgl-cuda10.1<0.5
-  - dataclasses
-  - icc_rt
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - cudatoolkit=10.2
+  - dgl
+  - scikit-learn
 

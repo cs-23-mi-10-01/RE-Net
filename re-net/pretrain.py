@@ -43,7 +43,8 @@ def train(args):
                   dropout=args.dropout,
                   model=args.model,
                   seq_len=args.seq_len,
-                  num_k=args.num_k, maxpool=args.maxpool)
+                  num_k=args.num_k, maxpool=args.maxpool,
+                  use_cuda=use_cuda)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=0.00001)
 

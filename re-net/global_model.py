@@ -8,7 +8,7 @@ import time
 
 
 class RENet_global(nn.Module):
-    def __init__(self, in_dim, h_dim, num_rels, dropout=0, model=0, seq_len=10, num_k=10, maxpool=1):
+    def __init__(self, in_dim, h_dim, num_rels, dropout=0, model=0, seq_len=10, num_k=10, maxpool=1, use_cuda=True):
         super(RENet_global, self).__init__()
         self.in_dim = in_dim
         self.h_dim = h_dim
@@ -24,11 +24,13 @@ class RENet_global(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.encoder_global = nn.GRU(h_dim, h_dim, batch_first=True)
 
-        self.aggregator = RGCNAggregator_global(h_dim, dropout, in_dim, num_rels, 100, model, seq_len, maxpool)
+        self.aggregator = RGCNAggregator_global(h_dim, dropout, in_dim, num_rels, 100, model, seq_len, maxpool, use_cuda)
 
         self.linear_s = nn.Linear(h_dim, in_dim)
         self.linear_o = nn.Linear(h_dim, in_dim)
         self.global_emb = None
+
+        self.use_cuda = use_cuda
 
 
 
@@ -48,7 +50,10 @@ class RENet_global(nn.Module):
 
         tt, s_q = self.encoder_global(packed_input)
         s_q = s_q.squeeze()
-        s_q = torch.cat((s_q, torch.zeros(len(t_list) - len(s_q), self.h_dim).cuda()), dim=0)
+        zeroes = torch.zeros(len(t_list) - len(s_q), self.h_dim)
+        if self.use_cuda:
+            zeroes.cuda()
+        s_q = torch.cat((s_q, zeroes), dim=0)
         pred = linear(s_q)
         loss = soft_cross_entropy(pred, true_prob[idx])
 

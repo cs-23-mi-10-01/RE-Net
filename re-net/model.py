@@ -8,7 +8,7 @@ import time
 
 
 class RENet(nn.Module):
-    def __init__(self, in_dim, h_dim, num_rels, dropout=0, model=0, seq_len=10, num_k=10):
+    def __init__(self, in_dim, h_dim, num_rels, dropout=0, model=0, seq_len=10, num_k=10, use_cuda=True):
         super(RENet, self).__init__()
         self.in_dim = in_dim
         self.h_dim = h_dim
@@ -33,7 +33,7 @@ class RENet(nn.Module):
         self.preds_list_o = defaultdict(lambda: torch.zeros(self.num_k))
         self.preds_ind_o = defaultdict(lambda: torch.zeros(self.num_k))
 
-        self.aggregator = RGCNAggregator(h_dim, dropout, in_dim, num_rels, 100, model, seq_len)
+        self.aggregator = RGCNAggregator(h_dim, dropout, in_dim, num_rels, 100, model, seq_len, use_cuda=use_cuda)
 
         self.linear = nn.Linear(3 * h_dim, in_dim)
         self.linear_r = nn.Linear(2 * h_dim, num_rels)

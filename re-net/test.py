@@ -37,13 +37,13 @@ def test(args):
                     num_rels,
                     model=args.model,
                     seq_len=args.seq_len,
-                    num_k=args.num_k)
+                    num_k=args.num_k, use_cuda=use_cuda)
     global_model = RENet_global(num_nodes,
                                 args.n_hidden,
                                 num_rels,
                                 model=args.model,
                                 seq_len=args.seq_len,
-                                num_k=args.num_k, maxpool=args.maxpool)
+                                num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda)
 
 
     if use_cuda:
