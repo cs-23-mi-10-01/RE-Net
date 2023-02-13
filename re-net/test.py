@@ -23,6 +23,11 @@ def test(args):
         total_data, total_times = utils.load_quadruples('./data/' + args.dataset, 'train.txt', 'valid.txt', 'test.txt')
     # check cuda
     use_cuda = args.gpu >= 0 and torch.cuda.is_available()
+    use_libxsmm = torch.cuda.is_available()
+
+    print("use_cuda: " + str(use_cuda))
+    print("use_libxsmm: " + str(use_libxsmm))
+    
     if use_cuda:
         torch.cuda.set_device(args.gpu)
         torch.cuda.manual_seed_all(999)
@@ -37,13 +42,13 @@ def test(args):
                     num_rels,
                     model=args.model,
                     seq_len=args.seq_len,
-                    num_k=args.num_k, use_cuda=use_cuda)
+                    num_k=args.num_k, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
     global_model = RENet_global(num_nodes,
                                 args.n_hidden,
                                 num_rels,
                                 model=args.model,
                                 seq_len=args.seq_len,
-                                num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda)
+                                num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
 
 
     if use_cuda:

@@ -1,10 +1,11 @@
 import torch
+import dgl
 import torch.nn as nn
 import dgl.function as fn
 
 class RGCNLayer(nn.Module):
     def __init__(self, in_feat, out_feat, bias=None, activation=None,
-                 self_loop=False, dropout=0.0):
+                 self_loop=False, dropout=0.0, use_libxsmm=True):
         super(RGCNLayer, self).__init__()
         self.bias = bias
         self.activation = activation
@@ -25,6 +26,8 @@ class RGCNLayer(nn.Module):
             self.dropout = nn.Dropout(dropout)
         else:
             self.dropout = None
+
+        dgl.use_libxsmm(use_libxsmm)
 
     # define how propagation is done in subclass
     def propagate(self, g, reverse):
@@ -53,10 +56,10 @@ class RGCNLayer(nn.Module):
 
 class RGCNBlockLayer(RGCNLayer):
     def __init__(self, in_feat, out_feat, num_rels, num_bases, bias=None,
-                 activation=None, self_loop=False, dropout=0.0):
+                 activation=None, self_loop=False, dropout=0.0, use_libxsmm=True):
         super(RGCNBlockLayer, self).__init__(in_feat, out_feat, bias,
                                              activation, self_loop=self_loop,
-                                             dropout=dropout)
+                                             dropout=dropout, use_libxsmm=use_libxsmm)
         self.num_rels = num_rels
         self.num_bases = num_bases
         assert self.num_bases > 0

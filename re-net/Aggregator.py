@@ -7,7 +7,7 @@ from RGCN import RGCNBlockLayer as RGCNLayer
 
 
 class RGCNAggregator_global(nn.Module):
-    def __init__(self, h_dim, dropout, num_nodes, num_rels, num_bases, model, seq_len=10, maxpool=1, use_cuda=True):
+    def __init__(self, h_dim, dropout, num_nodes, num_rels, num_bases, model, seq_len=10, maxpool=1, use_cuda=True, use_libxsmm=True):
         super(RGCNAggregator_global, self).__init__()
         self.h_dim = h_dim
         self.dropout = nn.Dropout(dropout)
@@ -19,9 +19,9 @@ class RGCNAggregator_global(nn.Module):
 
 
         self.rgcn1 = RGCNLayer(self.h_dim, self.h_dim, 2 * self.num_rels, num_bases,
-                               activation=F.relu, self_loop=True, dropout=dropout)
+                               activation=F.relu, self_loop=True, dropout=dropout, use_libxsmm=use_libxsmm)
         self.rgcn2 = RGCNLayer(self.h_dim, self.h_dim, 2 * self.num_rels, num_bases,
-                               activation=None, self_loop=True, dropout=dropout)
+                               activation=None, self_loop=True, dropout=dropout, use_libxsmm=use_libxsmm)
         
         self.use_cuda = use_cuda
 

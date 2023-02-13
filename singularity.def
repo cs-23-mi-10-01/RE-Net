@@ -30,14 +30,22 @@ From: ubuntu:18.04
 
     # Activate conda env
     . /opt/miniconda/bin/activate renet
-    
-    # Install correct verson of torch and cuda
-    #python3 -m pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
+    # Install sci-kit
+    conda install -c conda-forge scikit-learn
 
     # Test
     echo "PWD and contents:"
     pwd
     ls
+
+    # Pre-train
+    cd /app/data/ICEWS14/
+    exec "python3 get_history_graph.py"
+    cd /app/data/WIKI/
+    exec "python3 get_history_graph.py"
+
+    cd /app/
 
 %runscript
     echo "--- Start run ---"
@@ -54,6 +62,7 @@ From: ubuntu:18.04
 
 #sudo singularity build --nv --sandbox renet-image singularity.def
 #sudo singularity shell --pwd /app/ --nv --writable renet-image
+#python3 pretrain.py -d ICEWS14 --gpu -1 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 20 --batch-size 1024
 
 # TO CREATE THE IMAGE ON THE CLOUD:
 #srun singularity build --nv --fakeroot --sandbox renet-image singularity.def
