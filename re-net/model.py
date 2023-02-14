@@ -56,6 +56,8 @@ class RENet(nn.Module):
 
         self.criterion = nn.CrossEntropyLoss()
 
+        self.use_cuda = use_cuda
+
 
     """
     Prediction function in training. 
@@ -77,7 +79,9 @@ class RENet(nn.Module):
             hist = o_hist
             reverse = True
 
-        hist_len = torch.LongTensor(list(map(len, hist[0]))).cuda()
+        hist_len = torch.LongTensor(list(map(len, hist[0])))
+        if self.use_cuda:
+            hist_len.cuda()
         s_len, s_idx = hist_len.sort(0, descending=True)
         s_packed_input, s_packed_input_r = self.aggregator(hist, s, r, self.ent_embeds,
                                                         rel_embeds, graph_dict, self.global_emb,
@@ -85,7 +89,10 @@ class RENet(nn.Module):
    
         tt, s_h = self.encoder(s_packed_input)
         s_h = s_h.squeeze()
-        s_h = torch.cat((s_h, torch.zeros(len(s) - len(s_h), self.h_dim).cuda()), dim=0)
+        zeroes1 = torch.zeros(len(s) - len(s_h), self.h_dim)
+        if self.use_cuda:
+            zeroes1.cuda()
+        s_h = torch.cat((s_h, zeroes1), dim=0)
         ob_pred = self.linear(
             self.dropout(torch.cat((self.ent_embeds[s[s_idx]], s_h, rel_embeds[r[s_idx]]), dim=1)))
         loss_sub = self.criterion(ob_pred, o[s_idx])
@@ -93,7 +100,10 @@ class RENet(nn.Module):
         ###### Relations
         tt, s_q = self.encoder_r(s_packed_input_r)
         s_q = s_q.squeeze()
-        s_q = torch.cat((s_q, torch.zeros(len(s) - len(s_q), self.h_dim).cuda()), dim=0)
+        zeroes2 = torch.zeros(len(s) - len(s_q), self.h_dim)
+        if self.use_cuda:
+            zeroes2.cuda()
+        s_q = torch.cat((s_q, zeroes2), dim=0)
 
         ob_pred_r = self.linear_r(
             self.dropout(torch.cat((self.ent_embeds[s[s_idx]], s_q), dim=1)))
@@ -185,19 +195,28 @@ class RENet(nn.Module):
             rel_embeds = self.rel_embeds[self.num_rels:]
             reverse = True
         if len(s_history[0]) == 0:
-            s_h = torch.zeros(self.num_rels, self.h_dim).cuda()
-            s_q = torch.zeros(self.num_rels, self.h_dim).cuda()
+            s_h = torch.zeros(self.num_rels, self.h_dim)
+            s_q = torch.zeros(self.num_rels, self.h_dim)
+            if self.use_cuda:
+                s_h.cuda()
+                s_q.cuda()
         else:
             s_packed_input, s_packed_input_r = self.aggregator.predict_batch((s_history, s_history_t), s, r, self.ent_embeds,
                                                    rel_embeds, self.graph_dict, self.global_emb,
                                                    reverse=reverse)
             if s_packed_input is None:
-                s_h = torch.zeros(len(s), self.h_dim).cuda()
-                s_q = torch.zeros(len(s), self.h_dim).cuda()
+                s_h = torch.zeros(len(s), self.h_dim)
+                s_q = torch.zeros(len(s), self.h_dim)
+                if self.use_cuda:
+                    s_h.cuda()
+                    s_q.cuda()
             else:
                 tt, s_h = self.encoder(s_packed_input)
                 s_h = s_h.squeeze()
-                s_h = torch.cat((s_h, torch.zeros(len(s) - len(s_h), self.h_dim).cuda()), dim=0)
+                if self.use_cuda:
+                    s_h = torch.cat((s_h, torch.zeros(len(s) - len(s_h), self.h_dim).cuda()), dim=0)
+                else:
+                    s_h = torch.cat((s_h, torch.zeros(len(s) - len(s_h), self.h_dim)), dim=0)
                 ###### Relations
                 tt, s_q = self.encoder_r(s_packed_input_r)
                 s_q = s_q.squeeze()
@@ -330,7 +349,9 @@ class RENet(nn.Module):
 
 
         if len(s_hist[0]) == 0 or len(self.s_hist_test[s]) == 0:
-            s_h = torch.zeros(self.h_dim).cuda()
+            s_h = torch.zeros(self.h_dim)
+            if self.use_cuda:
+                s_h.cuda()
         else:
 
             s_history = self.s_hist_test[s]
@@ -340,7 +361,9 @@ class RENet(nn.Module):
             s_h = s_h.squeeze()
 
         if len(o_hist[0]) == 0 or len(self.o_hist_test[o]) == 0:
-            o_h = torch.zeros(self.h_dim).cuda()
+            o_h = torch.zeros(self.h_dim)
+            if self.use_cuda:
+                o_h.cuda()
         else:
 
             o_history = self.o_hist_test[o]

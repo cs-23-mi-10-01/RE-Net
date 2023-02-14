@@ -53,7 +53,7 @@ def train(args):
                     dropout=args.dropout,
                     model=args.model,
                     seq_len=args.seq_len,
-                    num_k=args.num_k, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
+                    num_k=args.num_k, use_cuda=use_cuda)
 
     global_model = RENet_global(num_nodes,
                          args.n_hidden,
@@ -121,6 +121,7 @@ def train(args):
 
     epoch = 0
     best_mrr = 0
+    i = 0
     while True:
         model.train()
         if epoch == args.max_epochs:
@@ -130,10 +131,12 @@ def train(args):
         t0 = time.time()
 
         train_data_shuffle, s_history_shuffle, s_history_t_shuffle, o_history_shuffle, o_history_t_shuffle = shuffle(train_data, s_history, s_history_t,
-                                                                             o_history, o_history_t)
-        for batch_data, s_hist, s_hist_t, o_hist, o_hist_t in utils.make_batch2(train_data_shuffle, s_history_shuffle, s_history_t_shuffle,
-                                                                               o_history_shuffle, o_history_t_shuffle, args.batch_size):
+                                                                                                                     o_history, o_history_t)
+        for batch_data, s_hist, s_hist_t, o_hist, o_hist_t in list(utils.make_batch2(train_data_shuffle, s_history_shuffle, s_history_t_shuffle,
+                                           o_history_shuffle, o_history_t_shuffle, args.batch_size)):
             # break
+            print("train " + str(i) + "/" + str(len(train_data)))
+            i += 1
 
             batch_data = torch.from_numpy(batch_data).long()
             if use_cuda:
@@ -163,12 +166,17 @@ def train(args):
                            (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
             model.latest_time = valid_data[0][3]
 
-            for i in range(len(valid_data)):
-                batch_data = valid_data[i]
-                s_hist = s_history_valid[i]
-                o_hist = o_history_valid[i]
-                s_hist_t = s_history_valid_t[i]
-                o_hist_t = o_history_valid_t[i]
+            j = 0
+            for j in range(len(valid_data)):
+                if j % 10 == 0:
+                    print("valid_data " + str(j) + "/" + len(valid_data))
+                j += 1
+
+                batch_data = valid_data[j]
+                s_hist = s_history_valid[j]
+                o_hist = o_history_valid[j]
+                s_hist_t = s_history_valid_t[j]
+                o_hist_t = o_history_valid_t[j]
 
                 if use_cuda:
                     batch_data = batch_data.cuda()
