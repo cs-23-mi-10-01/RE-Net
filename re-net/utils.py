@@ -183,8 +183,10 @@ def get_node_ids_to_g_id(s_hist_sorted, s_hist_t_sorted, s_tem, g_list, g_id_dic
 '''
 Get sorted s and r to make batch for RNN (sorted by length)
 '''
-def get_sorted_s_r_embed(s_hist, s, r, ent_embeds):
-    s_hist_len = torch.LongTensor(list(map(len, s_hist))).cuda()
+def get_sorted_s_r_embed(s_hist, s, r, ent_embeds, use_cuda):
+    s_hist_len = torch.LongTensor(list(map(len, s_hist)))
+    if use_cuda:
+        s_hist_len.cuda()
     s_len, s_idx = s_hist_len.sort(0, descending=True)
     num_non_zero = len(torch.nonzero(s_len))
     s_len_non_zero = s_len[:num_non_zero]
@@ -202,14 +204,19 @@ def get_sorted_s_r_embed(s_hist, s, r, ent_embeds):
                 flat_s.append(neigh)
     s_tem = s[s_idx]
     r_tem = r[s_idx]
-    embeds = ent_embeds[torch.LongTensor(flat_s).cuda()]
+    flat = torch.LongTensor(flat_s)
+    if use_cuda:
+        flat.cuda
+    embeds = ent_embeds[flat]
     embeds_split = torch.split(embeds, len_s)
     return s_len_non_zero, s_tem, r_tem, embeds, len_s, embeds_split
 
-def get_sorted_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_emb):
+def get_sorted_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_emb, use_cuda):
     s_hist = s_hist_data[0]
     s_hist_t = s_hist_data[1]
-    s_hist_len = torch.LongTensor(list(map(len, s_hist))).cuda()
+    s_hist_len = torch.LongTensor(list(map(len, s_hist)))
+    if use_cuda:
+        s_hist_len.cuda()
     s_len, s_idx = s_hist_len.sort(0, descending=True)
     num_non_zero = len(torch.nonzero(s_len))
     s_len_non_zero = s_len[:num_non_zero]
@@ -233,20 +240,29 @@ def get_sorted_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_
 
     node_ids_graph, len_s = get_node_ids_to_g_id(s_hist_sorted, s_hist_t_sorted, s_tem, g_list, g_id_dict)
 
-    idx = torch.cuda.current_device()
-    g_list = [g.to(torch.device('cuda:'+str(idx))) for g in g_list]  
+    if use_cuda:
+        idx = torch.cuda.current_device()
+        g_list = [g.to(torch.device('cuda:'+str(idx))) for g in g_list]  
+    else:
+        g_list = [g.to(torch.device('cpu')) for g in g_list]  
     batched_graph = dgl.batch(g_list)
     batched_graph.ndata['h'] = ent_embeds[batched_graph.ndata['id']].view(-1, ent_embeds.shape[1])
 
-    move_dgl_to_cuda(batched_graph)
-    global_emb_list = torch.cat(global_emb_list, dim=0).cuda()
+    if use_cuda:
+        move_dgl_to_cuda(batched_graph)
+    global_emb_list = torch.cat(global_emb_list, dim=0)
+    if use_cuda:
+        global_emb_list.cuda()
 
     return s_len_non_zero, s_tem, r_tem, batched_graph, node_ids_graph, global_emb_list
 
-def get_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_emb):
+def get_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_emb, use_cuda):
     s_hist = s_hist_data[0]
     s_hist_t = s_hist_data[1]
-    s_hist_len = torch.LongTensor(list(map(len, s_hist))).cuda()
+    hist_len = torch.LongTensor(list(map(len, s_hist)))
+    if use_cuda:
+        hist_len.cuda()
+    s_hist_len = hist_len
 
     s_idx = torch.arange(0,len(s_hist_len))
     s_len = s_hist_len
@@ -272,21 +288,29 @@ def get_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_emb):
 
     node_ids_graph, len_s = get_node_ids_to_g_id(s_hist_sorted, s_hist_t_sorted, s_tem, g_list, g_id_dict)
 
-    idx = torch.cuda.current_device()
-    g_list = [g.to(torch.device('cuda:'+str(idx))) for g in g_list]  
+    if use_cuda:
+        idx = torch.cuda.current_device()
+        g_list = [g.to(torch.device('cuda:'+str(idx))) for g in g_list]  
+    else:
+        g_list = [g.to(torch.device('cpu')) for g in g_list]  
     batched_graph = dgl.batch(g_list)
     batched_graph.ndata['h'] = ent_embeds[batched_graph.ndata['id']].view(-1, ent_embeds.shape[1])
 
-    move_dgl_to_cuda(batched_graph)
-    global_emb_list = torch.cat(global_emb_list, dim=0).cuda()
+    if use_cuda:
+        move_dgl_to_cuda(batched_graph)
+    global_emb_list = torch.cat(global_emb_list, dim=0)
+    if use_cuda:
+        global_emb_list.cuda()
 
     return s_len_non_zero, s_tem, r_tem, batched_graph, node_ids_graph, global_emb_list
 
 
 # assuming pred and soft_targets are both Variables with shape (batchsize, num_of_classes), each row of pred is predicted logits and each row of soft_targets is a discrete distribution.
-def soft_cross_entropy(pred, soft_targets):
+def soft_cross_entropy(pred, soft_targets, use_cuda):
     logsoftmax = torch.nn.LogSoftmax()
-    pred = pred.type('torch.DoubleTensor').cuda()
+    pred = pred.type('torch.DoubleTensor')
+    if use_cuda:
+        pred.cuda()
     return torch.mean(torch.sum(- soft_targets * logsoftmax(pred), 1))
 
 def get_true_distribution(train_data, num_s):

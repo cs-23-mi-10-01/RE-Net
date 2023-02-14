@@ -38,22 +38,17 @@ From: ubuntu:18.04
     echo "PWD and contents:"
     pwd
     ls
-
-    # Pre-train
-    cd /app/data/ICEWS14/
-    exec "python3 get_history_graph.py"
-    cd /app/data/WIKI/
-    exec "python3 get_history_graph.py"
-
+    
     cd /app/
+
+%test
+    echo "Test script"
 
 %runscript
     echo "--- Start run ---"
     echo "executing $@"
     exec "$@"
 
-%test
-    echo "Test script"
 
 %labels
     Author jwli21@student.aau.dk

@@ -138,7 +138,7 @@ class RGCNAggregator(nn.Module):
         if length == 0:
             s_packed_input = None
         else:
-            s_len_non_zero, s_tem, r_tem, g, node_ids_graph, global_emb_list = get_sorted_s_r_embed_rgcn(s_hist, s, r, ent_embeds, graph_dict, global_emb)
+            s_len_non_zero, s_tem, r_tem, g, node_ids_graph, global_emb_list = get_sorted_s_r_embed_rgcn(s_hist, s, r, ent_embeds, graph_dict, global_emb, self.use_cuda)
             if g is None:
                 s_packed_input = None
             else:
@@ -191,7 +191,7 @@ class RGCNAggregator(nn.Module):
             s_packed_input_r = None
         else:
 
-            s_len_non_zero, s_tem, r_tem, g, node_ids_graph, global_emb_list = get_s_r_embed_rgcn(s_hist, s, r, ent_embeds, graph_dict, global_emb)
+            s_len_non_zero, s_tem, r_tem, g, node_ids_graph, global_emb_list = get_s_r_embed_rgcn(s_hist, s, r, ent_embeds, graph_dict, global_emb, self.use_cuda)
             if g is None:
                 s_packed_input = None
             else:
@@ -242,7 +242,7 @@ class RGCNAggregator(nn.Module):
 
         s_hist_t = s_history[1]
         s_len_non_zero, s_tem, r_tem, g, node_ids_graph, global_emb_list = get_s_r_embed_rgcn(([s_hist], [s_hist_t]), s.view(-1,1), r.view(-1,1), ent_embeds,
-                                                                                      graph_dict, global_emb)
+                                                                                      graph_dict, global_emb, self.use_cuda)
 
         self.rgcn1(g, reverse)
         self.rgcn2(g, reverse)
@@ -277,7 +277,7 @@ class MeanAggregator(nn.Module):
         self.use_cuda = use_cuda
     
     def forward(self, s_hist, s, r, ent_embeds, rel_embeds):
-        s_len_non_zero, s_tem, r_tem, embeds_stack, len_s, embeds_split = get_sorted_s_r_embed(s_hist, s, r, ent_embeds)
+        s_len_non_zero, s_tem, r_tem, embeds_stack, len_s, embeds_split = get_sorted_s_r_embed(s_hist, s, r, ent_embeds, self.use_cuda)
 
         # To get mean vector at each time
         curr = 0
@@ -355,7 +355,7 @@ class AttnAggregator(nn.Module):
         self.use_cuda = use_cuda
 
     def forward(self, s_hist, s, r, ent_embeds, rel_embeds):
-        s_len_non_zero, s_tem, r_tem, embeds_stack, len_s, embeds_split = get_sorted_s_r_embed(s_hist, s, r, ent_embeds)
+        s_len_non_zero, s_tem, r_tem, embeds_stack, len_s, embeds_split = get_sorted_s_r_embed(s_hist, s, r, ent_embeds, self.use_cuda)
 
         s_embed_seq_tensor = torch.zeros(len(s_len_non_zero), self.seq_len, 3 * self.h_dim)
         if self.use_cuda:

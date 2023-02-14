@@ -55,7 +55,7 @@ class RENet_global(nn.Module):
             zeroes.cuda()
         s_q = torch.cat((s_q, zeroes), dim=0)
         pred = linear(s_q)
-        loss = soft_cross_entropy(pred, true_prob[idx])
+        loss = soft_cross_entropy(pred, true_prob[idx], self.use_cuda)
 
         return loss
 
