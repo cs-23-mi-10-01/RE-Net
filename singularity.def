@@ -59,11 +59,10 @@ From: ubuntu:18.04
 #sudo singularity shell --pwd /app/ --nv --writable renet-image
 
 # TO CREATE THE IMAGE ON THE CLOUD:
-#srun singularity build --nv --fakeroot --sandbox renet-image-ICEWS18_small_2 singularity.def
+#srun singularity build --nv --fakeroot --sandbox renet-image-ICEWS18_small_3 singularity.def
 
 # TO LEARN AND TEST THE MODEL ON THE CLOUD:
-# Fast version:
-#srun --gres=gpu --pty singularity shell --pwd /app/ --nv --writable renet-image-ICEWS18_small_2
+#srun --gres=gpu --pty singularity shell --pwd /app/ --nv --writable renet-image-ICEWS18_small_3
 
 export DATA=ICEWS18_small
 cd data/$DATA

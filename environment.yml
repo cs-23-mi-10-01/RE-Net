@@ -9,7 +9,7 @@ dependencies:
   - python=3.9
   - numpy
   - pytorch=1.12.1
-  - cudatoolkit=11.7
+  - cudatoolkit=10.2
   - dgl
   - scikit-learn
 
