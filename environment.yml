@@ -8,8 +8,8 @@ channels:
 dependencies:
   - python=3.9
   - numpy
-  - pytorch=1.12.1
-  - cudatoolkit=10.2
+  - pytorch
+  - pytorch-cuda=11.7
   - dgl
   - scikit-learn
 
