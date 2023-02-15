@@ -253,6 +253,8 @@ class RENet(nn.Module):
                 else:
                     s_done.add(s)
                 ss = torch.LongTensor([s]).repeat(self.num_rels)
+                if self.use_cuda:
+                    ss.cuda()
                 rr = torch.arange(0,self.num_rels)
                 probs = prob_s * self.pred_r_rank2(ss, rr, subject=True)
                 probs, indices = torch.topk(probs.view(-1), self.num_k, sorted=False)
@@ -290,6 +292,8 @@ class RENet(nn.Module):
                 else:
                     o_done.add(o)
                 oo = torch.LongTensor([o]).repeat(self.num_rels)
+                if self.use_cuda:
+                    oo.cuda()
                 rr = torch.arange(0, self.num_rels)
                 probs = prob_o * self.pred_r_rank2(oo, rr, subject=False)
                 probs, indices = torch.topk(probs.view(-1), self.num_k, sorted=False)
@@ -463,7 +467,10 @@ class RENet(nn.Module):
                         tem.append(i)
 
                 if len(tem) != 0:
-                    forward = torch.cat((r.repeat(len(tem), 1), o_candidate[torch.LongTensor(tem)].view(-1, 1)), dim=1)
+                    t1 = torch.LongTensor(tem)
+                    if self.use_cuda:
+                        t1.cuda()
+                    forward = torch.cat((r.repeat(len(tem), 1), o_candidate[t1].view(-1, 1)), dim=1)
 
                     s_his_cache = torch.cat((s_his_cache, forward), dim=0)
         return s_his_cache

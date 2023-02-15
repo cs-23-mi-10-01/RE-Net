@@ -37,10 +37,16 @@ class RGCNAggregator_global(nn.Module):
         for tim in t_list:
             length = int(tim // time_unit)
             if self.seq_len <= length:
-                time_list.append(torch.LongTensor(times[length - self.seq_len:length]))
+                t1 = torch.LongTensor(times[length - self.seq_len:length])
+                if self.use_cuda:
+                    t1.cuda()
+                time_list.append(t1)
                 len_non_zero.append(self.seq_len)
             else:
-                time_list.append(torch.LongTensor(times[:length]))
+                t2 = torch.LongTensor(times[:length])
+                if self.use_cuda:
+                    t2.cuda()
+                time_list.append(t2)
                 len_non_zero.append(length)
 
         unique_t = torch.unique(torch.cat(time_list))
@@ -91,7 +97,8 @@ class RGCNAggregator_global(nn.Module):
             timess = torch.LongTensor(times[id - self.seq_len:id])
         else:
             timess = torch.LongTensor(times[:id])
-
+        if self.use_cuda:
+            timess.cuda()
 
         g_list = []
 
@@ -147,7 +154,10 @@ class RGCNAggregator(nn.Module):
                 self.rgcn2(g, reverse)
 
                 embeds_mean = g.ndata.pop('h')
-                embeds_mean = embeds_mean[torch.LongTensor(node_ids_graph)]
+                t1 = torch.LongTensor(node_ids_graph)
+                if self.use_cuda:
+                    t1.cuda()
+                embeds_mean = embeds_mean[t1]
 
                 embeds_split = torch.split(embeds_mean, s_len_non_zero.tolist())
                 global_emb_list_split = torch.split(global_emb_list, s_len_non_zero.tolist())
@@ -200,7 +210,10 @@ class RGCNAggregator(nn.Module):
                 self.rgcn2(g, reverse)
 
                 embeds_mean = g.ndata.pop('h')
-                embeds_mean = embeds_mean[torch.LongTensor(node_ids_graph)]
+                t2 = torch.LongTensor(node_ids_graph)
+                if self.use_cuda:
+                    t2.cuda()
+                embeds_mean = embeds_mean[t2]
 
                 embeds_split = torch.split(embeds_mean, s_len_non_zero.tolist())
                 global_emb_list_split = torch.split(global_emb_list, s_len_non_zero.tolist())
@@ -247,7 +260,10 @@ class RGCNAggregator(nn.Module):
         self.rgcn1(g, reverse)
         self.rgcn2(g, reverse)
         embeds_mean = g.ndata.pop('h')
-        embeds = embeds_mean[torch.LongTensor(node_ids_graph)]
+        t3 = torch.LongTensor(node_ids_graph)
+        if self.use_cuda:
+            t3.cuda()
+        embeds = embeds_mean[t3]
 
         zeroes1 = torch.zeros(len(s_hist), 4 * self.h_dim)
         if self.use_cuda:
@@ -289,6 +305,9 @@ class MeanAggregator(nn.Module):
             curr += leng
         rows = torch.LongTensor(rows)
         cols = torch.LongTensor(cols)
+        if self.use_cuda:
+            rows.cuda()
+            cols.cuda()
         idxes = torch.stack([rows,cols], dim=0)
 
         mask_tensor = torch.sparse.FloatTensor(idxes, torch.ones(len(rows)))
@@ -297,6 +316,7 @@ class MeanAggregator(nn.Module):
         embeds_sum = torch.sparse.mm(mask_tensor, embeds_stack)
         reflection = torch.Tensor(len_s)
         if self.use_cuda:
+            embeds_sum.cuda()
             reflection.cuda()
         embeds_mean = embeds_sum /reflection.view(-1,1)
 
@@ -345,14 +365,19 @@ class MeanAggregator(nn.Module):
 class AttnAggregator(nn.Module):
     def __init__(self, h_dim, dropout, seq_len=10, use_cuda=True):
         super(AttnAggregator, self).__init__()
+
+        self.use_cuda = use_cuda
+
         self.h_dim = h_dim
         self.dropout = nn.Dropout(dropout)
         self.seq_len = seq_len
         self.attn_s = nn.Linear(3 * h_dim, h_dim)
-        self.v_s = nn.Parameter(torch.Tensor(h_dim, 1))
+        t1 = torch.Tensor(h_dim, 1)
+        if self.use_cuda:
+            t1.cuda()
+        self.v_s = nn.Parameter(t1)
         nn.init.xavier_uniform_(self.v_s, gain=nn.init.calculate_gain('relu'))
 
-        self.use_cuda = use_cuda
 
     def forward(self, s_hist, s, r, ent_embeds, rel_embeds):
         s_len_non_zero, s_tem, r_tem, embeds_stack, len_s, embeds_split = get_sorted_s_r_embed(s_hist, s, r, ent_embeds, self.use_cuda)

@@ -14,15 +14,18 @@ class RGCNLayer(nn.Module):
 
         if self.bias == True:
             b = torch.Tensor(out_feat)
-            # if self.use_cuda:
-            #     b.cuda()
-            self.bias = nn.Parameter(torch.Tensor(out_feat))
+            if self.use_cuda:
+                b.cuda()
+            self.bias = nn.Parameter(b)
             nn.init.xavier_uniform_(self.bias,
                                     gain=nn.init.calculate_gain('relu'))
 
         # weight for self loop
         if self.self_loop:
-            self.loop_weight = nn.Parameter(torch.Tensor(in_feat, out_feat))
+            t1 = torch.Tensor(in_feat, out_feat)
+            if self.use_cuda:
+                t1.cuda()
+            self.loop_weight = nn.Parameter(t1)
             nn.init.xavier_uniform_(self.loop_weight,
                                     gain=nn.init.calculate_gain('relu'))
 
@@ -79,8 +82,10 @@ class RGCNBlockLayer(RGCNLayer):
         #     self.weight = nn.Parameter(torch.Tensor(
         #         self.num_rels, in_feat, out_feat))
         # else:
-        self.weight = nn.Parameter(torch.Tensor(
-            self.num_rels, self.num_bases * self.submat_in * self.submat_out))
+        t1 = torch.Tensor(self.num_rels, self.num_bases * self.submat_in * self.submat_out)
+        if self.use_cuda:
+            t1.cuda()
+        self.weight = nn.Parameter(t1)
         nn.init.xavier_uniform_(self.weight, gain=nn.init.calculate_gain('relu'))
 
     def msg_func(self, edges, reverse):

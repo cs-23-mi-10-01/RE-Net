@@ -78,8 +78,13 @@ def get_big_graph(data, num_rels):
     g.add_edges(src, dst)
     norm = comp_deg_norm(g)
     g.ndata.update({'id': torch.from_numpy(uniq_v).long().view(-1, 1), 'norm': norm.view(-1, 1)})
-    g.edata['type_s'] = torch.LongTensor(rel_s)
-    g.edata['type_o'] = torch.LongTensor(rel_o)
+    t1 = torch.LongTensor(rel_s)
+    t2 = torch.LongTensor(rel_o)
+    if True: # Use cuda
+        t1.cuda()
+        t2.cuda()
+    g.edata['type_s'] = t1
+    g.edata['type_o'] = t2
     g.ids = {}
     idx = 0
     for idd in uniq_v:
@@ -97,7 +102,12 @@ def get_data(s_hist, o_hist):
     data = None
     for i, s_his in enumerate(s_hist):
         if len(s_his) != 0:
-            tem = torch.cat((torch.LongTensor([i]).repeat(len(s_his), 1), torch.LongTensor(s_his.cpu())), dim=1)
+            t1 = torch.LongTensor([i]).repeat(len(s_his), 1)
+            t2 = torch.LongTensor(s_his.cpu())
+            if True: # use cuda
+                t1.cuda()
+                t2.cuda()
+            tem = torch.cat((t1, t2), dim=1)
             if data is None:
                 data = tem.cpu().numpy()
             else:
@@ -105,7 +115,14 @@ def get_data(s_hist, o_hist):
 
     for i, o_his in enumerate(o_hist):
         if len(o_his) != 0:
-            tem = torch.cat((torch.LongTensor(o_his[:,1].cpu()).view(-1,1), torch.LongTensor(o_his[:,0].cpu()).view(-1,1), torch.LongTensor([i]).repeat(len(o_his), 1)), dim=1)
+            t1 = torch.LongTensor(o_his[:,1].cpu()).view(-1,1)
+            t2 = torch.LongTensor(o_his[:,0].cpu()).view(-1,1)
+            t3 = torch.LongTensor([i]).repeat(len(o_his), 1)
+            if True: # Use cuda
+                t1.cuda()
+                t2.cuda()
+                t3.cuda()
+            tem = torch.cat((t1, t2, t3), dim=1)
             if data is None:
                 data = tem.cpu().numpy()
             else:

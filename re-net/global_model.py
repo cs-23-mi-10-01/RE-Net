@@ -20,8 +20,8 @@ class RENet_global(nn.Module):
         self.use_cuda = use_cuda
 
         emb = torch.Tensor(in_dim, h_dim)
-        # if self.use_cuda:
-        #     emb.cuda()
+        if self.use_cuda:
+            emb.cuda()
         self.ent_embeds = nn.Parameter(emb)
         nn.init.xavier_uniform_(self.ent_embeds,
                                 gain=nn.init.calculate_gain('relu'))

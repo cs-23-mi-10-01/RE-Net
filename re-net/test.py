@@ -79,6 +79,8 @@ def test(args):
     model.latest_time = checkpoint['latest_time']
     if args.dataset == "icews_know":
         model.latest_time = torch.LongTensor([4344])[0]
+        if use_cuda:
+            model.latest_time.cuda()
     model.global_emb = checkpoint['global_emb']
     model.s_hist_test_t = checkpoint['s_hist_t']
     model.s_his_cache_t = checkpoint['s_cache_t']
