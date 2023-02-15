@@ -58,15 +58,16 @@ From: ubuntu:18.04
 #sudo singularity build --nv --sandbox renet-image singularity.def
 #sudo singularity shell --pwd /app/ --nv --writable renet-image
 
-#cd data/ICEWS14_small
-#python3 get_history_graph.py
-#cd /app/
-#python3 pretrain.py -d ICEWS14_small --gpu -1 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 2 --batch-size 1024
-#python3 train.py -d ICEWS14_small --gpu -1 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 2 --batch-size 1024
-
 # TO CREATE THE IMAGE ON THE CLOUD:
-#srun singularity build --nv --fakeroot --sandbox renet-image singularity.def
+#srun singularity build --nv --fakeroot --sandbox renet-image-ICEWS18_small_2 singularity.def
 
 # TO LEARN AND TEST THE MODEL ON THE CLOUD:
 # Fast version:
-#srun singularity run --pwd /app/ --nv --writable renet-image python main.py
+#srun --gres=gpu --pty singularity shell --pwd /app/ --nv --writable renet-image-ICEWS18_small_2
+
+export DATA=ICEWS18_small
+cd data/$DATA
+python3 get_history_graph.py
+cd /app/
+python3 pretrain.py -d $DATA --gpu 0 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 2 --batch-size 1024
+python3 train.py -d $DATA --gpu 0 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 2 --batch-size 1024
