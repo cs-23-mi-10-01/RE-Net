@@ -59,12 +59,12 @@ From: ubuntu:18.04
 #sudo singularity shell --pwd /app/ --nv --writable renet-image
 
 # TO CREATE THE IMAGE ON THE CLOUD:
-srun singularity build --nv --fakeroot --sandbox renet-image-WIKI_1 singularity.def
+srun singularity build --nv --fakeroot --sandbox renet-image-ICEWS18_small_2 singularity.def
 
 # TO LEARN AND TEST THE MODEL ON THE CLOUD:
-srun --gres=gpu --pty singularity shell --pwd /app/ --nv --writable renet-image-WIKI_1
+srun --gres=gpu --pty singularity shell --pwd /app/ --nv --writable renet-image-ICEWS18_small_2
 
-export DATA=WIKI
+export DATA=ICEWS18_small
 cd data/$DATA
 python3 get_history_graph.py
 cd /app/
