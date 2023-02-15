@@ -3,6 +3,7 @@ import os
 import dgl
 import torch
 from collections import defaultdict
+from dgl import DGLGraph
 
 
 def get_total_number(inPath, fileName):
@@ -138,8 +139,14 @@ def cuda(tensor):
         return tensor
 
 def move_dgl_to_cuda(g):
-    g.ndata.update({k: cuda(g.ndata[k]) for k in g.ndata})
-    g.edata.update({k: cuda(g.edata[k]) for k in g.edata})
+    e = DGLGraph.to(g, "cuda")
+    #e.ndata.update({k: cuda(g.ndata[k]) for k in g.ndata})
+    #e.edata.update({k: cuda(g.edata[k]) for k in g.edata})
+    return e
+
+def move_dict_to_cuda(d):
+    for key in d.keys():
+        d[key] = move_dgl_to_cuda(d[key])
 
 
 '''

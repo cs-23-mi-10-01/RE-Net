@@ -59,6 +59,9 @@ def train(args):
     # train_times = torch.from_numpy(train_times)
     with open('./data/' + args.dataset + '/train_graphs.txt', 'rb') as f:
         graph_dict = pickle.load(f)
+    if use_cuda:
+        #print(str(graph_dict))
+        utils.move_dict_to_cuda(graph_dict)
 
     true_prob_s, true_prob_o = utils.get_true_distribution(train_data, num_nodes)
 

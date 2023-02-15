@@ -17,7 +17,12 @@ class RENet_global(nn.Module):
         self.seq_len = seq_len
         self.num_k = num_k
 
-        self.ent_embeds = nn.Parameter(torch.Tensor(in_dim, h_dim))
+        self.use_cuda = use_cuda
+
+        emb = torch.Tensor(in_dim, h_dim)
+        # if self.use_cuda:
+        #     emb.cuda()
+        self.ent_embeds = nn.Parameter(emb)
         nn.init.xavier_uniform_(self.ent_embeds,
                                 gain=nn.init.calculate_gain('relu'))
 
@@ -30,7 +35,6 @@ class RENet_global(nn.Module):
         self.linear_o = nn.Linear(h_dim, in_dim)
         self.global_emb = None
 
-        self.use_cuda = use_cuda
 
 
 
@@ -45,6 +49,14 @@ class RENet_global(nn.Module):
             true_prob = true_prob_s
 
         sorted_t, idx = t_list.sort(0, descending=True)
+
+        print("sorted_t " + str(sorted_t))
+        print("self.ent_embeds.device " + str(self.ent_embeds.device))
+        for key in graph_dict.keys():
+            print("graph_dict " + str(key) + " id " + str(graph_dict[key].ndata['id'].device))
+            print("graph_dict " + str(key) + " norm " + str(graph_dict[key].ndata['norm'].device))
+            print("graph_dict " + str(key) + " type_s " + str(graph_dict[key].edata['type_s'].device))
+            print("graph_dict " + str(key) + " type_o " + str(graph_dict[key].edata['type_o'].device))
 
         packed_input = self.aggregator(sorted_t, self.ent_embeds, graph_dict, reverse=reverse)
 

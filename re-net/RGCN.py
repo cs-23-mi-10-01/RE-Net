@@ -10,8 +10,12 @@ class RGCNLayer(nn.Module):
         self.bias = bias
         self.activation = activation
         self.self_loop = self_loop
+        self.use_cuda = True
 
         if self.bias == True:
+            b = torch.Tensor(out_feat)
+            # if self.use_cuda:
+            #     b.cuda()
             self.bias = nn.Parameter(torch.Tensor(out_feat))
             nn.init.xavier_uniform_(self.bias,
                                     gain=nn.init.calculate_gain('relu'))

@@ -53,9 +53,9 @@ class RGCNAggregator_global(nn.Module):
             g_list.append(graph_dict[tim.item()])
 
         batched_graph = dgl.batch(g_list)
-        batched_graph.ndata['h'] = ent_embeds[batched_graph.ndata['id']].view(-1, ent_embeds.shape[1])
         if self.use_cuda:
-            move_dgl_to_cuda(batched_graph)
+            batched_graph = move_dgl_to_cuda(batched_graph)
+        batched_graph.ndata['h'] = ent_embeds[batched_graph.ndata['id']].view(-1, ent_embeds.shape[1])
         self.rgcn1(batched_graph, reverse)
         self.rgcn2(batched_graph, reverse)
         if self.maxpool == 1:
@@ -97,13 +97,13 @@ class RGCNAggregator_global(nn.Module):
 
         for tim in timess:
             if self.use_cuda:
-                move_dgl_to_cuda(graph_dict[tim.item()])
+                graph_dict[tim.item()] = move_dgl_to_cuda(graph_dict[tim.item()])
             g_list.append(graph_dict[tim.item()])
 
         batched_graph = dgl.batch(g_list)
         batched_graph.ndata['h'] = ent_embeds[batched_graph.ndata['id']].view(-1, ent_embeds.shape[1])
         if self.use_cuda:
-            move_dgl_to_cuda(batched_graph)
+            batched_graph = move_dgl_to_cuda(batched_graph)
         self.rgcn1(batched_graph, reverse)
         self.rgcn2(batched_graph, reverse)
         if self.maxpool == 1:
