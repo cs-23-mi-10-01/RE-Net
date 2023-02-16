@@ -50,13 +50,13 @@ class RENet_global(nn.Module):
 
         sorted_t, idx = t_list.sort(0, descending=True)
 
-        print("sorted_t " + str(sorted_t))
-        print("self.ent_embeds.device " + str(self.ent_embeds.device))
-        for key in graph_dict.keys():
-            print("graph_dict " + str(key) + " id " + str(graph_dict[key].ndata['id'].device))
-            print("graph_dict " + str(key) + " norm " + str(graph_dict[key].ndata['norm'].device))
-            print("graph_dict " + str(key) + " type_s " + str(graph_dict[key].edata['type_s'].device))
-            print("graph_dict " + str(key) + " type_o " + str(graph_dict[key].edata['type_o'].device))
+        # print("sorted_t " + str(sorted_t))
+        # print("self.ent_embeds.device " + str(self.ent_embeds.device))
+        # for key in graph_dict.keys():
+        #     print("graph_dict " + str(key) + " id " + str(graph_dict[key].ndata['id'].device))
+        #     print("graph_dict " + str(key) + " norm " + str(graph_dict[key].ndata['norm'].device))
+        #     print("graph_dict " + str(key) + " type_s " + str(graph_dict[key].edata['type_s'].device))
+        #     print("graph_dict " + str(key) + " type_o " + str(graph_dict[key].edata['type_o'].device))
 
         packed_input = self.aggregator(sorted_t, self.ent_embeds, graph_dict, reverse=reverse)
 
