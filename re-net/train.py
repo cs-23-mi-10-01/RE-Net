@@ -168,7 +168,7 @@ def train(args):
 
             for j in range(len(valid_data)):
                 if j % 10 == 0:
-                    print("valid_data " + str(j) + "/" + len(str(valid_data)))
+                    print("valid_data " + str(j) + "/" + str(len(valid_data)))
 
                 batch_data = valid_data[j]
                 s_hist = s_history_valid[j]
