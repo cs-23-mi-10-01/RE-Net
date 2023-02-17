@@ -67,7 +67,6 @@ def train(args):
 
     epoch = 0
     loss_small = 10000
-    i = 0
     while True:
         model.train()
         if epoch == args.max_epochs:
@@ -75,13 +74,14 @@ def train(args):
         epoch += 1
         loss_epoch = 0
         t0 = time.time()
+        i = 0
         # print(graph_dict.keys())
         # print(train_times_origin)
 
         train_times, true_prob_s, true_prob_o = shuffle(train_times_origin, true_prob_s, true_prob_o)
 
         for batch_data, true_s, true_o in utils.make_batch(train_times, true_prob_s, true_prob_o, args.batch_size):
-            print("pretrain " + str(i) + "/" + str(len(train_times)))
+            print("pretrain " + str(i * len(batch_data)) + "/" + str(len(train_times)))
             i += 1
 
             batch_data = torch.from_numpy(batch_data)

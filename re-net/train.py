@@ -121,7 +121,6 @@ def train(args):
 
     epoch = 0
     best_mrr = 0
-    i = 0
     while True:
         model.train()
         if epoch == args.max_epochs:
@@ -129,13 +128,14 @@ def train(args):
         epoch += 1
         loss_epoch = 0
         t0 = time.time()
+        i = 0
 
         train_data_shuffle, s_history_shuffle, s_history_t_shuffle, o_history_shuffle, o_history_t_shuffle = shuffle(train_data, s_history, s_history_t,
                                                                                                                      o_history, o_history_t)
         for batch_data, s_hist, s_hist_t, o_hist, o_hist_t in list(utils.make_batch2(train_data_shuffle, s_history_shuffle, s_history_t_shuffle,
                                            o_history_shuffle, o_history_t_shuffle, args.batch_size)):
             # break
-            print("train " + str(i) + "/" + str(len(train_data)))
+            print("train " + str(i * len(batch_data)) + "/" + str(len(train_data)))
             i += 1
 
             batch_data = torch.from_numpy(batch_data).long()
