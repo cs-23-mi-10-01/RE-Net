@@ -166,11 +166,9 @@ def train(args):
                            (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
             model.latest_time = valid_data[0][3]
 
-            j = 0
             for j in range(len(valid_data)):
                 if j % 10 == 0:
                     print("valid_data " + str(j) + "/" + len(str(valid_data)))
-                j += 1
 
                 batch_data = valid_data[j]
                 s_hist = s_history_valid[j]
