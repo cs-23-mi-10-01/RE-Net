@@ -194,28 +194,40 @@ def train(args):
             print("valid MRR (filtered): {:.6f}".format(mrr))
             print("valid MR (filtered): {:.6f}".format(mr))
             print("valid Loss: {:.6f}".format(total_loss / (len(valid_data))))
-
-            if mrr > best_mrr:
-                best_mrr = mrr
-                torch.save({'state_dict': model.state_dict(), 'epoch': epoch,
+            
+            epoch_model_state_file = str(epoch) + "/" + model_state_file
+            epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
+            epoch_model_graph_file = str(epoch) + "/" + model_graph_file
+            print("Saving " + epoch_model_state_file)
+            torch.save({'state_dict': model.state_dict(), 'epoch': epoch,
+                    's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
+                    'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
+                    's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
+                    'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
+                    'latest_time': model.latest_time, 'global_emb': model.global_emb},
+                    epoch_model_state_file)
+            print("Saving " + epoch_model_state_global_file2)
+            torch.save({'state_dict': global_model.state_dict(), 'epoch': epoch,
                         's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
                         'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
                         's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
                         'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
-                        'latest_time': model.latest_time, 'global_emb': model.global_emb},
-                       model_state_file)
-                torch.save({'state_dict': global_model.state_dict(), 'epoch': epoch,
-                            's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
-                            'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
-                            's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
-                            'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
-                            'latest_time': model.latest_time, 'global_emb': global_model.global_emb},
-                           model_state_global_file2)
-                with open(model_graph_file, 'wb') as fp:
-                    pickle.dump(model.graph_dict, fp)
+                        'latest_time': model.latest_time, 'global_emb': global_model.global_emb},
+                        epoch_model_state_global_file2)
+            print("Saving " + epoch_model_graph_file)
+            with open(epoch_model_graph_file, 'wb') as fp:
+                pickle.dump(model.graph_dict, fp)
+
+            if mrr > best_mrr:
+                best_mrr = mrr
+                best_state = epoch_model_state_file
+                best_global2 = epoch_model_state_global_file2
+                best_graph = epoch_model_graph_file
 
     print("training done")
-
+    print("Best model state: " + best_state)
+    print("Best global2: " + best_global2)
+    print("Best graph: " + best_graph)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='RENet')
