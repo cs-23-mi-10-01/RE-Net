@@ -4,6 +4,8 @@ import dgl
 import torch
 from collections import defaultdict
 from dgl import DGLGraph
+from pathlib import Path
+
 
 
 def get_total_number(inPath, fileName):
@@ -370,3 +372,9 @@ def get_true_distribution(train_data, num_s):
     true_prob_o = np.concatenate((true_prob_o, true_o.reshape(1, num_s)), axis=0)
 
     return true_prob_s, true_prob_o
+
+def touch(path):
+    dir = os.path.dirname(path)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+    Path(path).touch(exist_ok=True)

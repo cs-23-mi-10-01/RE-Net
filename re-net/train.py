@@ -46,6 +46,8 @@ def train(args):
     model_state_global_file = 'models/' + args.dataset + '/max' + str(args.maxpool) + 'rgcn_global.pth'
     model_state_file_backup = 'models/' + args.dataset + '/rgcn_backup.pth'
 
+    epoch = args.start_epoch
+
     print("start training...")
     model = RENet(num_nodes,
                     args.n_hidden,
@@ -54,14 +56,25 @@ def train(args):
                     model=args.model,
                     seq_len=args.seq_len,
                     num_k=args.num_k, use_cuda=use_cuda)
-
     global_model = RENet_global(num_nodes,
-                         args.n_hidden,
-                         num_rels,
-                         dropout=args.dropout,
-                         model=args.model,
-                         seq_len=args.seq_len,
-                         num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
+                        args.n_hidden,
+                        num_rels,
+                        dropout=args.dropout,
+                        model=args.model,
+                        seq_len=args.seq_len,
+                        num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
+    
+    if args.start_epoch > 0:
+        epoch_model_state_file = str(epoch) + "/" + model_state_file
+        epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
+
+        print("loading " + epoch_model_graph_file)
+        print("loading " + epoch_model_state_global_file2)
+        model_dict = torch.load(epoch_model_state_file)
+        global_model_dict = torch.load(epoch_model_state_global_file2)
+
+        model.load_state_dict(model_dict['state_dict'])
+        global_model.load_state_dict(global_model_dict['state_dict'])
 
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=0.00001)
 
@@ -80,8 +93,16 @@ def train(args):
     else:
         valid_sub = '/dev_history_sub.txt'
         valid_ob = '/dev_history_ob.txt'
-    with open('./data/' + args.dataset+'/train_graphs.txt', 'rb') as f:
-        graph_dict = pickle.load(f)
+
+    if args.start_epoch == 0:
+        with open('./data/' + args.dataset+'/train_graphs.txt', 'rb') as f:
+            graph_dict = pickle.load(f)
+    else:
+        epoch_model_graph_file = str(epoch) + "/" + model_graph_file
+        print("loading " + epoch_model_graph_file)
+        with open(epoch_model_graph_file, 'rb') as fp:
+            graph_dict = pickle.load(fp)
+    
     model.graph_dict = graph_dict
 
     with open('data/' + args.dataset+'/test_history_sub.txt', 'rb') as f:
@@ -119,7 +140,6 @@ def train(args):
         total_data = total_data.cuda()
 
 
-    epoch = 0
     best_mrr = 0
     while True:
         model.train()
@@ -150,13 +170,11 @@ def train(args):
             optimizer.zero_grad()
             loss_epoch += loss.item()
 
-
-
         t3 = time.time()
         print("Epoch {:04d} | Loss {:.4f} | time {:.4f}".
               format(epoch, loss_epoch/(len(train_data)/args.batch_size), t3 - t0))
 
-        if epoch % args.valid_every == 0 and epoch >= int(args.max_epochs/2):
+        if epoch % args.valid_every == 0 or epoch == args.max_epochs:
             model.eval()
             global_model.eval()
             total_loss = 0
@@ -199,6 +217,7 @@ def train(args):
             epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
             epoch_model_graph_file = str(epoch) + "/" + model_graph_file
             print("Saving " + epoch_model_state_file)
+            utils.touch(epoch_model_state_file)
             torch.save({'state_dict': model.state_dict(), 'epoch': epoch,
                     's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
                     'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
@@ -207,6 +226,7 @@ def train(args):
                     'latest_time': model.latest_time, 'global_emb': model.global_emb},
                     epoch_model_state_file)
             print("Saving " + epoch_model_state_global_file2)
+            utils.touch(epoch_model_state_global_file2)
             torch.save({'state_dict': global_model.state_dict(), 'epoch': epoch,
                         's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
                         'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
@@ -215,6 +235,7 @@ def train(args):
                         'latest_time': model.latest_time, 'global_emb': global_model.global_emb},
                         epoch_model_state_global_file2)
             print("Saving " + epoch_model_graph_file)
+            utils.touch(epoch_model_graph_file)
             with open(epoch_model_graph_file, 'wb') as fp:
                 pickle.dump(model.graph_dict, fp)
 
@@ -257,7 +278,7 @@ if __name__ == '__main__':
     parser.add_argument("--valid-every", type=int, default=1)
     parser.add_argument('--valid', action='store_true')
     parser.add_argument('--raw', action='store_true')
-
+    parser.add_argument('--start-epoch', type=int, default=0)
 
     args = parser.parse_args()
     print(args)
