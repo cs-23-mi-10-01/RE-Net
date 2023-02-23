@@ -68,7 +68,7 @@ def train(args):
         epoch_model_state_file = str(epoch) + "/" + model_state_file
         epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
 
-        print("loading " + epoch_model_graph_file)
+        print("loading " + epoch_model_state_file)
         print("loading " + epoch_model_state_global_file2)
         model_dict = torch.load(epoch_model_state_file)
         global_model_dict = torch.load(epoch_model_state_global_file2)
@@ -177,12 +177,39 @@ def train(args):
         if epoch % args.valid_every == 0 or epoch == args.max_epochs:
             model.eval()
             global_model.eval()
-            total_loss = 0
-            total_ranks = np.array([])
             model.init_history(train_data, (s_history, s_history_t), (o_history, o_history_t), valid_data,
                            (s_history_valid, s_history_valid_t), (o_history_valid, o_history_valid_t), test_data,
                            (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
             model.latest_time = valid_data[0][3]
+            
+            epoch_model_state_file = str(epoch) + "/" + model_state_file
+            epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
+            epoch_model_graph_file = str(epoch) + "/" + model_graph_file
+            print("Saving " + epoch_model_state_file)
+            utils.touch(epoch_model_state_file)
+            torch.save({'state_dict': model.state_dict(), 'epoch': epoch,
+                    's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
+                    'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
+                    's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
+                    'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
+                    'latest_time': model.latest_time, 'global_emb': model.global_emb},
+                    epoch_model_state_file)
+            print("Saving " + epoch_model_state_global_file2)
+            utils.touch(epoch_model_state_global_file2)
+            torch.save({'state_dict': global_model.state_dict(), 'epoch': epoch,
+                        's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
+                        'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
+                        's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
+                        'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
+                        'latest_time': model.latest_time, 'global_emb': global_model.global_emb},
+                        epoch_model_state_global_file2)
+            print("Saving " + epoch_model_graph_file)
+            utils.touch(epoch_model_graph_file)
+            with open(epoch_model_graph_file, 'wb') as fp:
+                pickle.dump(model.graph_dict, fp)
+
+            total_loss = 0
+            total_ranks = np.array([])
 
             for j in range(len(valid_data)):
                 if j % 10 == 0:
@@ -212,32 +239,6 @@ def train(args):
             print("valid MRR (filtered): {:.6f}".format(mrr))
             print("valid MR (filtered): {:.6f}".format(mr))
             print("valid Loss: {:.6f}".format(total_loss / (len(valid_data))))
-            
-            epoch_model_state_file = str(epoch) + "/" + model_state_file
-            epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
-            epoch_model_graph_file = str(epoch) + "/" + model_graph_file
-            print("Saving " + epoch_model_state_file)
-            utils.touch(epoch_model_state_file)
-            torch.save({'state_dict': model.state_dict(), 'epoch': epoch,
-                    's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
-                    'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
-                    's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
-                    'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
-                    'latest_time': model.latest_time, 'global_emb': model.global_emb},
-                    epoch_model_state_file)
-            print("Saving " + epoch_model_state_global_file2)
-            utils.touch(epoch_model_state_global_file2)
-            torch.save({'state_dict': global_model.state_dict(), 'epoch': epoch,
-                        's_hist': model.s_hist_test, 's_cache': model.s_his_cache,
-                        'o_hist': model.o_hist_test, 'o_cache': model.o_his_cache,
-                        's_hist_t': model.s_hist_test_t, 's_cache_t': model.s_his_cache_t,
-                        'o_hist_t': model.o_hist_test_t, 'o_cache_t': model.o_his_cache_t,
-                        'latest_time': model.latest_time, 'global_emb': global_model.global_emb},
-                        epoch_model_state_global_file2)
-            print("Saving " + epoch_model_graph_file)
-            utils.touch(epoch_model_graph_file)
-            with open(epoch_model_graph_file, 'wb') as fp:
-                pickle.dump(model.graph_dict, fp)
 
             if mrr > best_mrr:
                 best_mrr = mrr
