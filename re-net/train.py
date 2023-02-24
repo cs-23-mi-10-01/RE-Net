@@ -212,7 +212,7 @@ def train(args):
             total_ranks = np.array([])
 
             for j in range(len(valid_data)):
-                if j % 10 == 0:
+                if j % 1000 == 0:
                     print("valid_data " + str(j) + "/" + str(len(valid_data)))
 
                 batch_data = valid_data[j]
