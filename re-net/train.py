@@ -65,8 +65,8 @@ def train(args):
                         num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
     
     if args.start_epoch > 0:
-        epoch_model_state_file = str(epoch) + "/" + model_state_file
-        epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
+        epoch_model_state_file = 'models/' + args.dataset + "/" + str(epoch) + "/rgcn.pth"
+        epoch_model_state_global_file2 = 'models/' + args.dataset + "/" + str(epoch) + "/max" + str(args.maxpool) + "rgcn_global2.pth"
 
         print("loading " + epoch_model_state_file)
         print("loading " + epoch_model_state_global_file2)
@@ -98,7 +98,7 @@ def train(args):
         with open('./data/' + args.dataset+'/train_graphs.txt', 'rb') as f:
             graph_dict = pickle.load(f)
     else:
-        epoch_model_graph_file = str(epoch) + "/" + model_graph_file
+        epoch_model_graph_file = "models/" + args.dataset + "/" + str(epoch) + "/rgcn_graph.pth"
         print("loading " + epoch_model_graph_file)
         with open(epoch_model_graph_file, 'rb') as fp:
             graph_dict = pickle.load(fp)
@@ -182,9 +182,9 @@ def train(args):
                            (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
             model.latest_time = valid_data[0][3]
             
-            epoch_model_state_file = str(epoch) + "/" + model_state_file
-            epoch_model_state_global_file2 = str(epoch) + "/" + model_state_global_file2
-            epoch_model_graph_file = str(epoch) + "/" + model_graph_file
+            epoch_model_state_file = 'models/' + args.dataset + "/" + str(epoch) + "/rgcn.pth"
+            epoch_model_state_global_file2 = 'models/' + args.dataset + "/" + str(epoch) + "/max" + str(args.maxpool) + "rgcn_global2.pth"
+            epoch_model_graph_file = "models/" + args.dataset + "/" + str(epoch) + "/rgcn_graph.pth"
             print("Saving " + epoch_model_state_file)
             utils.touch(epoch_model_state_file)
             torch.save({'state_dict': model.state_dict(), 'epoch': epoch,
@@ -208,48 +208,49 @@ def train(args):
             with open(epoch_model_graph_file, 'wb') as fp:
                 pickle.dump(model.graph_dict, fp)
 
-            total_loss = 0
-            total_ranks = np.array([])
+            ############## VALIDATION REMOVED FROM THIS FILE, see valid.py ##############
+            # total_loss = 0
+            # total_ranks = np.array([])
 
-            for j in range(len(valid_data)):
-                if j % 1000 == 0:
-                    print("valid_data " + str(j) + "/" + str(len(valid_data)))
+            # for j in range(len(valid_data)):
+            #     if j % 1000 == 0:
+            #         print("valid_data " + str(j) + "/" + str(len(valid_data)))
 
-                batch_data = valid_data[j]
-                s_hist = s_history_valid[j]
-                o_hist = o_history_valid[j]
-                s_hist_t = s_history_valid_t[j]
-                o_hist_t = o_history_valid_t[j]
+            #     batch_data = valid_data[j]
+            #     s_hist = s_history_valid[j]
+            #     o_hist = o_history_valid[j]
+            #     s_hist_t = s_history_valid_t[j]
+            #     o_hist_t = o_history_valid_t[j]
 
-                if use_cuda:
-                    batch_data = batch_data.cuda()
+            #     if use_cuda:
+            #         batch_data = batch_data.cuda()
 
-                with torch.no_grad():
-                    ranks, loss = model.evaluate_filter(batch_data, (s_hist, s_hist_t), (o_hist, o_hist_t), global_model, total_data)
-                    total_ranks = np.concatenate((total_ranks, ranks))
-                    total_loss += loss.item()
+            #     with torch.no_grad():
+            #         ranks, loss = model.evaluate_filter(batch_data, (s_hist, s_hist_t), (o_hist, o_hist_t), global_model, total_data)
+            #         total_ranks = np.concatenate((total_ranks, ranks))
+            #         total_loss += loss.item()
 
-            mrr = np.mean(1.0 / total_ranks)
-            mr = np.mean(total_ranks)
-            hits = []
-            for hit in [1, 3, 10]:
-                avg_count = np.mean((total_ranks <= hit))
-                hits.append(avg_count)
-                print("valid Hits (filtered) @ {}: {:.6f}".format(hit, avg_count))
-            print("valid MRR (filtered): {:.6f}".format(mrr))
-            print("valid MR (filtered): {:.6f}".format(mr))
-            print("valid Loss: {:.6f}".format(total_loss / (len(valid_data))))
+            # mrr = np.mean(1.0 / total_ranks)
+            # mr = np.mean(total_ranks)
+            # hits = []
+            # for hit in [1, 3, 10]:
+            #     avg_count = np.mean((total_ranks <= hit))
+            #     hits.append(avg_count)
+            #     print("valid Hits (filtered) @ {}: {:.6f}".format(hit, avg_count))
+            # print("valid MRR (filtered): {:.6f}".format(mrr))
+            # print("valid MR (filtered): {:.6f}".format(mr))
+            # print("valid Loss: {:.6f}".format(total_loss / (len(valid_data))))
 
-            if mrr > best_mrr:
-                best_mrr = mrr
-                best_state = epoch_model_state_file
-                best_global2 = epoch_model_state_global_file2
-                best_graph = epoch_model_graph_file
+            # if mrr > best_mrr:
+            #     best_mrr = mrr
+            #     best_state = epoch_model_state_file
+            #     best_global2 = epoch_model_state_global_file2
+            #     best_graph = epoch_model_graph_file
 
     print("training done")
-    print("Best model state: " + best_state)
-    print("Best global2: " + best_global2)
-    print("Best graph: " + best_graph)
+    # print("Best model state: " + best_state)
+    # print("Best global2: " + best_global2)
+    # print("Best graph: " + best_graph)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='RENet')
