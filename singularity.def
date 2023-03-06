@@ -73,3 +73,4 @@ python3 get_history_graph.py
 cd /app/
 python3 pretrain.py -d $DATA --gpu -1 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 20 --batch-size 1024
 python3 train.py -d $DATA --gpu -1 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 20 --batch-size 1024 --valid-every 1 --start-epoch 19
+python3 valid.py -d $DATA --gpu -1 --dropout 0.5 --n-hidden 200 --lr 1e-3 --max-epochs 20 --batch-size 1024 --valid-every 1
