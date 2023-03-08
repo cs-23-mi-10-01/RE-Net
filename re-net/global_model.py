@@ -36,8 +36,6 @@ class RENet_global(nn.Module):
         self.global_emb = None
 
 
-
-
     def forward(self, t_list, true_prob_s, true_prob_o, graph_dict, subject=True):
         if subject:
             reverse = False
