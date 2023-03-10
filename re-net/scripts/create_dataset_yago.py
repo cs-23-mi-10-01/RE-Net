@@ -7,7 +7,6 @@ def create_dataset(args):
     dataset_directory = os.path.join("re-net", "data", "YAGO")
     full_dataset_path = os.path.join(dataset_directory, "resources", "full.txt")
     full_named_timestamps_dataset_path = os.path.join(dataset_directory, "resources", "full_named_timestamps.txt")
-    full_named_dataset_path = os.path.join(dataset_directory, "resources", "full_named.txt")
     relation2id_resources_path = os.path.join(dataset_directory, "resources", "relation2id.txt")
     entity2id_resources_path = os.path.join(dataset_directory, "resources", "entity2id.txt")
     train_dataset_path = os.path.join(dataset_directory, "train.txt")
@@ -22,14 +21,14 @@ def create_dataset(args):
     timestamp2id_path = os.path.join(dataset_directory, "timestamp2id.txt")
     
     create_full_named(full_named_timestamps_dataset_path, entity2id_resources_path, 
-                      relation2id_resources_path, full_named_dataset_path)
-    #create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path, stat_path)
+                      relation2id_resources_path, full_dataset_path)
+    create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path, stat_path)
     #create_train_valid_test(entity2id_path, relation2id_path, timestamp2id_path, 
     #                        train_names_dataset_path, valid_names_dataset_path, test_names_dataset_path, 
     #                        train_dataset_path, valid_dataset_path, test_dataset_path)
     
 def create_full_named(full_named_timestamps_dataset_path, entity2id_resources_path, 
-                      relation2id_resources_path, full_named_dataset_path):
+                      relation2id_resources_path, full_dataset_path):
     
     full_named_timestamps_rows = []
     with open(full_named_timestamps_dataset_path, encoding='utf-8') as full_dataset:
@@ -57,10 +56,12 @@ def create_full_named(full_named_timestamps_dataset_path, entity2id_resources_pa
             date_to_year_only(row["time_from"]) + "\t" + \
             date_to_year_only(row["time_to"]) + "\n"
         
-    write(full_named_dataset_path, full_named_rows_str)
+    write(full_dataset_path, full_named_rows_str)
     
 
 def date_to_year_only(date):
+    if date[3] == '-':
+        return "0" + date[0] + date[1] + date[2] + "-##-##"
     return date[0] + date[1] + date[2] + date[3] + "-##-##"
 
 def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path, stat_path):
@@ -69,7 +70,7 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
     relation2id = []
     timestamp2id = []
     with open(full_dataset_path, encoding='utf-8') as full_dataset:
-        records = csv.DictReader(full_dataset, delimiter='\t')
+        records = csv.DictReader(full_dataset, fieldnames=["head", "relation", "tail", "time_from", "time_to"], delimiter='\t')
         for row in records:
             rows.append(row)
     
@@ -80,8 +81,10 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
             relation2id.append(row["relation"])
         if row["tail"] not in entity2id:
             entity2id.append(row["tail"])
-        if row["timestamp"] not in timestamp2id:
-            timestamp2id.append(row["timestamp"])
+        if row["time_from"] not in timestamp2id:
+            timestamp2id.append(row["time_from"])
+        if row["time_to"] not in timestamp2id:
+            timestamp2id.append(row["time_to"])
     
     entity2id.sort()
     relation2id.sort()
@@ -93,7 +96,7 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
     relation2id_str = ""
     for i in range(len(relation2id)):
         relation2id_str += relation2id[i] + "\t" + str(i) + "\n"
-    timestamp2id_str = "-\t0\n"
+    timestamp2id_str = ""
     for i in range(len(timestamp2id)):
         timestamp2id_str += timestamp2id[i] + "\t" + str(i) + "\n"
 
