@@ -60,7 +60,7 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
     write(relation2id_path, relation2id_str)
     write(timestamp2id_path, timestamp2id_str)
 
-    stat_str = str(len(entity2id)) + "\t" + str(len(relation2id)) + "\t0\n"
+    stat_str = str(len(entity2id)) + "\t" + str(len(relation2id)) + "\t" + str(len(timestamp2id)) + "\n"
     
     write(stat_path, stat_str)
 
