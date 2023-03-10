@@ -9,6 +9,7 @@ def create_dataset(args):
     train_dataset_path = os.path.join(dataset_directory, "train.txt")
     valid_dataset_path = os.path.join(dataset_directory, "valid.txt")
     test_dataset_path = os.path.join(dataset_directory, "test.txt")
+    stat_path = os.path.join(dataset_directory, "stat.txt")
     train_names_dataset_path = os.path.join(dataset_directory, "resources", "train_names.txt")
     valid_names_dataset_path = os.path.join(dataset_directory, "resources", "valid_names.txt")
     test_names_dataset_path = os.path.join(dataset_directory, "resources", "test_names.txt")
@@ -16,12 +17,12 @@ def create_dataset(args):
     relation2id_path = os.path.join(dataset_directory, "relation2id.txt")
     timestamp2id_path = os.path.join(dataset_directory, "timestamp2id.txt")
     
-    create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path)
+    create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path, stat_path)
     create_train_valid_test(entity2id_path, relation2id_path, timestamp2id_path, 
                             train_names_dataset_path, valid_names_dataset_path, test_names_dataset_path, 
                             train_dataset_path, valid_dataset_path, test_dataset_path)
     
-def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path):
+def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timestamp2id_path, stat_path):
     rows = []
     entity2id = []
     relation2id = []
@@ -58,6 +59,10 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
     write(entity2id_path, entity2id_str)
     write(relation2id_path, relation2id_str)
     write(timestamp2id_path, timestamp2id_str)
+
+    stat_str = str(len(entity2id)) + "\t" + str(len(relation2id)) + "\t0\n"
+    
+    write(stat_path, stat_str)
 
 def create_train_valid_test(entity2id_path, relation2id_path, timestamp2id_path, 
                             train_names_dataset_path, valid_names_dataset_path, test_names_dataset_path, 
