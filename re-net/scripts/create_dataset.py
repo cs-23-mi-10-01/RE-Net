@@ -69,46 +69,81 @@ def create_train_valid_test(entity2id_path, relation2id_path, timestamp2id_path,
     with open(entity2id_path, encoding='utf-8') as dataset:
         records = csv.DictReader(dataset, fieldnames=["entity", "id"], delimiter='\t')
         for row in records:
-            entity2id[row["entity"]] = row["id"]
+            entity2id[row["entity"]] = int(row["id"])
     with open(relation2id_path, encoding='utf-8') as dataset:
         records = csv.DictReader(dataset, fieldnames=["relation", "id"], delimiter='\t')
         for row in records:
-            relation2id[row["relation"]] = row["id"]
+            relation2id[row["relation"]] = int(row["id"])
     with open(timestamp2id_path, encoding='utf-8') as dataset:
         records = csv.DictReader(dataset, fieldnames=["timestamp", "id"], delimiter='\t')
         for row in records:
-            timestamp2id[row["timestamp"]] = row["id"]
+            timestamp2id[row["timestamp"]] = int(row["id"])
     
     test_str = ""
     train_str = ""
     valid_str = ""
 
+    test_rows = []
     with open(test_names_dataset_path, encoding='utf-8') as dataset:
         records = csv.DictReader(dataset, fieldnames=["head", "relation", "tail", "timestamp"], delimiter='\t')
         for row in records:
-            test_str += name2id(row["head"], entity2id) + "\t" \
-                + name2id(row["relation"], relation2id) + "\t" \
-                + name2id(row["tail"], entity2id) + "\t" \
-                + name2id(row["timestamp"], timestamp2id) + "\t" \
-                + name2id("-", timestamp2id) + "\n"
-
+            test_rows.append(
+                {
+                    "head": name2id(row["head"], entity2id),
+                    "relation": name2id(row["relation"], relation2id),
+                    "tail": name2id(row["tail"], entity2id),
+                    "time_from": name2id(row["timestamp"], timestamp2id),
+                    "time_to": name2id("-", timestamp2id)
+                })
+    test_rows.sort(key=lambda row: (row["time_from"], row["head"], row["relation"], row["tail"], row["time_to"]))
+    for row in test_rows:
+        test_str += str(row["head"]) + "\t" \
+            + str(row["relation"]) + "\t" \
+            + str(row["tail"]) + "\t" \
+            + str(row["time_from"]) + "\t" \
+            + str(row["time_to"]) + "\n"
+        
+        
+    train_rows = []
     with open(train_names_dataset_path, encoding='utf-8') as dataset:
         records = csv.DictReader(dataset, fieldnames=["head", "relation", "tail", "timestamp"], delimiter='\t')
         for row in records:
-            train_str += name2id(row["head"], entity2id) + "\t" \
-                + name2id(row["relation"], relation2id) + "\t" \
-                + name2id(row["tail"], entity2id) + "\t" \
-                + name2id(row["timestamp"], timestamp2id) + "\t" \
-                + name2id("-", timestamp2id) + "\n"
+            train_rows.append(
+                {
+                    "head": name2id(row["head"], entity2id),
+                    "relation": name2id(row["relation"], relation2id),
+                    "tail": name2id(row["tail"], entity2id),
+                    "time_from": name2id(row["timestamp"], timestamp2id),
+                    "time_to": name2id("-", timestamp2id)
+                })
+    train_rows.sort(key=lambda row: (row["time_from"], row["head"], row["relation"], row["tail"], row["time_to"]))
+    for row in train_rows:
+        train_str += str(row["head"]) + "\t" \
+            + str(row["relation"]) + "\t" \
+            + str(row["tail"]) + "\t" \
+            + str(row["time_from"]) + "\t" \
+            + str(row["time_to"]) + "\n"
 
+    
+    valid_rows = []
     with open(valid_names_dataset_path, encoding='utf-8') as dataset:
         records = csv.DictReader(dataset, fieldnames=["head", "relation", "tail", "timestamp"], delimiter='\t')
         for row in records:
-            valid_str += name2id(row["head"], entity2id) + "\t" \
-                + name2id(row["relation"], relation2id) + "\t" \
-                + name2id(row["tail"], entity2id) + "\t" \
-                + name2id(row["timestamp"], timestamp2id) + "\t" \
-                + name2id("-", timestamp2id) + "\n"
+            valid_rows.append(
+                {
+                    "head": name2id(row["head"], entity2id),
+                    "relation": name2id(row["relation"], relation2id),
+                    "tail": name2id(row["tail"], entity2id),
+                    "time_from": name2id(row["timestamp"], timestamp2id),
+                    "time_to": name2id("-", timestamp2id)
+                })
+    valid_rows.sort(key=lambda row: (row["time_from"], row["head"], row["relation"], row["tail"], row["time_to"]))
+    for row in valid_rows:
+        valid_str += str(row["head"]) + "\t" \
+            + str(row["relation"]) + "\t" \
+            + str(row["tail"]) + "\t" \
+            + str(row["time_from"]) + "\t" \
+            + str(row["time_to"]) + "\n"
     
     write(test_dataset_path, test_str)
     write(train_dataset_path, train_str)
