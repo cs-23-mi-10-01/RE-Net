@@ -25,7 +25,7 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
     rows = []
     entity2id = []
     relation2id = []
-    timestamp2id = ["-"]
+    timestamp2id = []
     with open(full_dataset_path, encoding='utf-8') as full_dataset:
         records = csv.DictReader(full_dataset, delimiter='\t')
         for row in records:
@@ -51,7 +51,7 @@ def create_2id_files(full_dataset_path, entity2id_path, relation2id_path, timest
     relation2id_str = ""
     for i in range(len(relation2id)):
         relation2id_str += relation2id[i] + "\t" + str(i) + "\n"
-    timestamp2id_str = ""
+    timestamp2id_str = "-\t0\n"
     for i in range(len(timestamp2id)):
         timestamp2id_str += timestamp2id[i] + "\t" + str(i) + "\n"
 
