@@ -92,6 +92,8 @@ def create_2id_files(full_named_dataset_path, entity2id_path, relation2id_path, 
         if row["time_to"] not in timestamp2id:
             timestamp2id.append(row["time_to"])
     
+    timestamp2id.remove("####-##-##")
+
     entity2id.sort()
     relation2id.sort()
     timestamp2id.sort()
@@ -102,7 +104,7 @@ def create_2id_files(full_named_dataset_path, entity2id_path, relation2id_path, 
     relation2id_str = ""
     for i in range(len(relation2id)):
         relation2id_str += relation2id[i] + "\t" + str(i) + "\n"
-    timestamp2id_str = ""
+    timestamp2id_str = "####-##-##\t0\n"
     for i in range(len(timestamp2id)):
         timestamp2id_str += timestamp2id[i] + "\t" + str(i) + "\n"
 
