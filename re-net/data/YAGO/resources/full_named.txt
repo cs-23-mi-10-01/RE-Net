@@ -2051,11 +2051,11 @@
 <Keith_Larsen>	<diedIn>	<Santa_Barbara,_California>	2006-##-##	2006-##-##
 <Government_of_Canada>	<owns>	<RCAF_Station_Grostenquin>	1952-##-##	1964-##-##
 <Szymon_Bogumił_Zug>	<created>	<Lelewel_Palace>	1787-##-##	####-##-##
-<EA_Canada>	<created>	<2010_FIFA_World_Cup_South_Africa_(video_game)>	360--##-##	####-##-##
+<EA_Canada>	<created>	<2010_FIFA_World_Cup_South_Africa_(video_game)>	0360-##-##	####-##-##
 <Gary_D._Solis>	<created>	<Cambridge_University_Press>	2010-##-##	####-##-##
 <Frances_Howard_(actress)>	<isMarriedTo>	<Samuel_Goldwyn>	1925-##-##	1974-##-##
-<Fun_Labs>	<created>	<Cabela's_Dangerous_Hunts_2009>	360--##-##	####-##-##
-<Zhang_Jindong>	<owns>	<Suning_Holdings_Group>	100--##-##	####-##-##
+<Fun_Labs>	<created>	<Cabela's_Dangerous_Hunts_2009>	0360-##-##	####-##-##
+<Zhang_Jindong>	<owns>	<Suning_Holdings_Group>	0100-##-##	####-##-##
 <Carly_Chaikin>	<created>	<Suburgatory>	2011-##-##	####-##-##
 <Florence_Engel_Randall>	<created>	<A_Watcher_in_the_Woods>	1976-##-##	####-##-##
 <Hilary_Beckles>	<worksAt>	<University_of_the_West_Indies>	1980-##-##	####-##-##
@@ -2075,7 +2075,7 @@
 <Martha_Graham>	<hasWonPrize>	<Presidential_Medal_of_Freedom>	1976-##-##	####-##-##
 <Samuel_Hoffenstein>	<created>	<Enchanted_April_(1935_film)>	1922-##-##	####-##-##
 <Lorna_Gray>	<diedIn>	<Sherman_Oaks,_Los_Angeles>	2017-##-##	2017-##-##
-<Hungary>	<owns>	<MVM_Group>	100--##-##	####-##-##
+<Hungary>	<owns>	<MVM_Group>	0100-##-##	####-##-##
 <James_Barnet>	<created>	<Chief_Secretary's_building>	1873-##-##	1894-##-##
 <Ludwig_Bemelmans>	<created>	<Madeline>	1939-##-##	1999-##-##
 <Brendan_I._Koerner>	<created>	<Now_the_Hell_Will_Start>	2008-##-##	####-##-##
@@ -2106,7 +2106,7 @@
 <USFR_Media_Group>	<owns>	<America_One>	2003-##-##	2009-##-##
 <Richard_Clipston_Sturgis>	<created>	<Massachusetts_State_House>	1914-##-##	1917-##-##
 <William_Blum>	<created>	<Killing_Hope>	2003-##-##	####-##-##
-<UniCredit>	<owns>	<Banco_di_Sicilia>	100--##-##	####-##-##
+<UniCredit>	<owns>	<Banco_di_Sicilia>	0100-##-##	####-##-##
 <Ride_&_Show_Engineering,_Inc.>	<created>	<Jaws_(ride)>	1990-##-##	####-##-##
 <Ambrose_McGuirk>	<owns>	<Milwaukee_Badgers>	1922-##-##	1925-##-##
 <Eero_Saarinen>	<created>	<Swedish_Theatre>	1935-##-##	####-##-##
@@ -2123,9 +2123,9 @@
 <Alan_Beddoe>	<created>	<Books_of_Remembrance_(Canada)>	1929-##-##	1940-##-##
 <William_Brinkley>	<created>	<Don't_Go_Near_the_Water_(novel)>	1956-##-##	####-##-##
 <Aston_Webb>	<wasBornIn>	<London>	1849-##-##	1849-##-##
-<Edward_L._Hart>	<created>	<Hymns_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints_(1985_book)>	113--##-##	####-##-##
+<Edward_L._Hart>	<created>	<Hymns_of_The_Church_of_Jesus_Christ_of_Latter-day_Saints_(1985_book)>	0113-##-##	####-##-##
 <Michael_Heisley>	<owns>	<Vancouver_Grizzlies>	2000-##-##	2001-##-##
-<Government_of_India>	<owns>	<Rail_Wheel_Factory>	100--##-##	####-##-##
+<Government_of_India>	<owns>	<Rail_Wheel_Factory>	0100-##-##	####-##-##
 <Willis_Hall>	<created>	<Billy_Liar>	1960-##-##	####-##-##
 <Danielle_Feinberg>	<created>	<Brave_(2012_film)>	2012-##-##	####-##-##
 <Bobby_Driscoll>	<created>	<Song_of_the_South>	1946-##-##	####-##-##
@@ -2152,7 +2152,7 @@
 <Robert_Lešnik>	<created>	<Mercedes-Benz_S-Class_(W222)>	2009-##-##	####-##-##
 <Alan_Bundy>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	2012-##-##	####-##-##
 <Gene_Taylor_(Mississippi_politician)>	<wasBornIn>	<New_Orleans>	1953-##-##	1953-##-##
-<Banca_Tercas>	<owns>	<Banca_Caripe>	979--##-##	####-##-##
+<Banca_Tercas>	<owns>	<Banca_Caripe>	0979-##-##	####-##-##
 <Son_Jun-ho_(actor)>	<isMarriedTo>	<Kim_So-hyun_(actress,_born_1975)>	2010-##-##	####-##-##
 <Keith_Allan_(actor)>	<created>	<Z_Nation>	2014-##-##	####-##-##
 <Bruce_Timm>	<created>	<All-Star_Superman_(film)>	2011-##-##	####-##-##
@@ -2169,7 +2169,7 @@
 <Looking_Glass_Studios>	<created>	<Destruction_Derby_(series)>	1999-##-##	####-##-##
 <Florence_Augusta_Merriam_Bailey>	<diedIn>	<Washington,_D.C.>	1948-##-##	1948-##-##
 <Pernod_Ricard>	<owns>	<Aberlour_distillery>	1974-##-##	####-##-##
-<UBI_Banca>	<owns>	<Banca_Adriatica>	100--##-##	####-##-##
+<UBI_Banca>	<owns>	<Banca_Adriatica>	0100-##-##	####-##-##
 <Harriet_Miers>	<wasBornIn>	<Dallas>	1945-##-##	1945-##-##
 <David_Jason>	<created>	<The_BFG_(1989_film)>	1989-##-##	####-##-##
 <William_C._Durant>	<created>	<General_Motors>	2013-##-##	####-##-##
@@ -2180,7 +2180,7 @@
 <Calvin_Gotlieb>	<isMarriedTo>	<Phyllis_Gotlieb>	1949-##-##	2009-##-##
 <Public_Transport_Commission>	<owns>	<North_Coast_railway_line,_New_South_Wales>	1972-##-##	####-##-##
 <Stephen_Vincent_Benét>	<created>	<John_Brown's_Body_(poem)>	1929-##-##	####-##-##
-<ChemChina>	<owns>	<ADAMA_Agricultural_Solutions>	100--##-##	####-##-##
+<ChemChina>	<owns>	<ADAMA_Agricultural_Solutions>	0100-##-##	####-##-##
 <Manindra_Agrawal>	<hasWonPrize>	<Padma_Shri>	2013-##-##	####-##-##
 <John_Wilson_Moore>	<worksAt>	<Duke_University>	1961-##-##	####-##-##
 <Howard_&_Wyndham_Ltd>	<owns>	<King's_Theatre,_Glasgow>	1904-##-##	1967-##-##
@@ -2191,7 +2191,7 @@
 <Martha_Gellhorn>	<isMarriedTo>	<Ernest_Hemingway>	1940-##-##	1945-##-##
 <Ryan_Piers_Williams>	<isMarriedTo>	<America_Ferrera>	2011-##-##	####-##-##
 <Kenneth_Lonergan>	<created>	<You_Can_Count_On_Me>	2000-##-##	####-##-##
-<Edda_Media>	<owns>	<Lokalavisene_Oslo>	100--##-##	####-##-##
+<Edda_Media>	<owns>	<Lokalavisene_Oslo>	0100-##-##	####-##-##
 <Robby_Benson>	<created>	<Beast_(Disney)>	1991-##-##	####-##-##
 <Sydney_Lassick>	<created>	<Alligator_(film)>	1980-##-##	####-##-##
 <Minneapolis_Millers>	<owns>	<Nicollet_Park>	1896-##-##	1955-##-##
@@ -2207,8 +2207,8 @@
 <Radio_New_Zealand>	<owns>	<Scenicland_FM>	1996-##-##	####-##-##
 <Selma_Kurz>	<isMarriedTo>	<Josef_von_Halban>	1910-##-##	####-##-##
 <Elizabeth_Bowen>	<created>	<The_Death_of_the_Heart>	1938-##-##	####-##-##
-<Harmonix>	<created>	<Rock_Band_(video_game)>	360--##-##	####-##-##
-<Eden_Games>	<created>	<Alone_in_the_Dark_(2008_video_game)>	360--##-##	####-##-##
+<Harmonix>	<created>	<Rock_Band_(video_game)>	0360-##-##	####-##-##
+<Eden_Games>	<created>	<Alone_in_the_Dark_(2008_video_game)>	0360-##-##	####-##-##
 <New_England_Patriots>	<owns>	<Foxboro_Stadium>	1970-##-##	1988-##-##
 <George_Stubbs>	<created>	<Portrait_of_a_Large_Dog>	1724-##-##	1806-##-##
 <Kelly_Thornton>	<created>	<Sing_Street>	2016-##-##	####-##-##
@@ -2232,18 +2232,18 @@
 <Austin_Chick>	<isMarriedTo>	<Morena_Baccarin>	2011-##-##	2016-##-##
 <Mel_Bourne>	<isMarriedTo>	<Sarah_Marshall_(British_actress)>	1952-##-##	1957-##-##
 <Joan_Rivers>	<isMarriedTo>	<Edgar_Rosenberg>	1965-##-##	1987-##-##
-<Government_of_Serbia>	<owns>	<RB_Kolubara>	100--##-##	####-##-##
+<Government_of_Serbia>	<owns>	<RB_Kolubara>	0100-##-##	####-##-##
 <Tarık_Akan>	<created>	<Hababam_Sınıfı>	1975-##-##	####-##-##
 <Ludwig_von_Bogdandy>	<worksAt>	<Voestalpine>	1988-##-##	1992-##-##
 <Bakrie_Group>	<owns>	<Antv>	1993-##-##	2006-##-##
 <Daniel_Gilbert_(psychologist)>	<created>	<Stumbling_on_Happiness>	2006-##-##	####-##-##
 <William_H._Tucker>	<created>	<Saint_Andrew's_Golf_Club>	1983-##-##	####-##-##
-<Potevio>	<owns>	<Puhua_Investment>	100--##-##	####-##-##
+<Potevio>	<owns>	<Puhua_Investment>	0100-##-##	####-##-##
 <Godolphin_Racing>	<owns>	<Kayf_Tara>	1998-##-##	####-##-##
 <William_D._Cohan>	<created>	<House_of_Cards_(Cohan_book)>	2009-##-##	####-##-##
 <Tantek_Çelik>	<worksAt>	<Sun_Microsystems>	2015-##-##	####-##-##
 <Chan_Koonchung>	<created>	<The_Fat_Years>	2009-##-##	####-##-##
-<BPER_Banca>	<owns>	<Cassa_di_Risparmio_di_Saluzzo>	100--##-##	####-##-##
+<BPER_Banca>	<owns>	<Cassa_di_Risparmio_di_Saluzzo>	0100-##-##	####-##-##
 <Boris_Pasternak>	<created>	<King_Lear_(1971_USSR_film)>	1919-##-##	####-##-##
 <Jimmy_O'Donnell>	<owns>	<Cleveland_Tigers_(NFL)>	1920-##-##	1922-##-##
 <Smita_Patil>	<created>	<Aakrosh_(1980_film)>	1980-##-##	####-##-##
@@ -2276,7 +2276,7 @@
 <Mark_Snow>	<created>	<Smallville>	2001-##-##	####-##-##
 <James_Patrick_Kelly>	<created>	<10\u005e16_to_1>	1999-##-##	####-##-##
 <Angela_Bettis>	<created>	<May_(film)>	2002-##-##	####-##-##
-<Redtribe>	<created>	<Space_Chimps_(video_game)>	360--##-##	####-##-##
+<Redtribe>	<created>	<Space_Chimps_(video_game)>	0360-##-##	####-##-##
 <Rory_Byrne>	<created>	<Ferrari_F310>	1997-##-##	####-##-##
 <Newsweb_Corporation>	<owns>	<WCFJ_(defunct)>	1998-##-##	2015-##-##
 <Shauna_Cross>	<created>	<Whip_It_(film)>	2009-##-##	####-##-##
@@ -2298,7 +2298,7 @@
 <Lola_Albright>	<isMarriedTo>	<Jack_Carson>	1944-##-##	1949-##-##
 <State_Transit_Authority>	<owns>	<Chullora_Bus_Workshops>	1989-##-##	1990-##-##
 <Vernon_L._Smith>	<wasBornIn>	<Wichita,_Kansas>	1927-##-##	1927-##-##
-<Newark,_New_Jersey>	<owns>	<Ruppert_Stadium_(Newark)>	194--##-##	1967-##-##
+<Newark,_New_Jersey>	<owns>	<Ruppert_Stadium_(Newark)>	0194-##-##	1967-##-##
 <Roy_Clarke>	<created>	<Potter_(TV_series)>	1979-##-##	####-##-##
 <Glória_Maria>	<created>	<Globo_Repórter>	2010-##-##	####-##-##
 <Ernie_Kovacs>	<isMarriedTo>	<Edie_Adams>	1954-##-##	1962-##-##
@@ -2323,7 +2323,7 @@
 <Edie_Adams>	<diedIn>	<Los_Angeles>	2008-##-##	2008-##-##
 <Helen_Hobbs>	<hasWonPrize>	<Heinrich_Wieland_Prize>	2005-##-##	####-##-##
 <George_Strath>	<created>	<Royal_Troon_Golf_Club>	1888-##-##	1923-##-##
-<Paul_Waldron_Reilly>	<created>	<St._Frances_of_Rome's_Church_(Bronx,_New_York)>	393--##-##	####-##-##
+<Paul_Waldron_Reilly>	<created>	<St._Frances_of_Rome's_Church_(Bronx,_New_York)>	0393-##-##	####-##-##
 <Chi-fu_Huang>	<worksAt>	<Goldman_Sachs>	1993-##-##	####-##-##
 <Jibu_Jacob>	<created>	<Vellimoonga>	2014-##-##	####-##-##
 <Arne_Berggren>	<created>	<Hotel_Cæsar>	2012-##-##	####-##-##
@@ -2365,14 +2365,14 @@
 <Charter_Communications>	<owns>	<InfoMás>	2016-##-##	####-##-##
 <William_Broyles_Jr.>	<isMarriedTo>	<Linda_Purl>	1988-##-##	1992-##-##
 <Elvira_Quintillá>	<isMarriedTo>	<José_María_Rodero>	1947-##-##	1991-##-##
-<Banco_BPM>	<owns>	<Cassa_di_Risparmio_di_Asti>	100--##-##	####-##-##
+<Banco_BPM>	<owns>	<Cassa_di_Risparmio_di_Asti>	0100-##-##	####-##-##
 <Germain_Boffrand>	<created>	<Petit_Luxembourg>	1710-##-##	####-##-##
 <David_Holt_(American_actor)>	<created>	<The_Adventures_of_Tom_Sawyer>	1938-##-##	####-##-##
 <Eddie_Laughton>	<diedIn>	<Hollywood>	1952-##-##	1952-##-##
-<Hrvatski_Telekom>	<owns>	<Combis>	100--##-##	####-##-##
+<Hrvatski_Telekom>	<owns>	<Combis>	0100-##-##	####-##-##
 <Darley_Stud>	<owns>	<Street_Sense_(horse)>	2007-##-##	####-##-##
 <Marie-Hélène_de_Rothschild>	<isMarriedTo>	<Guy_de_Rothschild>	1957-##-##	####-##-##
-<Government_of_Serbia>	<owns>	<Serbian_Railways>	100--##-##	####-##-##
+<Government_of_Serbia>	<owns>	<Serbian_Railways>	0100-##-##	####-##-##
 <Historic_Scotland>	<owns>	<Dallas_Dhu_distillery>	1992-##-##	####-##-##
 <Anthony_F._Hill>	<worksAt>	<University_of_Warwick>	1988-##-##	1991-##-##
 <Oliver_Smithies>	<hasWonPrize>	<Nobel_Prize_in_Physiology_or_Medicine>	2007-##-##	####-##-##
@@ -2396,7 +2396,7 @@
 <Kamleshwar>	<hasWonPrize>	<Sahitya_Akademi_Award>	2003-##-##	####-##-##
 <Trudi_Roth>	<created>	<Lüthi_und_Blanc>	2000-##-##	2002-##-##
 <George_Stubbs>	<created>	<The_Kongouro_from_New_Holland>	1724-##-##	1806-##-##
-<Brett_Gurewitz>	<created>	<Sorrow_(Bad_Religion_song)>	168--##-##	####-##-##
+<Brett_Gurewitz>	<created>	<Sorrow_(Bad_Religion_song)>	0168-##-##	####-##-##
 <Caio_Blat>	<isMarriedTo>	<Maria_Ribeiro>	2007-##-##	####-##-##
 <Ian_Callum>	<created>	<Jaguar_XJ_(X351)>	2008-##-##	####-##-##
 <Rajiv_Malhotra>	<created>	<Indra's_Net_(book)>	2014-##-##	####-##-##
@@ -2435,7 +2435,7 @@
 <Anne_Flournoy>	<isMarriedTo>	<Mark_M._Green>	1985-##-##	####-##-##
 <Dennis_Hopper>	<isMarriedTo>	<Katherine_LaNasa>	1972-##-##	1976-##-##
 <Lee_Keun-ho>	<playsFor>	<South_Korea_national_under-23_football_team>	2006-##-##	2008-##-##
-<Transdev_Germany>	<owns>	<Transdev_Sachsen-Anhalt>	100--##-##	####-##-##
+<Transdev_Germany>	<owns>	<Transdev_Sachsen-Anhalt>	0100-##-##	####-##-##
 <Radical_Entertainment>	<created>	<Crash_Bandicoot>	2005-##-##	####-##-##
 <Paramount_Pictures>	<owns>	<Liberty_Films>	1947-##-##	1951-##-##
 <Shinya_Yamanaka>	<hasWonPrize>	<Wolf_Prize>	2011-##-##	####-##-##
@@ -2453,7 +2453,7 @@
 <Leonard_Rossiter>	<isMarriedTo>	<Josephine_Tewson>	1959-##-##	####-##-##
 <Joe_Sinnott>	<hasWonPrize>	<Inkwell_Awards>	2008-##-##	####-##-##
 <Paul_C._Reilly>	<created>	<Church_of_the_Good_Shepherd_(New_York_City)>	1950-##-##	####-##-##
-<Holmen_(company)>	<owns>	<Iggesund_Paperboard>	100--##-##	####-##-##
+<Holmen_(company)>	<owns>	<Iggesund_Paperboard>	0100-##-##	####-##-##
 <Sahar_Dolatshahi>	<isMarriedTo>	<Rambod_Javan>	2010-##-##	2014-##-##
 <Kaiser_Broadcasting>	<created>	<Creature_Double_Feature>	1972-##-##	1977-##-##
 <Boris_Sagal>	<isMarriedTo>	<Marge_Champion>	1977-##-##	1981-##-##
@@ -2488,7 +2488,7 @@
 <Peter_Sollett>	<created>	<Raising_Victor_Vargas>	2002-##-##	####-##-##
 <Hasbro>	<owns>	<Ravensburger>	1998-##-##	####-##-##
 <André_Michel_Lwoff>	<diedIn>	<Paris>	1994-##-##	1994-##-##
-<Rainbow_Studios>	<created>	<Cars_(video_game)>	360--##-##	####-##-##
+<Rainbow_Studios>	<created>	<Cars_(video_game)>	0360-##-##	####-##-##
 <Cormac_McCarthy>	<created>	<Blood_Meridian>	1985-##-##	####-##-##
 <David_Jason>	<created>	<Open_All_Hours>	1973-##-##	1985-##-##
 <Juan_León_Mera>	<created>	<Cumandá_(novel)>	1879-##-##	1865-##-##
@@ -2577,7 +2577,7 @@
 <Bradford_Tatum>	<isMarriedTo>	<Stacy_Haiduk>	1997-##-##	####-##-##
 <Kristiania_Sporveisselskab>	<owns>	<Vålerenga_Line>	1900-##-##	####-##-##
 <Rosemary_Theby>	<wasBornIn>	<St._Louis>	1892-##-##	1892-##-##
-<Daigaku_Honyaku_Center>	<owns>	<Cross_FM>	100--##-##	####-##-##
+<Daigaku_Honyaku_Center>	<owns>	<Cross_FM>	0100-##-##	####-##-##
 <Bruno_Sacco>	<created>	<Mercedes-Benz_W123>	1973-##-##	1975-##-##
 <Werner_Almesberger>	<created>	<LILO_(boot_loader)>	1992-##-##	1998-##-##
 <Ferenc_Tóthárpád>	<created>	<Budapest>	2007-##-##	####-##-##
@@ -2589,7 +2589,7 @@
 <Jules_Dassin>	<diedIn>	<Athens>	2008-##-##	2008-##-##
 <Gerald_P._Carr>	<wasBornIn>	<Denver>	1932-##-##	1932-##-##
 <Amos_Oz>	<wasBornIn>	<Jerusalem>	1939-##-##	1939-##-##
-<Giacomo_Quarenghi>	<created>	<Alexander_Palace>	2007-##-##	287--##-##
+<Giacomo_Quarenghi>	<created>	<Alexander_Palace>	2007-##-##	0287-##-##
 <J._Tinsley_Oden>	<hasWonPrize>	<Timoshenko_Medal>	1996-##-##	####-##-##
 <Murray_Gell-Mann>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1978-##-##	####-##-##
 <John_M._Palmer_(politician)>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1856-##-##	####-##-##
@@ -2623,8 +2623,8 @@
 <360_Architecture>	<created>	<Husky_Stadium>	2012-##-##	####-##-##
 <Knights_of_Columbus>	<owns>	<Bushwick_Democratic_Club_House>	1941-##-##	####-##-##
 <Micheline_Cheirel>	<wasBornIn>	<Paris>	1917-##-##	1917-##-##
-<ChemChina>	<owns>	<Pirelli>	100--##-##	####-##-##
-<Ferrovie_dello_Stato_Italiane>	<owns>	<Trenitalia>	100--##-##	####-##-##
+<ChemChina>	<owns>	<Pirelli>	0100-##-##	####-##-##
+<Ferrovie_dello_Stato_Italiane>	<owns>	<Trenitalia>	0100-##-##	####-##-##
 <Richard_Kuhn>	<wasBornIn>	<Vienna>	1900-##-##	1900-##-##
 <Floyd_Spence>	<wasBornIn>	<Columbia,_South_Carolina>	1928-##-##	1928-##-##
 <Georg_Andreas_Bull>	<created>	<Skøyen_Station>	1872-##-##	####-##-##
@@ -2673,7 +2673,7 @@
 <Steve_McQueen>	<isMarriedTo>	<Neile_Adams>	1956-##-##	1972-##-##
 <Edwin_Southern>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1983-##-##	####-##-##
 <Emtek>	<owns>	<O_Channel>	2004-##-##	####-##-##
-<RAI>	<owns>	<Rai_Way>	184--##-##	####-##-##
+<RAI>	<owns>	<Rai_Way>	0184-##-##	####-##-##
 <Volker_Schlöndorff>	<isMarriedTo>	<Margarethe_von_Trotta>	1971-##-##	1991-##-##
 <Aimee_Chan>	<isMarriedTo>	<Moses_Chan>	2013-##-##	####-##-##
 <Stanley_B._Prusiner>	<hasWonPrize>	<Keio_Medical_Science_Prize>	1996-##-##	####-##-##
@@ -2693,7 +2693,7 @@
 <William_Brinkley>	<created>	<The_Last_Ship_(novel)>	1988-##-##	####-##-##
 <Bill_Yates>	<created>	<King_Features_Syndicate>	1978-##-##	1988-##-##
 <Chandrika_Kumaratunga>	<isMarriedTo>	<Vijaya_Kumaranatunga>	1978-##-##	1988-##-##
-<Kogado_Studio>	<created>	<Akatsuki_no_Amaneka_to_Aoi_Kyojin>	360--##-##	####-##-##
+<Kogado_Studio>	<created>	<Akatsuki_no_Amaneka_to_Aoi_Kyojin>	0360-##-##	####-##-##
 <Salim_Group>	<owns>	<Indosiar>	1995-##-##	2004-##-##
 <Loews_Cineplex_Entertainment>	<owns>	<Kings_Theatre_(Brooklyn)>	1929-##-##	1977-##-##
 <Simon_White>	<hasWonPrize>	<Gold_Medal_of_the_Royal_Astronomical_Society>	2006-##-##	####-##-##
@@ -2714,7 +2714,7 @@
 <Maciej_Grubski>	<isAffiliatedTo>	<Freedom_Union_(Poland)>	1994-##-##	####-##-##
 <Louise_Siversen>	<created>	<House_Husbands>	2012-##-##	####-##-##
 <Sonia_Sotomayor>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	2009-##-##	####-##-##
-<Oxnard,_California>	<owns>	<Carnegie_Art_Museum_(Oxnard,_California)>	424--##-##	####-##-##
+<Oxnard,_California>	<owns>	<Carnegie_Art_Museum_(Oxnard,_California)>	0424-##-##	####-##-##
 <Ginnifer_Goodwin>	<isMarriedTo>	<Josh_Dallas>	2014-##-##	####-##-##
 <Idol_Minds>	<created>	<Ratchet_&_Clank>	2012-##-##	####-##-##
 <Renato_Dulbecco>	<hasWonPrize>	<Albert_Lasker_Award_for_Basic_Medical_Research>	1964-##-##	####-##-##
@@ -2734,10 +2734,10 @@
 <Square_Enix_Europe>	<owns>	<Beautiful_Game_Studios>	2009-##-##	####-##-##
 <Frederick_Ashton>	<created>	<Ondine_(ballet)>	1958-##-##	####-##-##
 <Donald_Ross_(golfer)>	<created>	<Worcester_Country_Club>	1913-##-##	####-##-##
-<EA_Canada>	<created>	<UEFA_Euro_2008_(video_game)>	360--##-##	####-##-##
+<EA_Canada>	<created>	<UEFA_Euro_2008_(video_game)>	0360-##-##	####-##-##
 <David_W._Pipes,_Jr.>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1940-##-##	####-##-##
 <Darren_Ritchie_(actor)>	<created>	<Bells_Are_Ringing_(musical)>	2001-##-##	####-##-##
-<Haikou_Meilan_International_Airport_(company)>	<owns>	<HNA_Infrastructure>	100--##-##	####-##-##
+<Haikou_Meilan_International_Airport_(company)>	<owns>	<HNA_Infrastructure>	0100-##-##	####-##-##
 <IBM>	<created>	<ThinkPad>	1992-##-##	2005-##-##
 <John_Bardon>	<created>	<Jim_Branning>	1996-##-##	1999-##-##
 <Torsten_Wiesel>	<wasBornIn>	<Uppsala>	1924-##-##	1924-##-##
@@ -2814,7 +2814,7 @@
 <Shin_Ae-ra>	<isMarriedTo>	<Cha_In-pyo>	1995-##-##	####-##-##
 <Southern_Region_of_British_Railways>	<owns>	<Ventnor_West_railway_station>	1948-##-##	1952-##-##
 <Katharine_Cornell>	<isMarriedTo>	<Guthrie_McClintic>	1921-##-##	1961-##-##
-<Raymond_Loewy>	<created>	<PRR_T1>	1962-##-##	225--##-##
+<Raymond_Loewy>	<created>	<PRR_T1>	1962-##-##	0225-##-##
 <David_Duke>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	1975-##-##	1988-##-##
 <Geraldo_Alckmin>	<isAffiliatedTo>	<Brazilian_Democratic_Movement>	1972-##-##	####-##-##
 <Westwood_Studios>	<created>	<Command_&_Conquer>	1995-##-##	2003-##-##
@@ -2859,12 +2859,12 @@
 <Lisa_Vultaggio>	<isMarriedTo>	<Jonathan_Jackson_(actor)>	2002-##-##	####-##-##
 <Domenico_Merlini>	<created>	<Łazienki_Palace>	1775-##-##	1795-##-##
 <Sandra_Day_O'Connor>	<isMarriedTo>	<John_Jay_O'Connor>	1952-##-##	2009-##-##
-<Ahold_Delhaize>	<owns>	<Maxi_(Serbian_supermarket)>	100--##-##	####-##-##
+<Ahold_Delhaize>	<owns>	<Maxi_(Serbian_supermarket)>	0100-##-##	####-##-##
 <Populous_(company)>	<created>	<Cheney_Stadium>	2011-##-##	####-##-##
 <Manabu_Kitabeppu>	<hasWonPrize>	<Nippon_Professional_Baseball_Most_Valuable_Player_Award>	1986-##-##	####-##-##
 <Hobart_Tuckey>	<diedIn>	<Subiaco,_Western_Australia>	1951-##-##	1951-##-##
 <Nicholas_Goodrick-Clarke>	<created>	<The_Occult_Roots_of_Nazism>	1985-##-##	####-##-##
-<Intesa_Sanpaolo>	<owns>	<Banca_di_Credito_Sardo>	100--##-##	####-##-##
+<Intesa_Sanpaolo>	<owns>	<Banca_di_Credito_Sardo>	0100-##-##	####-##-##
 <Steve_Smith_(academic)>	<worksAt>	<University_of_Exeter>	2002-##-##	####-##-##
 <Yvette_Williams>	<isMarriedTo>	<Buddy_Corlett>	1954-##-##	2015-##-##
 <Wendell_Willkie>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1939-##-##	####-##-##
@@ -2887,7 +2887,7 @@
 <Zdeněk_Fierlinger>	<diedIn>	<Prague>	1976-##-##	1976-##-##
 <Katja_Kipping>	<isAffiliatedTo>	<The_Left_(Germany)>	2007-##-##	####-##-##
 <Les_Dennis>	<created>	<The_Laughter_Show>	1984-##-##	1991-##-##
-<Sean_Combs>	<created>	<Right_Here_for_U>	112--##-##	####-##-##
+<Sean_Combs>	<created>	<Right_Here_for_U>	0112-##-##	####-##-##
 <Ginger_Gilmour>	<isMarriedTo>	<David_Gilmour>	1975-##-##	1990-##-##
 <Martin_Schenkel>	<created>	<Fascht_e_Familie>	1994-##-##	1999-##-##
 <Joshua_Lederberg>	<hasWonPrize>	<Presidential_Medal_of_Freedom>	2006-##-##	####-##-##
@@ -2942,7 +2942,7 @@
 <Nicolas_Rasmussen>	<worksAt>	<University_of_Sydney>	1994-##-##	1997-##-##
 <George_Lucas>	<isMarriedTo>	<Mellody_Hobson>	2013-##-##	####-##-##
 <Shel_Silverstein>	<created>	<The_Giving_Tree>	1964-##-##	####-##-##
-<China_Railway>	<owns>	<Guangzhou_Railway_Group>	100--##-##	####-##-##
+<China_Railway>	<owns>	<Guangzhou_Railway_Group>	0100-##-##	####-##-##
 <Richard_Hamming>	<hasWonPrize>	<Turing_Award>	1968-##-##	####-##-##
 <T.A._Welsh>	<created>	<Squibs'_Honeymoon>	2017-##-##	####-##-##
 <Fernando_de_Fuentes>	<created>	<El_fantasma_del_convento>	1934-##-##	####-##-##
@@ -2968,7 +2968,7 @@
 <Martha_Rosler>	<created>	<Semiotics_of_the_Kitchen>	1975-##-##	1967-##-##
 <Marilyn_McCord_Adams>	<wasBornIn>	<United_States>	1943-##-##	1943-##-##
 <Sam_Houston>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	1846-##-##	1854-##-##
-<Cassa_Depositi_e_Prestiti>	<owns>	<CDP_Equity>	100--##-##	####-##-##
+<Cassa_Depositi_e_Prestiti>	<owns>	<CDP_Equity>	0100-##-##	####-##-##
 <Populous_(company)>	<created>	<Kauffman_Stadium>	1997-##-##	2009-##-##
 <W._V._D._Hodge>	<hasWonPrize>	<Royal_Medal>	1957-##-##	####-##-##
 <Howard_Georgi>	<hasWonPrize>	<Dirac_Medal>	2000-##-##	####-##-##
@@ -2987,20 +2987,20 @@
 <Miodrag_Radulovacki>	<worksAt>	<University_of_Illinois_College_of_Medicine>	1970-##-##	2014-##-##
 <Hazel_Brooks>	<isMarriedTo>	<Cedric_Gibbons>	1941-##-##	1960-##-##
 <Joseph_S._Cabot>	<wasBornIn>	<Salem,_Massachusetts>	1796-##-##	1796-##-##
-<Luxoflux>	<created>	<Kung_Fu_Panda_(video_game)>	360--##-##	####-##-##
-<Donald_Byrd>	<created>	<Love_Byrd>	125--##-##	####-##-##
+<Luxoflux>	<created>	<Kung_Fu_Panda_(video_game)>	0360-##-##	####-##-##
+<Donald_Byrd>	<created>	<Love_Byrd>	0125-##-##	####-##-##
 <Rachel_Kaadzi_Ghansah>	<created>	<The_Believer_(magazine)>	2013-##-##	####-##-##
 <Phyllis_Calvert>	<isMarriedTo>	<Peter_Murray-Hill>	1941-##-##	####-##-##
 <Leo_Butler>	<created>	<I'll_Be_The_Devil>	2008-##-##	####-##-##
 <David_Urban>	<owns>	<PoliticsPA>	2010-##-##	####-##-##
 <Nicolaas_Bloembergen>	<hasWonPrize>	<Nobel_Prize_in_Physics>	1981-##-##	####-##-##
-<Green_Bay_Packers,_Inc.>	<owns>	<Green_Bay_Packers>	360--##-##	760--##-##
+<Green_Bay_Packers,_Inc.>	<owns>	<Green_Bay_Packers>	0360-##-##	0760-##-##
 <Helene_Thimig>	<isMarriedTo>	<Max_Reinhardt>	1935-##-##	1943-##-##
 <Arthur_Gelb>	<isMarriedTo>	<Barbara_Gelb>	2014-##-##	####-##-##
 <Edward_Stanley,_17th_Earl_of_Derby>	<owns>	<Swynford>	1908-##-##	####-##-##
 <Rex_Ingram_(director)>	<isMarriedTo>	<Alice_Terry>	1921-##-##	1950-##-##
 <Harald_Helfgott>	<hasWonPrize>	<Philip_Leverhulme_Prize>	2008-##-##	####-##-##
-<Caisse_de_dépôt_et_de_gestion>	<owns>	<CDG_Capital>	100--##-##	####-##-##
+<Caisse_de_dépôt_et_de_gestion>	<owns>	<CDG_Capital>	0100-##-##	####-##-##
 <Alex_Berenson>	<graduatedFrom>	<Yale_University>	1994-##-##	####-##-##
 <John_Bedford_Lloyd>	<isMarriedTo>	<Anne_Twomey>	1986-##-##	####-##-##
 <Ion_Storm>	<created>	<Deus_Ex>	2000-##-##	2003-##-##
@@ -3091,7 +3091,7 @@
 <Roxanne_Dunbar-Ortiz>	<created>	<The_Great_Sioux_Nation_(book)>	1977-##-##	####-##-##
 <Osborn_Engineering>	<created>	<League_Park>	1910-##-##	####-##-##
 <Olivier_Boulay>	<created>	<Mercedes-Benz_W140>	1986-##-##	1987-##-##
-<Norwegian_State_Railways>	<owns>	<CargoNet>	100--##-##	####-##-##
+<Norwegian_State_Railways>	<owns>	<CargoNet>	0100-##-##	####-##-##
 <John_Estrada>	<isMarriedTo>	<Janice_de_Belen>	1992-##-##	2004-##-##
 <American_Legion>	<owns>	<Los_Angeles_Bulldogs>	1936-##-##	####-##-##
 <Andrea_Levy>	<created>	<Small_Island_(novel)>	2004-##-##	####-##-##
@@ -3167,7 +3167,7 @@
 <Wayne_Bridge>	<playsFor>	<Reading_F.C.>	2013-##-##	2014-##-##
 <Gerald_Estrin>	<wasBornIn>	<New_York_City>	1921-##-##	1921-##-##
 <S._George_Curry>	<created>	<Highland_Arts_Theatre>	1634-##-##	####-##-##
-<Swisscom>	<owns>	<Fastweb_(telecommunications_company)>	100--##-##	####-##-##
+<Swisscom>	<owns>	<Fastweb_(telecommunications_company)>	0100-##-##	####-##-##
 <Michael_White_(producer)>	<created>	<Oh!_Calcutta!>	1970-##-##	####-##-##
 <Viacom_(original)>	<owns>	<UPN>	2000-##-##	2005-##-##
 <James_Watson>	<wasBornIn>	<Chicago>	1928-##-##	1928-##-##
@@ -3207,7 +3207,7 @@
 <Steffi_Duna>	<isMarriedTo>	<Dennis_O'Keefe>	1940-##-##	1968-##-##
 <Dick_Jones_(actor)>	<created>	<Pinocchio_(1940_film)>	1940-##-##	####-##-##
 <Bob_Barr>	<isAffiliatedTo>	<Libertarian_Party_(United_States)>	2006-##-##	2011-##-##
-<Government_of_Serbia>	<owns>	<TPP_Nikola_Tesla>	100--##-##	####-##-##
+<Government_of_Serbia>	<owns>	<TPP_Nikola_Tesla>	0100-##-##	####-##-##
 <Miodrag_Radulovacki>	<worksAt>	<University_of_Khartoum>	1967-##-##	1970-##-##
 <Taran_Killam>	<wasBornIn>	<Culver_City,_California>	1982-##-##	1982-##-##
 <Constance_Dowling>	<isMarriedTo>	<Ivan_Tors>	1955-##-##	1969-##-##
@@ -3226,7 +3226,7 @@
 <Mas_Subramanian>	<graduatedFrom>	<Texas_A&M_University>	1982-##-##	1984-##-##
 <Tom_Cruise>	<isMarriedTo>	<Katie_Holmes>	1990-##-##	2001-##-##
 <Alex_Berenson>	<hasWonPrize>	<Edgar_Award>	2007-##-##	####-##-##
-<Le.com>	<owns>	<Leshi_Zhixin>	100--##-##	1045-##-##
+<Le.com>	<owns>	<Leshi_Zhixin>	0100-##-##	1045-##-##
 <Francis_Bretherton>	<worksAt>	<University_Corporation_for_Atmospheric_Research>	1973-##-##	1980-##-##
 <Isabel_dos_Santos>	<isMarriedTo>	<Sindika_Dokolo>	2002-##-##	####-##-##
 <Julie_Cobb>	<isMarriedTo>	<James_Cromwell>	1978-##-##	1985-##-##
@@ -3234,7 +3234,7 @@
 <Joseph_Goebbels>	<diedIn>	<Berlin>	1945-##-##	1945-##-##
 <Sally_Beauman>	<diedIn>	<London>	2016-##-##	2016-##-##
 <Traveller's_Tales>	<created>	<Crash_Bandicoot>	2001-##-##	####-##-##
-<Suning_Appliance_Group>	<owns>	<Suning_Commerce_Group>	100--##-##	####-##-##
+<Suning_Appliance_Group>	<owns>	<Suning_Commerce_Group>	0100-##-##	####-##-##
 <James_Arthur_(mathematician)>	<wasBornIn>	<Hamilton,_Ontario>	1944-##-##	1944-##-##
 <Eugene_Davis_(doctor)>	<wasBornIn>	<Charlottesville,_Virginia>	1870-##-##	1870-##-##
 <Lou_Breslow>	<wasBornIn>	<Boston>	1900-##-##	1900-##-##
@@ -3347,7 +3347,7 @@
 <Eddie_Edwards_(wrestler)>	<isMarriedTo>	<Alexxis_Nevaeh>	2015-##-##	####-##-##
 <Ida_Halpern>	<wasBornIn>	<Vienna>	1910-##-##	1910-##-##
 <Nick_Moore_(musician)>	<created>	<StandBy_Records>	2008-##-##	2006-##-##
-<Morgan_Stanley>	<owns>	<Morgan_Stanley_Wealth_Management>	100--##-##	####-##-##
+<Morgan_Stanley>	<owns>	<Morgan_Stanley_Wealth_Management>	0100-##-##	####-##-##
 <Giorgetto_Giugiaro>	<created>	<Hyundai_Sonata>	1986-##-##	####-##-##
 <Chris_Cleaver>	<playsFor>	<Luton_Town_F.C.>	1990-##-##	1991-##-##
 <Domingo_Martinez_(author)>	<created>	<My_Heart_Is_a_Drunken_Compass>	2014-##-##	####-##-##
@@ -3374,7 +3374,7 @@
 <Chris_Lang>	<created>	<Unforgotten>	2015-##-##	####-##-##
 <Edmund_George_Lind>	<created>	<Mary_Willis_Library>	1889-##-##	####-##-##
 <Hamid_Samandarian>	<isMarriedTo>	<Homa_Rousta>	1972-##-##	2012-##-##
-<Government_of_Ukraine>	<owns>	<State_Export-Import_Bank_of_Ukraine>	100--##-##	####-##-##
+<Government_of_Ukraine>	<owns>	<State_Export-Import_Bank_of_Ukraine>	0100-##-##	####-##-##
 <Masatoshi_Nei>	<hasWonPrize>	<International_Prize_for_Biology>	2002-##-##	####-##-##
 <Schuyler_Colfax>	<wasBornIn>	<New_York_City>	1823-##-##	1823-##-##
 <Richard_Harris>	<isMarriedTo>	<Ann_Turkel>	1974-##-##	1982-##-##
@@ -3389,7 +3389,7 @@
 <André_the_Giant>	<owns>	<Lutte_Internationale>	1980-##-##	1984-##-##
 <Elaine_Joyce>	<isMarriedTo>	<Neil_Simon>	1999-##-##	####-##-##
 <Mid-Canada_Communications>	<owns>	<CKNC-TV>	1980-##-##	1990-##-##
-<Ryoichi_Kimizuka>	<created>	<Parasite_Eve_(film)>	2008-##-##	398--##-##
+<Ryoichi_Kimizuka>	<created>	<Parasite_Eve_(film)>	2008-##-##	0398-##-##
 <Dana_Altman>	<hasWonPrize>	<Jim_Phelan_Award>	2013-##-##	####-##-##
 <Robert_R._Williams>	<diedIn>	<Summit,_New_Jersey>	1965-##-##	1965-##-##
 <Maria_Karnilova>	<wasBornIn>	<Hartford,_Connecticut>	1920-##-##	1920-##-##
@@ -3546,7 +3546,7 @@
 <Rosa_Carmina>	<isMarriedTo>	<Juan_Orol>	1949-##-##	1954-##-##
 <Francis_Preston_Blair>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1854-##-##	1865-##-##
 <Pavel_Plaskonny>	<playsFor>	<Belarus_national_football_team>	2006-##-##	2012-##-##
-<Germany>	<owns>	<Deutsche_Bahn>	100--##-##	####-##-##
+<Germany>	<owns>	<Deutsche_Bahn>	0100-##-##	####-##-##
 <Pamela_Silva_Conde>	<isMarriedTo>	<Cesar_Conde>	2009-##-##	####-##-##
 <Dimps>	<created>	<Crash_Bandicoot>	2006-##-##	####-##-##
 <Edin_Džeko>	<wasBornIn>	<Sarajevo>	1986-##-##	1986-##-##
@@ -3576,7 +3576,7 @@
 <Hayden_Foxe>	<playsFor>	<Leeds_United_F.C.>	2006-##-##	2007-##-##
 <Maynard_Dixon>	<diedIn>	<Tucson,_Arizona>	1946-##-##	1946-##-##
 <Wen-Tsuen_Chen>	<worksAt>	<National_Tsing_Hua_University>	1976-##-##	####-##-##
-<Peking_University>	<owns>	<Sinobioway_Group>	100--##-##	####-##-##
+<Peking_University>	<owns>	<Sinobioway_Group>	0100-##-##	####-##-##
 <Akhil_Sharma>	<created>	<An_Obedient_Father>	2000-##-##	####-##-##
 <Sinan_Bolat>	<playsFor>	<FC_Porto_B>	2013-##-##	####-##-##
 <Myron_Selznick>	<isMarriedTo>	<Marjorie_Daw_(actress)>	1925-##-##	1942-##-##
@@ -3603,7 +3603,7 @@
 <Eros_Djarot>	<created>	<Badai_Pasti_Berlalu_(film)>	1977-##-##	####-##-##
 <Raffaele_Molin>	<worksAt>	<University_of_Padua>	1951-##-##	1966-##-##
 <Dudu_Biton>	<playsFor>	<AD_Alcorcón>	2014-##-##	####-##-##
-<Christian_Allen>	<created>	<Tom_Clancy's_Ghost_Recon_Advanced_Warfighter>	360--##-##	####-##-##
+<Christian_Allen>	<created>	<Tom_Clancy's_Ghost_Recon_Advanced_Warfighter>	0360-##-##	####-##-##
 <Alexander_Poynton>	<isAffiliatedTo>	<Nationalist_Party_of_Australia>	1917-##-##	####-##-##
 <Angelika_Amon>	<wasBornIn>	<Austria>	1967-##-##	1967-##-##
 <Gregg_Marshall>	<hasWonPrize>	<Associated_Press_College_Basketball_Coach_of_the_Year>	2014-##-##	####-##-##
@@ -3614,7 +3614,7 @@
 <Stanley_Clements>	<wasBornIn>	<Long_Island>	1926-##-##	1926-##-##
 <Kathryn_Beaumont>	<created>	<Alice_in_Wonderland_(1951_film)>	1951-##-##	####-##-##
 <George_Edmund_Street>	<created>	<Kildare_Cathedral>	1824-##-##	1881-##-##
-<Claus_Montonen>	<worksAt>	<University_of_Paris-Sud>	2012-##-##	416--##-##
+<Claus_Montonen>	<worksAt>	<University_of_Paris-Sud>	2012-##-##	0416-##-##
 <John_Stevens_(English_politician)>	<isAffiliatedTo>	<Liberal_Democrats_(UK)>	2001-##-##	####-##-##
 <Lisa_Genova>	<created>	<Still_Alice_(novel)>	2007-##-##	####-##-##
 <John_Read_(New_Zealand_politician)>	<isAffiliatedTo>	<Social_Democratic_Party_(New_Zealand)>	1913-##-##	####-##-##
@@ -3623,9 +3623,9 @@
 <August_Strindberg>	<created>	<The_Ghost_Sonata>	1908-##-##	####-##-##
 <Spencer_Cavendish,_8th_Duke_of_Devonshire>	<owns>	<Diamond_Jubilee_(horse)>	1901-##-##	####-##-##
 <Dacher_Keltner>	<worksAt>	<University_of_California,_Berkeley>	1996-##-##	####-##-##
-<Intesa_Sanpaolo>	<owns>	<Cassa_di_Risparmio_del_Veneto>	100--##-##	####-##-##
+<Intesa_Sanpaolo>	<owns>	<Cassa_di_Risparmio_del_Veneto>	0100-##-##	####-##-##
 <Merrill_Cook>	<wasBornIn>	<Philadelphia>	1946-##-##	1946-##-##
-<EA_Canada>	<created>	<FIFA_10>	360--##-##	####-##-##
+<EA_Canada>	<created>	<FIFA_10>	0360-##-##	####-##-##
 <James_Franck>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1964-##-##	####-##-##
 <Albert_Pujols>	<wasBornIn>	<Santo_Domingo>	1980-##-##	1980-##-##
 <W._Jason_Morgan>	<hasWonPrize>	<Wollaston_Medal>	1994-##-##	####-##-##
@@ -3634,7 +3634,7 @@
 <Görel_Crona>	<isMarriedTo>	<Rafael_Edholm>	1997-##-##	2006-##-##
 <John_Loder_(actor)>	<isMarriedTo>	<Micheline_Cheirel>	1936-##-##	1941-##-##
 <Betty_Buckley>	<created>	<The_Happening_(2008_film)>	2008-##-##	####-##-##
-<Government_of_Belarus>	<owns>	<Belposhta>	100--##-##	####-##-##
+<Government_of_Belarus>	<owns>	<Belposhta>	0100-##-##	####-##-##
 <Amanda_Fisher>	<hasWonPrize>	<EMBO_Gold_Medal>	2002-##-##	####-##-##
 <Gary_Barnett>	<hasWonPrize>	<Sporting_News_College_Football_Coach_of_the_Year>	1995-##-##	####-##-##
 <Giovanni_Sio>	<playsFor>	<France_national_under-18_football_team>	2006-##-##	2007-##-##
@@ -3657,9 +3657,9 @@
 <Ahmed_Zewail>	<hasWonPrize>	<Peter_Debye_Award>	1996-##-##	####-##-##
 <Hiro_Mizushima>	<created>	<Hanazakari_no_Kimitachi_e>	2007-##-##	2008-##-##
 <Zubin_Mehta>	<isMarriedTo>	<Nancy_Kovack>	1969-##-##	####-##-##
-<BPER_Banca>	<owns>	<Nuova_Cassa_di_Risparmio_di_Ferrara>	100--##-##	####-##-##
+<BPER_Banca>	<owns>	<Nuova_Cassa_di_Risparmio_di_Ferrara>	0100-##-##	####-##-##
 <Doris_Kearns_Goodwin>	<isMarriedTo>	<Richard_N._Goodwin>	1975-##-##	####-##-##
-<EA_Canada>	<created>	<NHL_09>	360--##-##	####-##-##
+<EA_Canada>	<created>	<NHL_09>	0360-##-##	####-##-##
 <Carmencita_Reyes>	<isAffiliatedTo>	<Lakas–CMD_(1991)>	1992-##-##	2009-##-##
 <Panasonic>	<owns>	<Emerson_Radio>	1988-##-##	2001-##-##
 <Margery_Gill>	<created>	<The_Bodley_Head>	1960-##-##	####-##-##
@@ -3743,7 +3743,7 @@
 <Robert_Trent_Jones_Jr.>	<created>	<Silverado_Resort,_California>	1966-##-##	####-##-##
 <Fabrício_Lopes_Alcântara>	<playsFor>	<Esporte_Clube_Vitória>	1996-##-##	2000-##-##
 <Tony_Barwick>	<created>	<Terrahawks>	1984-##-##	####-##-##
-<Alexander_von_Humboldt>	<graduatedFrom>	<Humboldt_University_of_Berlin>	2008-##-##	116--##-##
+<Alexander_von_Humboldt>	<graduatedFrom>	<Humboldt_University_of_Berlin>	2008-##-##	0116-##-##
 <Paulo_Pereira_da_Silva>	<isAffiliatedTo>	<Workers'_Party_(Brazil)>	1984-##-##	1996-##-##
 <Luís_Andrade>	<playsFor>	<CD_Tenerife>	2003-##-##	2004-##-##
 <Kitty_McHugh>	<diedIn>	<North_Hollywood,_Los_Angeles>	1954-##-##	1954-##-##
@@ -3778,7 +3778,7 @@
 <Arne_Henriksen>	<created>	<Lysaker_Station>	1987-##-##	####-##-##
 <Elizabeth_Blackburn>	<hasWonPrize>	<L'Oréal-UNESCO_Awards_for_Women_in_Science>	2008-##-##	####-##-##
 <John_F._Shafroth>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1895-##-##	1897-##-##
-<OTE>	<owns>	<Cosmote>	100--##-##	####-##-##
+<OTE>	<owns>	<Cosmote>	0100-##-##	####-##-##
 <David_Robinson_(horticulturist)>	<diedIn>	<Dublin>	2004-##-##	2004-##-##
 <Aguinaldo_Policarpo_Mendes_Veiga>	<playsFor>	<C.D._Tondela>	2010-##-##	####-##-##
 <Simon_A._Levin>	<wasBornIn>	<United_States>	1941-##-##	1941-##-##
@@ -3885,7 +3885,7 @@
 <Fábio_Paím>	<playsFor>	<Sporting_Clube_de_Portugal>	2007-##-##	2010-##-##
 <Hélder_Barbosa>	<playsFor>	<C.D._Trofense>	2008-##-##	2009-##-##
 <Nina_Wayne>	<isMarriedTo>	<John_Drew_Barrymore>	1985-##-##	1994-##-##
-<Bank_of_New_York>	<owns>	<Parallel_Media_Group>	100--##-##	####-##-##
+<Bank_of_New_York>	<owns>	<Parallel_Media_Group>	0100-##-##	####-##-##
 <Peter_Dervan>	<hasWonPrize>	<Tetrahedron_Prize>	2000-##-##	####-##-##
 <José_Ángel_Crespo>	<playsFor>	<Rayo_Vallecano>	2016-##-##	####-##-##
 <Héctor_Font>	<playsFor>	<Villarreal_CF_B>	2002-##-##	2003-##-##
@@ -3921,7 +3921,7 @@
 <Kenichi_Fukui>	<hasWonPrize>	<Nobel_Prize_in_Chemistry>	1981-##-##	####-##-##
 <Eugene_Parker>	<hasWonPrize>	<National_Medal_of_Science>	1989-##-##	####-##-##
 <Martin_Karplus>	<hasWonPrize>	<Irving_Langmuir_Award>	1987-##-##	####-##-##
-<Grosvenor_Atterbury>	<created>	<Holy_Trinity_Church_(Manhattan)>	139--##-##	1927-##-##
+<Grosvenor_Atterbury>	<created>	<Holy_Trinity_Church_(Manhattan)>	0139-##-##	1927-##-##
 <Gavin_Hoyte>	<playsFor>	<AFC_Wimbledon>	2012-##-##	####-##-##
 <Jeanne_Tripplehorn>	<wasBornIn>	<Tulsa,_Oklahoma>	1963-##-##	1963-##-##
 <Edward_James_Olmos>	<isMarriedTo>	<Lymari_Nadal>	2002-##-##	####-##-##
@@ -3941,10 +3941,10 @@
 <William_Thurston>	<hasWonPrize>	<Leroy_P._Steele_Prize>	2012-##-##	####-##-##
 <Darren_Randolph>	<playsFor>	<Charlton_Athletic_F.C.>	2004-##-##	2010-##-##
 <Ahmed_Deen>	<playsFor>	<Cambridge_City_F.C.>	2011-##-##	####-##-##
-<Michiru_Shimada>	<created>	<Urusei_Yatsura>	107--##-##	195--##-##
+<Michiru_Shimada>	<created>	<Urusei_Yatsura>	0107-##-##	0195-##-##
 <Raymond_Davis_Jr.>	<hasWonPrize>	<Nobel_Prize_in_Physics>	2002-##-##	####-##-##
 <Caroline_D._Krass>	<wasBornIn>	<Santa_Barbara,_California>	1968-##-##	1968-##-##
-<Claus_Montonen>	<worksAt>	<CERN>	2012-##-##	416--##-##
+<Claus_Montonen>	<worksAt>	<CERN>	2012-##-##	0416-##-##
 <James_Stirling_(architect)>	<hasWonPrize>	<Royal_Gold_Medal>	1980-##-##	####-##-##
 <Nuno_Afonso>	<playsFor>	<UD_Salamanca>	1996-##-##	1997-##-##
 <Edwin_Atherton>	<graduatedFrom>	<Georgetown_University>	1914-##-##	####-##-##
@@ -4170,7 +4170,7 @@
 <José_Luis_Loreto>	<playsFor>	<Spain_national_under-21_football_team>	1990-##-##	1991-##-##
 <Clive_King>	<created>	<Stig_of_the_Dump>	1963-##-##	####-##-##
 <Ruth_Hubbard>	<wasBornIn>	<Vienna>	1924-##-##	1924-##-##
-<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_Electronics_Technology_Group>	100--##-##	####-##-##
+<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_Electronics_Technology_Group>	0100-##-##	####-##-##
 <Rod_Serling>	<wasBornIn>	<Syracuse,_New_York>	1924-##-##	1924-##-##
 <Isaac_Cuenca>	<playsFor>	<RCD_Espanyol>	2001-##-##	2002-##-##
 <Charles_K._Kao>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1997-##-##	####-##-##
@@ -4299,7 +4299,7 @@
 <Judith_Paige_Mitchell>	<diedIn>	<Los_Angeles>	2010-##-##	2010-##-##
 <André_Carneiro_Soares>	<playsFor>	<S.L._Benfica>	2009-##-##	2011-##-##
 <Nikki_Finke>	<wasBornIn>	<New_York_City>	1953-##-##	1953-##-##
-<Government_of_Belarus>	<owns>	<Belarusbank>	100--##-##	####-##-##
+<Government_of_Belarus>	<owns>	<Belarusbank>	0100-##-##	####-##-##
 <Francis_Galton>	<wasBornIn>	<Birmingham>	1822-##-##	1822-##-##
 <Inger_McCabe_Elliott>	<wasBornIn>	<Oslo>	1933-##-##	1933-##-##
 <Makiko_Tanaka>	<wasBornIn>	<Tokyo>	1944-##-##	1944-##-##
@@ -4316,7 +4316,7 @@
 <Alexander_Dounce>	<diedIn>	<Rochester,_New_York>	1997-##-##	1997-##-##
 <Benedict_Bogeaus>	<wasBornIn>	<Chicago>	1904-##-##	1904-##-##
 <David_Botstein>	<hasWonPrize>	<Gruber_Prize_in_Genetics>	2003-##-##	####-##-##
-<Papaya_Studio>	<created>	<Toy_Story_Mania!_(video_game)>	360--##-##	####-##-##
+<Papaya_Studio>	<created>	<Toy_Story_Mania!_(video_game)>	0360-##-##	####-##-##
 <David_Chatters>	<isAffiliatedTo>	<Reform_Party_of_Canada>	1993-##-##	2000-##-##
 <John_Kingman>	<worksAt>	<University_of_Bristol>	1985-##-##	2001-##-##
 <Harold_Eugene_Edgerton>	<hasWonPrize>	<SPIE_Gold_Medal>	1981-##-##	####-##-##
@@ -4520,7 +4520,7 @@
 <Melanie_Griffith>	<isMarriedTo>	<Antonio_Banderas>	1981-##-##	1989-##-##
 <Caroline_Endres_Diescher>	<isMarriedTo>	<Samuel_Diescher>	1872-##-##	1915-##-##
 <Reto_Ziegler>	<playsFor>	<Hamburger_SV>	2005-##-##	2006-##-##
-<Claus_Montonen>	<worksAt>	<Helsinki_Institute_of_Physics>	2012-##-##	416--##-##
+<Claus_Montonen>	<worksAt>	<Helsinki_Institute_of_Physics>	2012-##-##	0416-##-##
 <Luís_Andrade>	<playsFor>	<G.D._Estoril_Praia>	1992-##-##	1995-##-##
 <Glynis_Barber>	<wasBornIn>	<Durban>	1955-##-##	1955-##-##
 <Charles_K._Kao>	<hasWonPrize>	<Japan_Prize>	1996-##-##	####-##-##
@@ -4580,7 +4580,7 @@
 <Vadym_Milko>	<playsFor>	<FC_Dynamo-2_Kyiv>	2004-##-##	2008-##-##
 <William_Squire>	<isMarriedTo>	<Juliet_Harmer>	1967-##-##	####-##-##
 <David_Baltimore>	<isMarriedTo>	<Alice_S._Huang>	1968-##-##	####-##-##
-<Anca_Petrescu>	<created>	<Palace_of_the_Parliament>	700--##-##	####-##-##
+<Anca_Petrescu>	<created>	<Palace_of_the_Parliament>	0700-##-##	####-##-##
 <Edward_Zorinsky>	<diedIn>	<Omaha,_Nebraska>	1987-##-##	1987-##-##
 <Raymond_Lovell>	<diedIn>	<United_Kingdom>	1953-##-##	1953-##-##
 <Jeremy_Slate>	<diedIn>	<Los_Angeles>	2006-##-##	2006-##-##
@@ -4598,7 +4598,7 @@
 <Daniel_Fernandes_(footballer)>	<playsFor>	<FC_Twente>	2012-##-##	2016-##-##
 <Chiu_Keng_Guan>	<created>	<Ola_Bola>	2016-##-##	####-##-##
 <Márkó_Futács>	<playsFor>	<Hungary_national_under-21_football_team>	2010-##-##	2012-##-##
-<Government_of_Russia>	<owns>	<Sovcomflot>	100--##-##	####-##-##
+<Government_of_Russia>	<owns>	<Sovcomflot>	0100-##-##	####-##-##
 <Mike_Gravel>	<wasBornIn>	<Springfield,_Massachusetts>	1930-##-##	1930-##-##
 <Harry_B._Gray>	<hasWonPrize>	<ACS_Award_in_Pure_Chemistry>	1970-##-##	####-##-##
 <Whitney_Able>	<isMarriedTo>	<Scoot_McNairy>	2010-##-##	####-##-##
@@ -4842,7 +4842,7 @@
 <Sora_Ltd.>	<created>	<Super_Smash_Bros.>	2008-##-##	2014-##-##
 <Looking_Glass_Studios>	<created>	<Thief_(series)>	1998-##-##	2000-##-##
 <Alan_P._Merriam>	<wasBornIn>	<Missoula,_Montana>	1923-##-##	1923-##-##
-<Government_of_Ireland>	<owns>	<CIÉ>	100--##-##	####-##-##
+<Government_of_Ireland>	<owns>	<CIÉ>	0100-##-##	####-##-##
 <John_C._Slater>	<hasWonPrize>	<National_Medal_of_Science>	1970-##-##	####-##-##
 <Peter_Brown_(illustrator)>	<created>	<Creepy_Carrots!>	2012-##-##	####-##-##
 <Sho-Chieh_Tsiang>	<worksAt>	<Chung-Hua_Institution_for_Economic_Research>	1980-##-##	1993-##-##
@@ -5004,14 +5004,14 @@
 <Rafael_García_García>	<playsFor>	<Real_Madrid_C.F.>	2001-##-##	2005-##-##
 <Marco_Maciel>	<wasBornIn>	<Brazil>	1940-##-##	1940-##-##
 <Jim_Grobe>	<hasWonPrize>	<Bobby_Dodd_Coach_of_the_Year_Award>	2006-##-##	####-##-##
-<National_Bank_of_Greece>	<owns>	<Vojvođanska_banka>	100--##-##	####-##-##
+<National_Bank_of_Greece>	<owns>	<Vojvođanska_banka>	0100-##-##	####-##-##
 <Manning_Clark>	<diedIn>	<Canberra>	1991-##-##	1991-##-##
 <Bernardo_Tengarrinha>	<playsFor>	<FC_Porto>	2008-##-##	2011-##-##
 <John_McEnery_(Louisiana)>	<diedIn>	<New_Orleans>	1891-##-##	1891-##-##
 <Har_Gobind_Khorana>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1978-##-##	####-##-##
 <Nancy_Olson>	<isMarriedTo>	<Alan_W._Livingston>	1962-##-##	2009-##-##
 <Carlos_Marques>	<playsFor>	<AEL_Limassol>	2011-##-##	####-##-##
-<Dimitris_Kontominas>	<owns>	<Alpha_TV>	100--##-##	####-##-##
+<Dimitris_Kontominas>	<owns>	<Alpha_TV>	0100-##-##	####-##-##
 <Martin_Sherman>	<created>	<Bent_(play)>	1890-##-##	####-##-##
 <Aleix_Vidal>	<playsFor>	<Gimnàstic_de_Tarragona>	2009-##-##	####-##-##
 <Olivia_Brown>	<wasBornIn>	<Frankfurt>	1960-##-##	1960-##-##
@@ -5069,7 +5069,7 @@
 <Sidney_Coleman>	<diedIn>	<Cambridge,_Massachusetts>	2007-##-##	2007-##-##
 <Carl_Ferdinand_Cori>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1950-##-##	####-##-##
 <Frederick_I._Ordway_III>	<diedIn>	<Huntsville,_Alabama>	2014-##-##	2014-##-##
-<Alan_Walker_(music_producer)>	<created>	<Le_Beck_International>	391--##-##	####-##-##
+<Alan_Walker_(music_producer)>	<created>	<Le_Beck_International>	0391-##-##	####-##-##
 <Rob_Kiernan>	<playsFor>	<Burton_Albion_F.C.>	2012-##-##	####-##-##
 <Pam_Buchanan>	<isAffiliatedTo>	<Independent_politician>	1991-##-##	####-##-##
 <Rachael_Leigh_Cook>	<wasBornIn>	<Minneapolis>	1979-##-##	1979-##-##
@@ -5136,7 +5136,7 @@
 <Fletcher_Markle>	<isMarriedTo>	<Mercedes_McCambridge>	1950-##-##	1962-##-##
 <Rafael_Banquells>	<diedIn>	<Mexico_City>	1990-##-##	1990-##-##
 <Beren_Saat>	<isMarriedTo>	<Kenan_Doğulu>	2014-##-##	####-##-##
-<Norah,_Lady_Docker>	<created>	<Docker_Daimlers>	1995-##-##	258--##-##
+<Norah,_Lady_Docker>	<created>	<Docker_Daimlers>	1995-##-##	0258-##-##
 <John_Milnor>	<hasWonPrize>	<Fields_Medal>	1962-##-##	####-##-##
 <Fred_Williamson>	<created>	<Black_Caesar_(film)>	1973-##-##	1973-##-##
 <Lee_Grant>	<isMarriedTo>	<Arnold_Manoff>	1951-##-##	1960-##-##
@@ -5310,7 +5310,7 @@
 <Thomas_Henry_Huxley>	<hasWonPrize>	<Clarke_Medal>	1880-##-##	####-##-##
 <Francis_Douglas,_11th_Marquess_of_Queensberry>	<isMarriedTo>	<Cathleen_Mann>	1926-##-##	1946-##-##
 <Jürgen_Klinsmann>	<playsFor>	<Germany_national_under-21_football_team>	1984-##-##	1985-##-##
-<Unipol>	<owns>	<UnipolSai>	142--##-##	####-##-##
+<Unipol>	<owns>	<UnipolSai>	0142-##-##	####-##-##
 <Tom_Izzo>	<hasWonPrize>	<NABC_Coach_of_the_Year>	2001-##-##	2012-##-##
 <Sean_Thornton>	<playsFor>	<Republic_of_Ireland_national_under-19_football_team>	2000-##-##	2002-##-##
 <Mary_Ritter_Beard>	<graduatedFrom>	<DePauw_University>	1897-##-##	####-##-##
@@ -5645,7 +5645,7 @@
 <Mikhail_Chumakov>	<hasWonPrize>	<Lenin_Prize>	1963-##-##	####-##-##
 <Wilbur_Hatch>	<created>	<Here's_Lucy>	1968-##-##	1969-##-##
 <Angela_Bettis>	<wasBornIn>	<Austin,_Texas>	1973-##-##	1973-##-##
-<Deutsche_Bank>	<owns>	<Deutsche_Bank_(Italy)>	100--##-##	####-##-##
+<Deutsche_Bank>	<owns>	<Deutsche_Bank_(Italy)>	0100-##-##	####-##-##
 <Ulish_Booker>	<playsFor>	<Sunderland_A.F.C.>	1997-##-##	2000-##-##
 <Field_Communications>	<created>	<Creature_Double_Feature>	1977-##-##	1983-##-##
 <Daniel_Kearns_(footballer)>	<playsFor>	<Republic_of_Ireland_national_under-21_football_team>	2010-##-##	####-##-##
@@ -5678,7 +5678,7 @@
 <Norman_J._Warren>	<created>	<Prey_(1977_film)>	1977-##-##	####-##-##
 <Eiður_Guðjohnsen>	<playsFor>	<Knattspyrnufélag_Reykjavíkur>	1998-##-##	####-##-##
 <Paul_Doughty_Bartlett>	<wasBornIn>	<Ann_Arbor,_Michigan>	1907-##-##	1907-##-##
-<Government_of_Serbia>	<owns>	<Elektromreža_Srbije>	100--##-##	####-##-##
+<Government_of_Serbia>	<owns>	<Elektromreža_Srbije>	0100-##-##	####-##-##
 <Werner_Zerweck>	<worksAt>	<Cassella>	1924-##-##	1963-##-##
 <Hans_Grundig>	<diedIn>	<Dresden>	1958-##-##	1958-##-##
 <Frank_Fasi>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1984-##-##	1994-##-##
@@ -5882,7 +5882,7 @@
 <Richard_Feynman>	<diedIn>	<Los_Angeles>	1988-##-##	1988-##-##
 <Kevin_Corrigan>	<wasBornIn>	<The_Bronx>	1969-##-##	1969-##-##
 <Rafa_Jordà>	<playsFor>	<Hércules_CF>	2009-##-##	####-##-##
-<EA_Canada>	<created>	<NHL_08>	360--##-##	####-##-##
+<EA_Canada>	<created>	<NHL_08>	0360-##-##	####-##-##
 <Pratibha_Gai>	<hasWonPrize>	<Fellow_of_the_Institute_of_Physics>	2016-##-##	####-##-##
 <Dava_Newman>	<graduatedFrom>	<Massachusetts_Institute_of_Technology>	1989-##-##	1992-##-##
 <Heinz_Pagels>	<isMarriedTo>	<Elaine_Pagels>	1969-##-##	####-##-##
@@ -5897,7 +5897,7 @@
 <Sidney_Drell>	<hasWonPrize>	<Pomeranchuk_Prize>	1998-##-##	####-##-##
 <Donald_J._Cram>	<hasWonPrize>	<Glenn_T._Seaborg_Medal>	1989-##-##	####-##-##
 <Imelda_Marcos>	<isMarriedTo>	<Ferdinand_Marcos>	1954-##-##	1989-##-##
-<G._V._Prakash_Kumar>	<created>	<Chellamay>	720--##-##	845--##-##
+<G._V._Prakash_Kumar>	<created>	<Chellamay>	0720-##-##	0845-##-##
 <Ben_Roy_Mottelson>	<hasWonPrize>	<Nobel_Prize_in_Physics>	1975-##-##	####-##-##
 <Frank_Macfarlane_Burnet>	<hasWonPrize>	<Albert_Lasker_Award_for_Basic_Medical_Research>	1952-##-##	####-##-##
 <Wisława_Szymborska>	<hasWonPrize>	<Goethe_Prize>	1991-##-##	####-##-##
@@ -5988,7 +5988,7 @@
 <John_Fante>	<wasBornIn>	<Denver>	1909-##-##	1909-##-##
 <Gregor_Piatigorsky>	<diedIn>	<Los_Angeles>	1976-##-##	1976-##-##
 <Richard_Peto>	<hasWonPrize>	<Gairdner_Foundation_International_Award>	1992-##-##	####-##-##
-<Fininvest>	<owns>	<Banca_Mediolanum>	639--##-##	731--##-##
+<Fininvest>	<owns>	<Banca_Mediolanum>	0639-##-##	0731-##-##
 <Fania_Marinoff>	<wasBornIn>	<Odessa>	1890-##-##	1890-##-##
 <Sári_Fedák>	<diedIn>	<Budapest>	1955-##-##	1955-##-##
 <Elizabeth_Hartman>	<diedIn>	<Pittsburgh>	1987-##-##	1987-##-##
@@ -6138,7 +6138,7 @@
 <Dajan_Šimac>	<playsFor>	<Croatia_national_under-20_football_team>	2003-##-##	####-##-##
 <Ufukhan_Bayraktar>	<playsFor>	<Adana_Demirspor>	2013-##-##	####-##-##
 <Hendrik_C._van_de_Hulst>	<hasWonPrize>	<Karl_Schwarzschild_Medal>	1995-##-##	####-##-##
-<Arthur_Davenport_(engineer)>	<created>	<Westland_IV>	1991-##-##	176--##-##
+<Arthur_Davenport_(engineer)>	<created>	<Westland_IV>	1991-##-##	0176-##-##
 <Franck_Moussa>	<playsFor>	<Southend_United_F.C.>	2006-##-##	2010-##-##
 <Martin_Rodbell>	<wasBornIn>	<Baltimore>	1925-##-##	1925-##-##
 <Dani_García_(footballer,_born_1974)>	<playsFor>	<RCD_Mallorca>	1998-##-##	1999-##-##
@@ -6502,7 +6502,7 @@
 <Scoot_McNairy>	<isMarriedTo>	<Whitney_Able>	2010-##-##	####-##-##
 <Daniel_Kahneman>	<worksAt>	<Hebrew_University_of_Jerusalem>	1961-##-##	####-##-##
 <Alfred_Romer>	<hasWonPrize>	<Paleontological_Society_Medal>	1966-##-##	####-##-##
-<Bob_Kushell>	<created>	<Bart_the_Fink>	1997-##-##	195--##-##
+<Bob_Kushell>	<created>	<Bart_the_Fink>	1997-##-##	0195-##-##
 <John_Barnard>	<created>	<Ferrari_F310>	1996-##-##	####-##-##
 <Rubén_Iván_Martínez>	<playsFor>	<UD_Almería>	2014-##-##	2015-##-##
 <Luiza_Erundina>	<isAffiliatedTo>	<Brazilian_Socialist_Party>	1997-##-##	2016-##-##
@@ -6518,7 +6518,7 @@
 <Charlie_McDonnell>	<created>	<YouTube>	2007-##-##	2008-##-##
 <David_Lack>	<wasBornIn>	<London>	1910-##-##	1910-##-##
 <Roland_Hinton_Perry>	<created>	<Commonwealth_(statue)>	1905-##-##	####-##-##
-<Fininvest>	<owns>	<Mediaset>	795--##-##	####-##-##
+<Fininvest>	<owns>	<Mediaset>	0795-##-##	####-##-##
 <Ian_Wrigglesworth>	<isAffiliatedTo>	<Social_Democratic_Party_(UK)>	1981-##-##	1988-##-##
 <Score_Productions>	<created>	<Texas_(TV_series)>	1980-##-##	1981-##-##
 <Gordon_Schachat>	<isMarriedTo>	<Jani_Allan>	1982-##-##	1984-##-##
@@ -6571,7 +6571,7 @@
 <Tara_Sharma>	<wasBornIn>	<London>	1977-##-##	1977-##-##
 <John_Bell_(Tennessee_politician)>	<wasBornIn>	<Nashville,_Tennessee>	1796-##-##	1796-##-##
 <Miguel_Cabrera>	<hasWonPrize>	<Major_League_Baseball_Most_Valuable_Player_Award>	2012-##-##	2013-##-##
-<Claus_Montonen>	<graduatedFrom>	<University_of_Cambridge>	2012-##-##	416--##-##
+<Claus_Montonen>	<graduatedFrom>	<University_of_Cambridge>	2012-##-##	0416-##-##
 <Matei_Basarab>	<created>	<Constantin_Brâncoveanu>	1634-##-##	####-##-##
 <Hannah_Storm>	<wasBornIn>	<Oak_Park,_Illinois>	1962-##-##	1962-##-##
 <Percy_Williams_Bridgman>	<hasWonPrize>	<Rumford_Prize>	1917-##-##	####-##-##
@@ -6588,7 +6588,7 @@
 <Fletcher_Markle>	<wasBornIn>	<Winnipeg>	1921-##-##	1921-##-##
 <Andre_Blackman>	<playsFor>	<Celtic_F.C.>	2011-##-##	2012-##-##
 <Michael_Weatherly>	<wasBornIn>	<New_York>	1968-##-##	1968-##-##
-<Capitalia>	<owns>	<Bipop_Carire>	100--##-##	2007-##-##
+<Capitalia>	<owns>	<Bipop_Carire>	0100-##-##	2007-##-##
 <Jasmin_St._Claire>	<owns>	<Pro-Pain_Pro_Wrestling>	2002-##-##	2005-##-##
 <John_Pople>	<hasWonPrize>	<Copley_Medal>	2002-##-##	####-##-##
 <Julius_Evola>	<created>	<Le_Parole_Obscure_du_Paysage_Interieur>	1920-##-##	####-##-##
@@ -6599,7 +6599,7 @@
 <Jane_Marsh_Beveridge>	<isMarriedTo>	<James_Beveridge>	1945-##-##	####-##-##
 <George_Taylor_(Australian_politician)>	<isAffiliatedTo>	<Australian_Labor_Party>	1917-##-##	####-##-##
 <Vanessa_Marshall>	<isMarriedTo>	<Andrew_Kishino>	2001-##-##	2007-##-##
-<Government_of_Greece>	<owns>	<Hellenic_Republic_Asset_Development_Fund>	100--##-##	####-##-##
+<Government_of_Greece>	<owns>	<Hellenic_Republic_Asset_Development_Fund>	0100-##-##	####-##-##
 <Marcos_García_Barreno>	<playsFor>	<Spain_national_under-16_football_team>	2002-##-##	2003-##-##
 <Jacob_Bekenstein>	<hasWonPrize>	<Wolf_Prize_in_Physics>	2012-##-##	####-##-##
 <Government_of_India>	<created>	<Doordarshan>	1959-##-##	####-##-##
@@ -6666,7 +6666,7 @@
 <José_María_Aznar>	<isAffiliatedTo>	<People's_Alliance_(Spain)>	1979-##-##	1989-##-##
 <Gerhard_Herzberg>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1951-##-##	####-##-##
 <Goran_Popov>	<playsFor>	<Levadiakos_F.C.>	2007-##-##	2008-##-##
-<DZ_Bank>	<owns>	<Cassa_Centrale_Banca_-_Credito_Cooperativo_del_Nord_Est>	606--##-##	963--##-##
+<DZ_Bank>	<owns>	<Cassa_Centrale_Banca_-_Credito_Cooperativo_del_Nord_Est>	0606-##-##	0963-##-##
 <Mark_Miloscia>	<wasBornIn>	<Biloxi,_Mississippi>	1958-##-##	1958-##-##
 <Nikolay_Bogolyubov>	<diedIn>	<Moscow>	1992-##-##	1992-##-##
 <David_Mamet>	<created>	<Glengarry_Glen_Ross>	1983-##-##	####-##-##
@@ -6704,7 +6704,7 @@
 <Béatrice_Schönberg>	<isMarriedTo>	<Jean-Louis_Borloo>	2005-##-##	####-##-##
 <Fernando_Morán_(footballer)>	<playsFor>	<CD_Numancia>	1997-##-##	1998-##-##
 <Joaquín_Moso>	<playsFor>	<Spain_national_under-18_football_team>	1996-##-##	####-##-##
-<Daiei>	<owns>	<OPA_co._ltd.>	100--##-##	####-##-##
+<Daiei>	<owns>	<OPA_co._ltd.>	0100-##-##	####-##-##
 <Roald_Hoffmann>	<hasWonPrize>	<National_Medal_of_Science>	1983-##-##	####-##-##
 <Rachel_Carson>	<created>	<Silent_Spring>	1962-##-##	####-##-##
 <Hugh_Marlowe>	<isMarriedTo>	<Edith_Atwater>	1941-##-##	####-##-##
@@ -6938,7 +6938,7 @@
 <Kevin_Peter_Hall>	<wasBornIn>	<Pittsburgh>	1955-##-##	1955-##-##
 <Chen_Zihan>	<wasBornIn>	<China>	1978-##-##	1978-##-##
 <Charles_A._Beard>	<graduatedFrom>	<Columbia_University>	1904-##-##	####-##-##
-<Stainless_Games>	<created>	<Crystal_Quest>	360--##-##	####-##-##
+<Stainless_Games>	<created>	<Crystal_Quest>	0360-##-##	####-##-##
 <Braxton_Sutter>	<wasBornIn>	<Buffalo,_New_York>	1980-##-##	1980-##-##
 <The_Railway_Children_(band)>	<created>	<Reunion_Wilderness>	1987-##-##	####-##-##
 <Umashankar_Joshi>	<hasWonPrize>	<Ranjitram_Suvarna_Chandrak>	1939-##-##	####-##-##
@@ -7012,7 +7012,7 @@
 <Richard_Hamming>	<hasWonPrize>	<IEEE_Emanuel_R._Piore_Award>	1979-##-##	####-##-##
 <Philip_Abelson>	<diedIn>	<Bethesda,_Maryland>	2004-##-##	2004-##-##
 <Mauro_Icardi>	<playsFor>	<Argentina_national_under-20_football_team>	2012-##-##	2013-##-##
-<Grzegorz_Marek_Michalski>	<created>	<Palgrave_Macmillan>	2014-##-##	978--##-##
+<Grzegorz_Marek_Michalski>	<created>	<Palgrave_Macmillan>	2014-##-##	0978-##-##
 <Elena_Varzi>	<wasBornIn>	<Rome>	1926-##-##	1926-##-##
 <Paul_R._Ehrlich>	<hasWonPrize>	<Crafoord_Prize>	1990-##-##	####-##-##
 <José_Reinaldo_Tavares>	<isAffiliatedTo>	<Democratic_Social_Party>	1980-##-##	1985-##-##
@@ -7313,10 +7313,10 @@
 <Marguerite_Frank>	<wasBornIn>	<France>	1927-##-##	1927-##-##
 <Edward_Norton_Lorenz>	<hasWonPrize>	<Kyoto_Prize>	1991-##-##	####-##-##
 <Hanna_Scheuring>	<wasBornIn>	<Zürich>	1965-##-##	1965-##-##
-<Société_Générale>	<owns>	<Société_Générale_Srbija>	100--##-##	####-##-##
+<Société_Générale>	<owns>	<Société_Générale_Srbija>	0100-##-##	####-##-##
 <Jill_Baker>	<wasBornIn>	<United_Kingdom>	1952-##-##	1952-##-##
 <João_Moreira_(footballer,_born_1986)>	<playsFor>	<Leixões_S.C.>	2008-##-##	####-##-##
-<Repsol>	<owns>	<Talisman_Energy>	100--##-##	####-##-##
+<Repsol>	<owns>	<Talisman_Energy>	0100-##-##	####-##-##
 <Astro_de_Ogum>	<wasBornIn>	<São_Luís,_Maranhão>	1957-##-##	1957-##-##
 <Ron_Greenberg>	<created>	<Twenty_Questions>	1975-##-##	####-##-##
 <William_Gaddis>	<wasBornIn>	<New_York_City>	1922-##-##	1922-##-##
@@ -7337,7 +7337,7 @@
 <Fujiko_Takimoto>	<isMarriedTo>	<Hideki_Ogihara>	2014-##-##	####-##-##
 <Albert_Einstein>	<hasWonPrize>	<Max_Planck_Medal>	1929-##-##	####-##-##
 <Kelvin_Bossman>	<playsFor>	<Reading_F.C.>	2002-##-##	2009-##-##
-<DEPA>	<owns>	<DESFA>	100--##-##	####-##-##
+<DEPA>	<owns>	<DESFA>	0100-##-##	####-##-##
 <Paulo_Machado>	<playsFor>	<GNK_Dinamo_Zagreb>	2014-##-##	####-##-##
 <Chu_Ching-wu>	<worksAt>	<Taiwan_Comprehensive_University_System>	2012-##-##	####-##-##
 <Lela_Rochon>	<isMarriedTo>	<Antoine_Fuqua>	1999-##-##	####-##-##
@@ -7484,7 +7484,7 @@
 <Geoff_Lawson_(designer)>	<created>	<Jaguar_XK_(X100)>	1992-##-##	####-##-##
 <Adam_Curry>	<isMarriedTo>	<Micky_Hoogendijk>	2012-##-##	2015-##-##
 <Andrew_Jackson_Hamilton>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	1858-##-##	####-##-##
-<Beenox>	<created>	<Bee_Movie_Game>	360--##-##	####-##-##
+<Beenox>	<created>	<Bee_Movie_Game>	0360-##-##	####-##-##
 <Alex_Rodman>	<playsFor>	<England_national_football_C_team>	2010-##-##	####-##-##
 <Oleksandr_Maksymov>	<playsFor>	<Ukraine_national_under-17_football_team>	2001-##-##	2002-##-##
 <J._J._Thomson>	<hasWonPrize>	<Franklin_Medal>	1922-##-##	####-##-##
@@ -7504,7 +7504,7 @@
 <Thomas_Macdonald-Paterson>	<isAffiliatedTo>	<Protectionist_Party>	1901-##-##	####-##-##
 <Knights_of_Columbus>	<owns>	<WRRO>	1915-##-##	####-##-##
 <Barbara_Trentham>	<diedIn>	<Chicago>	2013-##-##	2013-##-##
-<Ken_Keeler>	<created>	<Two_Bad_Neighbors>	1997-##-##	194--##-##
+<Ken_Keeler>	<created>	<Two_Bad_Neighbors>	1997-##-##	0194-##-##
 <Robert_H._Dennard>	<hasWonPrize>	<Kyoto_Prize>	2013-##-##	####-##-##
 <Brian_De_Palma>	<isMarriedTo>	<Nancy_Allen_(actress)>	1979-##-##	####-##-##
 <John_Wayne>	<isMarriedTo>	<Josephine_Wayne>	1933-##-##	1945-##-##
@@ -7627,7 +7627,7 @@
 <Dani_Mallo>	<playsFor>	<Elche_CF>	2003-##-##	2004-##-##
 <Steven_Weinberg>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1981-##-##	####-##-##
 <Dina_de_Marco>	<diedIn>	<Mexico_City>	1998-##-##	1998-##-##
-<A_Guy_Called_Gerald>	<created>	<Pacific_State_(song)>	808--##-##	####-##-##
+<A_Guy_Called_Gerald>	<created>	<Pacific_State_(song)>	0808-##-##	####-##-##
 <Kasper_Schmeichel>	<wasBornIn>	<Copenhagen>	1986-##-##	1986-##-##
 <Ritchie_Kitoko>	<playsFor>	<Udinese_Calcio>	2009-##-##	2016-##-##
 <Peggy_Stewart_(actress)>	<wasBornIn>	<West_Palm_Beach,_Florida>	1923-##-##	1923-##-##
@@ -7645,7 +7645,7 @@
 <Henok_Goitom>	<playsFor>	<Ciudad_de_Murcia>	2005-##-##	2007-##-##
 <Julie_Benz>	<isMarriedTo>	<John_Kassir>	1998-##-##	2007-##-##
 <John_Vane>	<hasWonPrize>	<Royal_Medal>	1989-##-##	####-##-##
-<François_Marcela-Froideval>	<created>	<Black_Moon_Chronicles>	666--##-##	####-##-##
+<François_Marcela-Froideval>	<created>	<Black_Moon_Chronicles>	0666-##-##	####-##-##
 <Rhys_Weston>	<playsFor>	<Sutton_United_F.C.>	2014-##-##	####-##-##
 <Margaret_Mazzantini>	<wasBornIn>	<Dublin>	1961-##-##	1961-##-##
 <Independent_business>	<owns>	<Tournesol_Media_Entertainment>	1998-##-##	####-##-##
@@ -7723,7 +7723,7 @@
 <Francisco_Borrego>	<playsFor>	<FC_Barcelona_C>	2003-##-##	2006-##-##
 <Dmitri_Bulykin>	<playsFor>	<FC_Twente>	2012-##-##	2013-##-##
 <Ben_Piazza>	<isMarriedTo>	<Dolores_Dorn>	1967-##-##	1979-##-##
-<UBI_Banca>	<owns>	<Banca_Teatina>	100--##-##	####-##-##
+<UBI_Banca>	<owns>	<Banca_Teatina>	0100-##-##	####-##-##
 <Susan_Einzig>	<created>	<Tom's_Midnight_Garden>	1958-##-##	####-##-##
 <Romero_Jucá>	<isAffiliatedTo>	<Brazilian_Democratic_Movement>	1979-##-##	1980-##-##
 <Jacinto_Elá>	<playsFor>	<RCD_Espanyol>	1999-##-##	2001-##-##
@@ -7812,7 +7812,7 @@
 <Walter_Veltroni>	<isAffiliatedTo>	<Democratic_Party_(Italy)>	2007-##-##	####-##-##
 <Sara_Kishon>	<diedIn>	<Tel_Aviv>	2002-##-##	2002-##-##
 <Evandro_Brandão>	<playsFor>	<Blackburn_Rovers_F.C.>	2003-##-##	####-##-##
-<3i>	<owns>	<Scandlines>	100--##-##	####-##-##
+<3i>	<owns>	<Scandlines>	0100-##-##	####-##-##
 <Thomas_Arboe>	<created>	<Aalborg_station>	1902-##-##	####-##-##
 <Bjørn_Sand>	<created>	<Totto_Osvold>	1973-##-##	####-##-##
 <Frederick_D._Gregory>	<graduatedFrom>	<George_Washington_University>	1977-##-##	####-##-##
@@ -7884,7 +7884,7 @@
 <Roger_Y._Tsien>	<diedIn>	<Eugene,_Oregon>	2016-##-##	2016-##-##
 <Kent_Smith>	<diedIn>	<Woodland_Hills,_Los_Angeles>	1985-##-##	1985-##-##
 <Will_Barratt>	<created>	<Hatchet_(film)>	2006-##-##	####-##-##
-<Südtiroler_Sparkasse_–_Cassa_di_Risparmio_di_Bolzano>	<owns>	<Investitionsbank_Trentino_Südtirol_–_Mediocredito_Trentino_Alto_Adige>	207--##-##	489--##-##
+<Südtiroler_Sparkasse_–_Cassa_di_Risparmio_di_Bolzano>	<owns>	<Investitionsbank_Trentino_Südtirol_–_Mediocredito_Trentino_Alto_Adige>	0207-##-##	0489-##-##
 <Connie_Booth>	<isMarriedTo>	<John_Lahr>	2000-##-##	####-##-##
 <Arne_Sucksdorff>	<created>	<The_Boy_in_the_Tree>	1961-##-##	####-##-##
 <Gai_Assulin>	<playsFor>	<Hapoel_Haifa_F.C.>	1997-##-##	1999-##-##
@@ -8070,7 +8070,7 @@
 <Nicola_Cabibbo>	<hasWonPrize>	<Pomeranchuk_Prize>	2009-##-##	####-##-##
 <Alan_J._Pakula>	<wasBornIn>	<New_York_City>	1928-##-##	1928-##-##
 <Frederic_Calland_Williams>	<hasWonPrize>	<Hughes_Medal>	1963-##-##	####-##-##
-<Matthew_Collins>	<playsFor>	<Wales_national_under-19_football_team>	200--##-##	2005-##-##
+<Matthew_Collins>	<playsFor>	<Wales_national_under-19_football_team>	0200-##-##	2005-##-##
 <Antoine_de_Saint-Exupéry>	<hasWonPrize>	<Legion_of_Honour>	1929-##-##	1980-##-##
 <Basil_Sydney>	<diedIn>	<London>	1968-##-##	1968-##-##
 <Arthur_Smith_Woodward>	<hasWonPrize>	<Lyell_Medal>	1896-##-##	####-##-##
@@ -8131,7 +8131,7 @@
 <Paul_Konchesky>	<playsFor>	<England_national_football_team>	2003-##-##	2005-##-##
 <Simon_Le_Bon>	<isMarriedTo>	<Yasmin_Le_Bon>	1985-##-##	####-##-##
 <Miguel_Ángel_Luque>	<playsFor>	<UD_Almería_B>	2010-##-##	2011-##-##
-<Andrej_Babiš>	<owns>	<Agrofert>	100--##-##	####-##-##
+<Andrej_Babiš>	<owns>	<Agrofert>	0100-##-##	####-##-##
 <Fernando_Pessoa>	<diedIn>	<Lisbon>	1935-##-##	1935-##-##
 <Pavel_Plaskonny>	<playsFor>	<Panionios_F.C.>	2008-##-##	####-##-##
 <Ivan_Goncharov>	<diedIn>	<Saint_Petersburg>	1891-##-##	1891-##-##
@@ -8201,7 +8201,7 @@
 <Ismael_Santiago>	<playsFor>	<CD_Logroñés>	1999-##-##	####-##-##
 <Carlos_Saleiro>	<playsFor>	<Sporting_Clube_de_Portugal>	2005-##-##	2011-##-##
 <Hermann_Budzislawski>	<isAffiliatedTo>	<Socialist_Unity_Party_of_Germany>	1948-##-##	1978-##-##
-<Banco_BPM>	<owns>	<Istituto_Centrale_delle_Banche_Popolari_Italiane>	100--##-##	####-##-##
+<Banco_BPM>	<owns>	<Istituto_Centrale_delle_Banche_Popolari_Italiane>	0100-##-##	####-##-##
 <Ann_Turkel>	<isMarriedTo>	<Richard_Harris>	1974-##-##	1982-##-##
 <Manuel_Fernández_Muñiz>	<playsFor>	<Spain_national_under-16_football_team>	2002-##-##	####-##-##
 <Carl_Sagan>	<hasWonPrize>	<Oersted_Medal>	1990-##-##	####-##-##
@@ -8348,7 +8348,7 @@
 <Bruce_Weber_(basketball)>	<hasWonPrize>	<Adolph_Rupp_Cup>	2005-##-##	####-##-##
 <Paulo_Machado>	<playsFor>	<FC_Porto>	2004-##-##	2009-##-##
 <Rudolph_A._Marcus>	<hasWonPrize>	<Irving_Langmuir_Award>	1978-##-##	####-##-##
-<Piraeus_Bank>	<owns>	<Piraeus_Bank_Beograd>	100--##-##	####-##-##
+<Piraeus_Bank>	<owns>	<Piraeus_Bank_Beograd>	0100-##-##	####-##-##
 <Frank_Beamer>	<hasWonPrize>	<Associated_Press_College_Football_Coach_of_the_Year_Award>	1999-##-##	####-##-##
 <Sisinio_González_Martínez>	<playsFor>	<CA_Osasuna>	2012-##-##	2015-##-##
 <Daisuke_Matsuzaka>	<hasWonPrize>	<Nippon_Professional_Baseball_Rookie_of_the_Year_Award>	1999-##-##	####-##-##
@@ -8368,7 +8368,7 @@
 <Vadym_Milko>	<playsFor>	<FC_Dynamo_Kyiv>	2002-##-##	2008-##-##
 <Mariah_Carey>	<isMarriedTo>	<Tommy_Mottola>	1993-##-##	1998-##-##
 <James_H._Wilkinson>	<hasWonPrize>	<Turing_Award>	1970-##-##	####-##-##
-<Government_of_the_United_Kingdom>	<owns>	<British_Rail>	100--##-##	####-##-##
+<Government_of_the_United_Kingdom>	<owns>	<British_Rail>	0100-##-##	####-##-##
 <Justin_Foxton>	<isAffiliatedTo>	<Commonwealth_Liberal_Party>	1909-##-##	####-##-##
 <Maximilian_Schell>	<diedIn>	<Innsbruck>	2014-##-##	2014-##-##
 <Populous_(company)>	<created>	<Modern_Woodmen_Park>	1989-##-##	1999-##-##
@@ -8465,7 +8465,7 @@
 <Williamson_Evers>	<isAffiliatedTo>	<Republican_Party_(United_States)>	2000-##-##	####-##-##
 <Xavier_Roca>	<playsFor>	<CD_Logroñés>	1997-##-##	1998-##-##
 <Candice_Yu>	<isMarriedTo>	<Henry_Lee_Junior>	1987-##-##	2003-##-##
-<Shenyang_Aircraft_Design_Institute>	<created>	<SYAC_UAV>	601--##-##	####-##-##
+<Shenyang_Aircraft_Design_Institute>	<created>	<SYAC_UAV>	0601-##-##	####-##-##
 <Emmanuel_Duah>	<playsFor>	<Gil_Vicente_F.C.>	2002-##-##	2004-##-##
 <Vivendi>	<owns>	<Animation_Magic>	1998-##-##	2001-##-##
 <Mark_Rosenberg>	<wasBornIn>	<Passaic,_New_Jersey>	1948-##-##	1948-##-##
@@ -8636,7 +8636,7 @@
 <Robert_David_Steele>	<isAffiliatedTo>	<Libertarian_Party_(United_States)>	2015-##-##	2016-##-##
 <Elizabeth_Blackburn>	<hasWonPrize>	<NAS_Award_in_Molecular_Biology>	1990-##-##	####-##-##
 <Billy_May>	<created>	<Naked_City_(TV_series)>	1960-##-##	####-##-##
-<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_Baowu_Steel_Group>	100--##-##	####-##-##
+<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_Baowu_Steel_Group>	0100-##-##	####-##-##
 <Paul_Peschisolido>	<playsFor>	<Sheffield_United_F.C.>	2001-##-##	####-##-##
 <Justin_Trudeau>	<wasBornIn>	<Ottawa>	1971-##-##	1971-##-##
 <Wayne_Morse>	<wasBornIn>	<Madison,_Wisconsin>	1900-##-##	1900-##-##
@@ -8890,7 +8890,7 @@
 <Tom_Almadon>	<wasBornIn>	<New_York_City>	1984-##-##	1984-##-##
 <Florence_Lawrence>	<isMarriedTo>	<Harry_Solter>	1908-##-##	1920-##-##
 <Kane_Richmond>	<isMarriedTo>	<Marion_Burns>	1934-##-##	1973-##-##
-<Vladimir_the_Great>	<created>	<Russian_Orthodox_Church>	988--##-##	####-##-##
+<Vladimir_the_Great>	<created>	<Russian_Orthodox_Church>	0988-##-##	####-##-##
 <Gai_Assulin>	<playsFor>	<FC_Barcelona_B>	2007-##-##	2010-##-##
 <Jani_Allan>	<wasBornIn>	<United_Kingdom>	1952-##-##	1952-##-##
 <John_Calipari>	<hasWonPrize>	<Naismith_College_Coach_of_the_Year>	1996-##-##	2008-##-##
@@ -9132,7 +9132,7 @@
 <Dheeraj_Dhoopar>	<wasBornIn>	<Delhi>	1984-##-##	1984-##-##
 <Steven_Vitória>	<wasBornIn>	<Toronto>	1987-##-##	1987-##-##
 <Rivaldo>	<playsFor>	<FC_Barcelona>	1997-##-##	2002-##-##
-<ChemChina>	<owns>	<Sanonda>	100--##-##	####-##-##
+<ChemChina>	<owns>	<Sanonda>	0100-##-##	####-##-##
 <Philip_Warren_Anderson>	<hasWonPrize>	<Nobel_Prize_in_Physics>	1977-##-##	####-##-##
 <Martin_&_Chamberlain>	<created>	<Grand_Hotel,_Birmingham>	1893-##-##	####-##-##
 <Jorge_Gotor>	<playsFor>	<Real_Zaragoza>	2002-##-##	2005-##-##
@@ -9278,7 +9278,7 @@
 <Carlos_Saleiro>	<playsFor>	<Clube_Oriental_de_Lisboa>	2014-##-##	2016-##-##
 <Douglas_C._Wallace>	<hasWonPrize>	<Gruber_Prize_in_Genetics>	2012-##-##	####-##-##
 <Celldweller>	<created>	<Killer_Instinct>	2016-##-##	####-##-##
-<Intesa_Sanpaolo>	<owns>	<Cassa_di_Risparmio_del_Friuli_Venezia_Giulia>	100--##-##	####-##-##
+<Intesa_Sanpaolo>	<owns>	<Cassa_di_Risparmio_del_Friuli_Venezia_Giulia>	0100-##-##	####-##-##
 <Irene_Hervey>	<wasBornIn>	<Los_Angeles>	1909-##-##	1909-##-##
 <Jeff_Bezos>	<isMarriedTo>	<MacKenzie_Bezos>	1993-##-##	####-##-##
 <Richard_Quine>	<isMarriedTo>	<Susan_Peters>	1943-##-##	1948-##-##
@@ -9332,7 +9332,7 @@
 <Charles_Darwin>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1839-##-##	####-##-##
 <Matt_Mills>	<playsFor>	<Manchester_City_F.C.>	2006-##-##	2008-##-##
 <Edward_Abraham>	<hasWonPrize>	<Royal_Medal>	1973-##-##	####-##-##
-<Genovese_&_Maddalene>	<created>	<Our_Lady_of_Good_Counsel's_Church_(Staten_Island,_New_York)>	175--##-##	1968-##-##
+<Genovese_&_Maddalene>	<created>	<Our_Lady_of_Good_Counsel's_Church_(Staten_Island,_New_York)>	0175-##-##	1968-##-##
 <Aaron_Spelling>	<isMarriedTo>	<Carolyn_Jones>	1953-##-##	1964-##-##
 <Pedro_Matías>	<playsFor>	<Spain_national_under-21_football_team>	1994-##-##	####-##-##
 <Ken_Olsen>	<wasBornIn>	<Bridgeport,_Connecticut>	1926-##-##	1926-##-##
@@ -9397,7 +9397,7 @@
 <André_Weil>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1966-##-##	####-##-##
 <Paul_Abbott>	<created>	<Hit_&_Miss>	2012-##-##	####-##-##
 <Lolo_Soetoro>	<diedIn>	<Jakarta>	1987-##-##	1987-##-##
-<THQ_Studio_Australia>	<created>	<Megamind_(video_game)>	360--##-##	####-##-##
+<THQ_Studio_Australia>	<created>	<Megamind_(video_game)>	0360-##-##	####-##-##
 <Linda_Larkin>	<hasWonPrize>	<Disney_Legends>	2011-##-##	####-##-##
 <Grzegorz_Szamotulski>	<playsFor>	<Hibernian_F.C.>	2009-##-##	####-##-##
 <Evandro_Brandão>	<playsFor>	<Portugal_national_under-18_football_team>	2009-##-##	####-##-##
@@ -9427,7 +9427,7 @@
 <Paul_Flory>	<hasWonPrize>	<Peter_Debye_Award>	1969-##-##	####-##-##
 <Josh_Dallas>	<isMarriedTo>	<Ginnifer_Goodwin>	2014-##-##	####-##-##
 <Todor_Zhivkov>	<isAffiliatedTo>	<Bulgarian_Communist_Party>	1932-##-##	1990-##-##
-<Sweden>	<owns>	<Swedish_Rail_Administration>	100--##-##	####-##-##
+<Sweden>	<owns>	<Swedish_Rail_Administration>	0100-##-##	####-##-##
 <João_Paulo_Pinto_Ribeiro>	<playsFor>	<G.D._Estoril_Praia>	2004-##-##	2005-##-##
 <Thorkild_Jacobsen>	<worksAt>	<University_of_Chicago>	1929-##-##	1962-##-##
 <Jacobo_Campos>	<playsFor>	<Real_Oviedo>	2006-##-##	2007-##-##
@@ -9484,7 +9484,7 @@
 <Barbara_Bain>	<wasBornIn>	<Chicago>	1931-##-##	1931-##-##
 <Craig_Davies_(footballer)>	<playsFor>	<Wales_national_under-17_football_team>	2002-##-##	2003-##-##
 <Alan_Lloyd_Hodgkin>	<hasWonPrize>	<Copley_Medal>	1965-##-##	####-##-##
-<Mark_Marderosian>	<created>	<The_Walt_Disney_Company>	307--##-##	978--##-##
+<Mark_Marderosian>	<created>	<The_Walt_Disney_Company>	0307-##-##	0978-##-##
 <Paul_Heyman>	<owns>	<World_Wrestling_Network>	1993-##-##	1994-##-##
 <Roman_Bednář>	<wasBornIn>	<Prague>	1983-##-##	1983-##-##
 <Robert_Stephen_John_Sparks>	<hasWonPrize>	<Vetlesen_Prize>	2015-##-##	####-##-##
@@ -9558,7 +9558,7 @@
 <Jacinto_Elá>	<playsFor>	<RCD_Espanyol_B>	1999-##-##	2001-##-##
 <George_Cobb_(golf)>	<created>	<Timuquana_Country_Club>	1957-##-##	1963-##-##
 <Kate_Pang>	<wasBornIn>	<Taiwan>	1983-##-##	1983-##-##
-<Harmonix>	<created>	<Rock_Band_2>	360--##-##	####-##-##
+<Harmonix>	<created>	<Rock_Band_2>	0360-##-##	####-##-##
 <Walter_Veltroni>	<isAffiliatedTo>	<Democratic_Party_of_the_Left>	1991-##-##	1998-##-##
 <Antonio_Hidalgo_(footballer,_born_1979)>	<playsFor>	<Real_Zaragoza>	2008-##-##	2009-##-##
 <Steve_Sidwell>	<playsFor>	<England_national_under-20_football_team>	2001-##-##	2002-##-##
@@ -9810,7 +9810,7 @@
 <Wilhelm_Windelband>	<diedIn>	<Heidelberg>	1915-##-##	1915-##-##
 <Jeffrey_Byron>	<isMarriedTo>	<Gail_O'Grady>	1990-##-##	1991-##-##
 <Harry_Elderfield>	<hasWonPrize>	<Lyell_Medal>	2003-##-##	####-##-##
-<M2_(game_developer)>	<created>	<Mushihimesama_Futari>	360--##-##	####-##-##
+<M2_(game_developer)>	<created>	<Mushihimesama_Futari>	0360-##-##	####-##-##
 <Sergey_Tsvetinsky>	<playsFor>	<Belarus_national_under-21_football_team>	2005-##-##	####-##-##
 <David_Suzuki>	<wasBornIn>	<Vancouver>	1936-##-##	1936-##-##
 <Darko_Bodul>	<playsFor>	<Odense_Boldklub>	2013-##-##	2015-##-##
@@ -9840,7 +9840,7 @@
 <James_Black_(pharmacologist)>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1976-##-##	####-##-##
 <Gill_Dennis>	<diedIn>	<Portland,_Oregon>	2015-##-##	2015-##-##
 <Gregg_Wylde>	<playsFor>	<Northampton_Town_F.C.>	2017-##-##	####-##-##
-<Finsoe>	<owns>	<Unipol>	404--##-##	614--##-##
+<Finsoe>	<owns>	<Unipol>	0404-##-##	0614-##-##
 <Charles_Capper>	<worksAt>	<Boston_University>	2001-##-##	####-##-##
 <Djibril_Cissé>	<playsFor>	<Liverpool_F.C.>	2004-##-##	2007-##-##
 <Charles_Darwin>	<hasWonPrize>	<Copley_Medal>	1864-##-##	####-##-##
@@ -9848,7 +9848,7 @@
 <Franck_Moussa>	<playsFor>	<Coventry_City_F.C.>	2012-##-##	2014-##-##
 <Vinny_Arkins>	<playsFor>	<Republic_of_Ireland_national_under-17_football_team>	1986-##-##	####-##-##
 <Diogo_Tavares>	<playsFor>	<Portugal_national_under-19_football_team>	2006-##-##	####-##-##
-<Government_of_Russia>	<owns>	<Russian_Post>	100--##-##	####-##-##
+<Government_of_Russia>	<owns>	<Russian_Post>	0100-##-##	####-##-##
 <Mirko_Stefani>	<playsFor>	<Italy_national_under-17_football_team>	2001-##-##	####-##-##
 <Lucas_Neill>	<playsFor>	<Australia_national_under-20_soccer_team>	1996-##-##	1997-##-##
 <Tolgahan_Sayışman>	<isMarriedTo>	<Almeda_Abazi>	2017-##-##	####-##-##
@@ -9963,7 +9963,7 @@
 <Shiva_Ayyadurai>	<isMarriedTo>	<Fran_Drescher>	2014-##-##	2016-##-##
 <Sigourney_Weaver>	<wasBornIn>	<Manhattan>	1949-##-##	1949-##-##
 <Clara_Harris>	<wasBornIn>	<Albany,_New_York>	1834-##-##	1834-##-##
-<Ministry_of_Finance_(Thailand)>	<owns>	<Bangkok_Dock_Company>	999--##-##	####-##-##
+<Ministry_of_Finance_(Thailand)>	<owns>	<Bangkok_Dock_Company>	0999-##-##	####-##-##
 <Jiang_Ying_(musician)>	<isMarriedTo>	<Qian_Xuesen>	1947-##-##	####-##-##
 <Martin_Hairer>	<wasBornIn>	<Geneva>	1975-##-##	1975-##-##
 <Andrew_Stevens>	<isMarriedTo>	<Kate_Jackson>	1978-##-##	1982-##-##
@@ -10023,7 +10023,7 @@
 <Clayton_Kershaw>	<hasWonPrize>	<Major_League_Baseball_Most_Valuable_Player_Award>	2014-##-##	####-##-##
 <Jonathan_Soriano>	<playsFor>	<Spain_national_under-20_football_team>	2005-##-##	####-##-##
 <Roy_Clarke>	<created>	<The_Clairvoyant_(TV_series)>	1986-##-##	####-##-##
-<New_York_Yankees>	<owns>	<Ruppert_Stadium_(Newark)>	1931-##-##	194--##-##
+<New_York_Yankees>	<owns>	<Ruppert_Stadium_(Newark)>	1931-##-##	0194-##-##
 <Farhan_Akhtar>	<wasBornIn>	<Mumbai>	1974-##-##	1974-##-##
 <Andrey_Chernyshov>	<playsFor>	<FC_Spartak_Moscow>	1992-##-##	1993-##-##
 <Fumiko_Enchi>	<wasBornIn>	<Tokyo>	1905-##-##	1905-##-##
@@ -10096,7 +10096,7 @@
 <Judyann_Elder>	<wasBornIn>	<Cleveland>	1948-##-##	1948-##-##
 <Nenad_Ban>	<hasWonPrize>	<Ernst_Jung_Prize>	2017-##-##	####-##-##
 <Elaine_Makatura_Bass>	<isMarriedTo>	<Saul_Bass>	1961-##-##	1996-##-##
-<Mochtar_Riady>	<owns>	<Hongkong_Chinese_Limited>	100--##-##	####-##-##
+<Mochtar_Riady>	<owns>	<Hongkong_Chinese_Limited>	0100-##-##	####-##-##
 <Robert_Desiderio>	<isMarriedTo>	<Judith_Light>	1985-##-##	####-##-##
 <Chris_Cleaver>	<playsFor>	<Turun_Palloseura>	2007-##-##	2010-##-##
 <Alfred_Peet>	<created>	<Peet's_Coffee_&_Tea>	1920-##-##	2007-##-##
@@ -10283,7 +10283,7 @@
 <Reece_Brown>	<playsFor>	<England_national_under-20_football_team>	2011-##-##	####-##-##
 <Janet_Howell>	<graduatedFrom>	<Oberlin_College>	1966-##-##	####-##-##
 <Safeway_(UK)>	<owns>	<Plough_Lane>	1998-##-##	2002-##-##
-<Bezeq>	<owns>	<Walla!>	100--##-##	####-##-##
+<Bezeq>	<owns>	<Walla!>	0100-##-##	####-##-##
 <Mildred_Davis>	<isMarriedTo>	<Harold_Lloyd>	1923-##-##	####-##-##
 <Telefónica>	<owns>	<Cero_(TV_channel)>	2016-##-##	####-##-##
 <John_Payne_(actor)>	<wasBornIn>	<Roanoke,_Virginia>	1912-##-##	1912-##-##
@@ -10371,7 +10371,7 @@
 <Bruno_Moreira>	<playsFor>	<S.C._Braga_B>	2005-##-##	2006-##-##
 <Kevin_Bacon>	<wasBornIn>	<Philadelphia>	1958-##-##	1958-##-##
 <Ahmed_Deen>	<playsFor>	<Aldershot_Town_F.C.>	2005-##-##	2006-##-##
-<Canal+_Group>	<owns>	<StudioCanal_UK>	100--##-##	####-##-##
+<Canal+_Group>	<owns>	<StudioCanal_UK>	0100-##-##	####-##-##
 <Martin_David_Kruskal>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1997-##-##	####-##-##
 <John_Reynolds_(Canadian_politician)>	<isAffiliatedTo>	<Progressive_Conservative_Party_of_Canada>	1972-##-##	1977-##-##
 <Ryan_Bertrand>	<playsFor>	<Reading_F.C.>	2009-##-##	2010-##-##
@@ -10420,7 +10420,7 @@
 <Linda_Stirling>	<isMarriedTo>	<Sloan_Nibley>	1946-##-##	1990-##-##
 <Herman_Salling>	<created>	<Føtex>	1960-##-##	####-##-##
 <Benjamin_Harrison>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1856-##-##	1901-##-##
-<Michelin>	<owns>	<Tigar_Tyres>	100--##-##	####-##-##
+<Michelin>	<owns>	<Tigar_Tyres>	0100-##-##	####-##-##
 <Vidal_Sassoon>	<wasBornIn>	<Hammersmith>	1928-##-##	1928-##-##
 <Donald_D._Brown>	<wasBornIn>	<United_States>	1931-##-##	1931-##-##
 <Caleb_Cushing>	<isAffiliatedTo>	<Whig_Party_(United_States)>	1833-##-##	1847-##-##
@@ -10440,7 +10440,7 @@
 <Artūrs_Vaičulis>	<playsFor>	<Rangers_F.C.>	2008-##-##	2009-##-##
 <Mary_Hemingway_Rees>	<isMarriedTo>	<John_Rawlings_Rees>	1921-##-##	####-##-##
 <William_Masters>	<isMarriedTo>	<Virginia_E._Johnson>	1971-##-##	1992-##-##
-<Moby>	<created>	<Alice_(Moby_song)>	419--##-##	####-##-##
+<Moby>	<created>	<Alice_(Moby_song)>	0419-##-##	####-##-##
 <Kozo_Watanabe_(engineer)>	<created>	<Nissan_Skyline>	1991-##-##	####-##-##
 <Simon_Church>	<playsFor>	<Milton_Keynes_Dons_F.C.>	2015-##-##	2016-##-##
 <Jens_Jensen_(politician)>	<wasBornIn>	<Ballarat>	1865-##-##	1865-##-##
@@ -10467,7 +10467,7 @@
 <James_E._Gunn_(astronomer)>	<hasWonPrize>	<National_Medal_of_Science>	2009-##-##	####-##-##
 <Swapan_Chattopadhyay>	<wasBornIn>	<Kolkata>	1951-##-##	1951-##-##
 <C._V._Raman>	<hasWonPrize>	<Lenin_Peace_Prize>	1957-##-##	####-##-##
-<Seoul_Broadcasting_System>	<owns>	<SBS_Medianet>	100--##-##	####-##-##
+<Seoul_Broadcasting_System>	<owns>	<SBS_Medianet>	0100-##-##	####-##-##
 <Pitney_Bowes>	<owns>	<AT&T_Building_(Nashville)>	1994-##-##	2006-##-##
 <Nancy_Allen_(actress)>	<isMarriedTo>	<Craig_Shoemaker>	1992-##-##	1993-##-##
 <Henry_Norris_Russell>	<diedIn>	<Princeton,_New_Jersey>	1957-##-##	1957-##-##
@@ -10744,7 +10744,7 @@
 <Susan_B._Horwitz>	<worksAt>	<University_of_Copenhagen>	1993-##-##	####-##-##
 <Rubén_González_Rocha>	<playsFor>	<Racing_de_Santander>	2006-##-##	2007-##-##
 <Humongous_Entertainment>	<created>	<Putt-Putt_Enters_the_Race>	1999-##-##	####-##-##
-<Thierry_Déau>	<owns>	<Meridiam>	100--##-##	####-##-##
+<Thierry_Déau>	<owns>	<Meridiam>	0100-##-##	####-##-##
 <Christian_Tiffert>	<playsFor>	<Germany_national_under-21_football_team>	2002-##-##	2004-##-##
 <Hong_Eun-hee>	<isMarriedTo>	<Yoo_Jun-sang>	2003-##-##	####-##-##
 <James_Franck>	<hasWonPrize>	<Rumford_Prize>	1955-##-##	####-##-##
@@ -10837,7 +10837,7 @@
 <Michael_G._Moye>	<isMarriedTo>	<Rose_Jackson_(actress)>	1996-##-##	####-##-##
 <Ascher_H._Shapiro>	<diedIn>	<Jamaica_Plain>	2004-##-##	2004-##-##
 <Archibald_Leitch>	<wasBornIn>	<Glasgow>	1865-##-##	1865-##-##
-<Tsinghua_University>	<owns>	<Tsinghua_Holdings>	100--##-##	####-##-##
+<Tsinghua_University>	<owns>	<Tsinghua_Holdings>	0100-##-##	####-##-##
 <Beto_(footballer,_born_1982)>	<playsFor>	<Portugal_national_football_team>	2009-##-##	2015-##-##
 <Alfred_V._Kidder>	<graduatedFrom>	<Harvard_University>	1914-##-##	####-##-##
 <Bruno_Le_Maire>	<wasBornIn>	<Neuilly-sur-Seine>	1969-##-##	1969-##-##
@@ -10867,7 +10867,7 @@
 <Jack_Reynolds_(footballer,_born_1869)>	<playsFor>	<Southampton_F.C.>	1898-##-##	####-##-##
 <Robert_Trent_Jones>	<created>	<Firestone_Country_Club>	1969-##-##	####-##-##
 <Ralph_Recto>	<isMarriedTo>	<Vilma_Santos>	1992-##-##	####-##-##
-<Intesa_Sanpaolo>	<owns>	<Banca_IMI>	100--##-##	####-##-##
+<Intesa_Sanpaolo>	<owns>	<Banca_IMI>	0100-##-##	####-##-##
 <Tommy_Mottola>	<isMarriedTo>	<Thalía>	2000-##-##	####-##-##
 <Ștefan_Neaga>	<created>	<Anthem_of_the_Moldavian_Soviet_Socialist_Republic>	1945-##-##	####-##-##
 <Merrill_Cook>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1988-##-##	1996-##-##
@@ -10897,7 +10897,7 @@
 <Frank_Conrad>	<hasWonPrize>	<IEEE_Edison_Medal>	1930-##-##	####-##-##
 <Marilynne_Robinson>	<created>	<Lila_(Robinson_novel)>	2014-##-##	####-##-##
 <Leonore_Annenberg>	<wasBornIn>	<New_York_City>	1918-##-##	1918-##-##
-<Intesa_Sanpaolo>	<owns>	<Banco_di_Napoli>	100--##-##	####-##-##
+<Intesa_Sanpaolo>	<owns>	<Banco_di_Napoli>	0100-##-##	####-##-##
 <Peter_Hirsch>	<hasWonPrize>	<Royal_Medal>	1977-##-##	####-##-##
 <Zhuo_Lin>	<diedIn>	<China>	2009-##-##	2009-##-##
 <Lindsay_Wagner>	<wasBornIn>	<Los_Angeles>	1949-##-##	1949-##-##
@@ -10968,7 +10968,7 @@
 <Bruno_Corbucci>	<created>	<The_Blancheville_Monster>	2015-##-##	####-##-##
 <Jorge_Cadete>	<playsFor>	<Sporting_Clube_de_Portugal>	1987-##-##	1995-##-##
 <George_Jessel_(actor)>	<isMarriedTo>	<Lois_Andrews>	1940-##-##	1942-##-##
-<Fininvest>	<owns>	<Arnoldo_Mondadori_Editore>	363--##-##	####-##-##
+<Fininvest>	<owns>	<Arnoldo_Mondadori_Editore>	0363-##-##	####-##-##
 <Iván_Amaya>	<playsFor>	<Atlético_Madrid>	2000-##-##	2002-##-##
 <Bruce_Weber_(basketball)>	<hasWonPrize>	<Associated_Press_College_Basketball_Coach_of_the_Year>	2005-##-##	####-##-##
 <Jorge_Perona>	<playsFor>	<Spain_national_under-18_football_team>	2000-##-##	2001-##-##
@@ -11020,7 +11020,7 @@
 <Wallace_Huo>	<wasBornIn>	<Taipei>	1979-##-##	1979-##-##
 <James_J._Stoker>	<wasBornIn>	<Pittsburgh>	1905-##-##	1905-##-##
 <Tony_Young_(actor)>	<diedIn>	<West_Hollywood,_California>	2002-##-##	2002-##-##
-<Roman_Abramovich>	<owns>	<Quality_Sports_Investments>	100--##-##	100--##-##
+<Roman_Abramovich>	<owns>	<Quality_Sports_Investments>	0100-##-##	0100-##-##
 <News_Corp_Australia>	<owns>	<The_Daily_Mirror_(Sydney)>	1959-##-##	1990-##-##
 <James_McBride_(writer)>	<created>	<The_Good_Lord_Bird>	2013-##-##	####-##-##
 <William_Marlowe>	<isMarriedTo>	<Catherine_Schell>	1968-##-##	1977-##-##
@@ -11035,7 +11035,7 @@
 <Joseph_Ward>	<wasBornIn>	<Melbourne>	1856-##-##	1856-##-##
 <Nader_Faghihzadeh>	<created>	<BMW_6_Series_(F06/F12/F13)>	2008-##-##	####-##-##
 <Gerardo_Berodia>	<playsFor>	<Zamora_CF>	2008-##-##	2009-##-##
-<Government_of_India>	<owns>	<Railway_Recruitment_Control_Board>	100--##-##	####-##-##
+<Government_of_India>	<owns>	<Railway_Recruitment_Control_Board>	0100-##-##	####-##-##
 <Ian_Gomez>	<wasBornIn>	<New_York_City>	1964-##-##	1964-##-##
 <Harlow_Shapley>	<hasWonPrize>	<Bruce_Medal>	1939-##-##	####-##-##
 <Luís_Andrade>	<playsFor>	<C.F._Estrela_da_Amadora>	1995-##-##	1996-##-##
@@ -11051,7 +11051,7 @@
 <Daniel_Kahneman>	<wasBornIn>	<Tel_Aviv>	1934-##-##	1934-##-##
 <Roy_Clarke>	<created>	<Last_of_the_Summer_Wine>	1973-##-##	2010-##-##
 <Virgil_Goode>	<isAffiliatedTo>	<Republican_Party_(United_States)>	2002-##-##	2010-##-##
-<Oberon_Media>	<created>	<Bejeweled_2>	360--##-##	####-##-##
+<Oberon_Media>	<created>	<Bejeweled_2>	0360-##-##	####-##-##
 <Christopher_Robbins>	<diedIn>	<London>	2012-##-##	2012-##-##
 <Oleksiy_Kurilov>	<playsFor>	<FC_Metalist_Kharkiv>	2006-##-##	2011-##-##
 <Sergio_García_(footballer,_born_1983)>	<playsFor>	<Real_Zaragoza>	2005-##-##	2008-##-##
@@ -11063,7 +11063,7 @@
 <David_Davis_(Supreme_Court_justice)>	<isAffiliatedTo>	<Independent_politician>	1872-##-##	1886-##-##
 <David_Mamet>	<isMarriedTo>	<Rebecca_Pidgeon>	1991-##-##	####-##-##
 <Lee_Holmes>	<playsFor>	<Southampton_F.C.>	2008-##-##	2012-##-##
-<Alisher_Usmanov>	<owns>	<Metalloinvest>	100--##-##	####-##-##
+<Alisher_Usmanov>	<owns>	<Metalloinvest>	0100-##-##	####-##-##
 <Enrico_Fermi>	<hasWonPrize>	<Medal_for_Merit>	1946-##-##	####-##-##
 <C._Vann_Woodward>	<hasWonPrize>	<Bancroft_Prize>	1952-##-##	####-##-##
 <George_Uhlenbeck>	<hasWonPrize>	<Wolf_Prize_in_Physics>	1979-##-##	####-##-##
@@ -11260,7 +11260,7 @@
 <Dan_Hicks_(sportscaster)>	<graduatedFrom>	<University_of_Arizona>	1984-##-##	####-##-##
 <Kathleen_Hanna>	<wasBornIn>	<Portland,_Oregon>	1968-##-##	1968-##-##
 <Takeo_Miki>	<isMarriedTo>	<Mutsuko_Miki>	1940-##-##	1988-##-##
-<Government_of_Serbia>	<owns>	<Krušik_Valjevo>	100--##-##	####-##-##
+<Government_of_Serbia>	<owns>	<Krušik_Valjevo>	0100-##-##	####-##-##
 <Mary_Tyler_Moore>	<diedIn>	<Greenwich,_Connecticut>	2017-##-##	2017-##-##
 <Connie_Yori>	<hasWonPrize>	<Naismith_College_Coach_of_the_Year>	2010-##-##	####-##-##
 <Frank_O'Hara>	<graduatedFrom>	<University_of_Michigan>	1951-##-##	####-##-##
@@ -11359,12 +11359,12 @@
 <Mediaset>	<owns>	<Endemol_UK>	2007-##-##	2011-##-##
 <Moses_Gabb>	<isAffiliatedTo>	<Australian_Labor_Party>	1919-##-##	####-##-##
 <David_Caspe>	<wasBornIn>	<San_Francisco>	1978-##-##	1978-##-##
-<William_Appleton_Potter>	<created>	<Advent_Lutheran_Church_(New_York_City)>	160--##-##	####-##-##
+<William_Appleton_Potter>	<created>	<Advent_Lutheran_Church_(New_York_City)>	0160-##-##	####-##-##
 <Alan_Ball_(screenwriter)>	<wasBornIn>	<Marietta,_Georgia>	1957-##-##	1957-##-##
-<Eggers_&_Higgins>	<created>	<Our_Lady_of_Victory_Church_(Manhattan)>	542--##-##	####-##-##
+<Eggers_&_Higgins>	<created>	<Our_Lady_of_Victory_Church_(Manhattan)>	0542-##-##	####-##-##
 <Josh_Dawkin>	<playsFor>	<Cambridge_United_F.C.>	2012-##-##	####-##-##
 <Marshall_Berman>	<graduatedFrom>	<Columbia_University>	1961-##-##	####-##-##
-<Claus_Montonen>	<worksAt>	<University_of_Helsinki>	2012-##-##	416--##-##
+<Claus_Montonen>	<worksAt>	<University_of_Helsinki>	2012-##-##	0416-##-##
 <Barbara_Hafer>	<wasBornIn>	<Los_Angeles>	1943-##-##	1943-##-##
 <Florent_Sinama_Pongolle>	<playsFor>	<France_national_under-17_football_team>	2001-##-##	####-##-##
 <Berkeley_Breathed>	<created>	<Outland_(comic_strip)>	1989-##-##	1995-##-##
@@ -11424,7 +11424,7 @@
 <Henry_Pigott>	<wasBornIn>	<Sri_Lanka>	1866-##-##	1866-##-##
 <Hillary_Clinton>	<wasBornIn>	<Chicago>	1947-##-##	1947-##-##
 <Margery_Gill>	<created>	<Frances_Hodgson_Burnett>	1961-##-##	####-##-##
-<LafargeHolcim>	<owns>	<Heracles_General_Cement>	100--##-##	####-##-##
+<LafargeHolcim>	<owns>	<Heracles_General_Cement>	0100-##-##	####-##-##
 <Phil_Martelli>	<hasWonPrize>	<Adolph_Rupp_Cup>	2004-##-##	####-##-##
 <Leroy_Hood>	<hasWonPrize>	<National_Medal_of_Science>	2011-##-##	####-##-##
 <Mónica_Ayos>	<wasBornIn>	<Buenos_Aires>	1973-##-##	1973-##-##
@@ -11546,7 +11546,7 @@
 <Ken_Detzner>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	1984-##-##	####-##-##
 <Max_Perutz>	<diedIn>	<Cambridge>	2002-##-##	2002-##-##
 <Gawdat_Bahgat>	<worksAt>	<University_of_North_Florida>	1992-##-##	####-##-##
-<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_Railway_Engineering_Corporation>	100--##-##	####-##-##
+<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_Railway_Engineering_Corporation>	0100-##-##	####-##-##
 <Joan_Verdú>	<playsFor>	<ACF_Fiorentina>	2015-##-##	2016-##-##
 <José_Manuel_Casado>	<playsFor>	<Xerez_CD>	2009-##-##	2010-##-##
 <Steve_Wynn>	<owns>	<Desert_Inn>	2000-##-##	####-##-##
@@ -11583,7 +11583,7 @@
 <Fausto_Bertinotti>	<isAffiliatedTo>	<Italian_Socialist_Party>	1960-##-##	1964-##-##
 <Guinio_Ganev>	<isAffiliatedTo>	<Independent_politician>	2005-##-##	2016-##-##
 <Xavi_Moro>	<playsFor>	<Hércules_CF>	2003-##-##	####-##-##
-<UBI_Banca>	<owns>	<Banco_di_Brescia>	100--##-##	####-##-##
+<UBI_Banca>	<owns>	<Banco_di_Brescia>	0100-##-##	####-##-##
 <Christian_Tiffert>	<playsFor>	<Tennis_Borussia_Berlin>	2000-##-##	2000-##-##
 <John_Leckie_(Australian_politician)>	<isAffiliatedTo>	<Nationalist_Party_of_Australia>	1917-##-##	1931-##-##
 <Lee_Tae-sung>	<created>	<Gangster_High>	2006-##-##	####-##-##
@@ -11627,7 +11627,7 @@
 <Margaret_Walker>	<wasBornIn>	<Birmingham,_Alabama>	1915-##-##	1915-##-##
 <Wolfgang_Pauli>	<diedIn>	<Zürich>	1958-##-##	1958-##-##
 <Miguel_Ángel_Tena>	<playsFor>	<Valencia_CF>	1997-##-##	2001-##-##
-<Hamburg>	<owns>	<Hamburger_Hochbahn>	100--##-##	####-##-##
+<Hamburg>	<owns>	<Hamburger_Hochbahn>	0100-##-##	####-##-##
 <Benik_Afobe>	<playsFor>	<Arsenal_F.C.>	2010-##-##	2015-##-##
 <Roy_Clarke>	<created>	<Rosie_(TV_series)>	1975-##-##	####-##-##
 <Daphna_Kastner>	<isMarriedTo>	<Harvey_Keitel>	2001-##-##	####-##-##
@@ -11729,7 +11729,7 @@
 <Jordi_Vilasuso>	<wasBornIn>	<Miami>	1981-##-##	1981-##-##
 <James_Murphy_(architect)>	<created>	<St._Mary's_Church_(New_Haven,_Connecticut)>	1874-##-##	####-##-##
 <Dakshinaranjan_Mitra_Majumder>	<wasBornIn>	<Dhaka>	1877-##-##	1877-##-##
-<Ricky_Hyslop>	<created>	<Canada_98>	100--##-##	####-##-##
+<Ricky_Hyslop>	<created>	<Canada_98>	0100-##-##	####-##-##
 <Malcolm_Williams_(actor)>	<isMarriedTo>	<Florence_Reed>	1908-##-##	1937-##-##
 <Andros_Townsend>	<playsFor>	<Milton_Keynes_Dons_F.C.>	2010-##-##	####-##-##
 <Ernesto_Maceda>	<diedIn>	<Quezon_City>	2016-##-##	2016-##-##
@@ -11922,7 +11922,7 @@
 <Sean_Murray_(composer)>	<created>	<Buffy_the_Vampire_Slayer>	1997-##-##	####-##-##
 <Lee_Holmes>	<playsFor>	<Walsall_F.C.>	2008-##-##	####-##-##
 <Alison_Broinowski>	<isMarriedTo>	<Richard_Broinowski>	1963-##-##	####-##-##
-<Andrew_Jenks>	<created>	<World_of_Jenks>	335--##-##	####-##-##
+<Andrew_Jenks>	<created>	<World_of_Jenks>	0335-##-##	####-##-##
 <William_C._McCool>	<graduatedFrom>	<United_States_Naval_Academy>	1983-##-##	####-##-##
 <Murray_Gell-Mann>	<hasWonPrize>	<Dannie_Heineman_Prize_for_Mathematical_Physics>	1959-##-##	####-##-##
 <Gerald_Fink>	<hasWonPrize>	<George_W._Beadle_Award>	2001-##-##	####-##-##
@@ -12031,7 +12031,7 @@
 <Ann_Druyan>	<wasBornIn>	<Queens>	1949-##-##	1949-##-##
 <František_Janeček>	<created>	<Jawa_Moto>	1878-##-##	1941-##-##
 <Chen-Ning_Yang>	<hasWonPrize>	<Albert_Einstein_Medal>	1995-##-##	####-##-##
-<Crédit_Agricole>	<owns>	<Crédit_Agricole_Italia>	100--##-##	####-##-##
+<Crédit_Agricole>	<owns>	<Crédit_Agricole_Italia>	0100-##-##	####-##-##
 <Toni_Silva>	<playsFor>	<C.F._União>	2016-##-##	####-##-##
 <Hedwiga_Reicher>	<created>	<Confessions_of_a_Nazi_Spy>	1939-##-##	####-##-##
 <Nick_Saban>	<hasWonPrize>	<Sporting_News_College_Football_Coach_of_the_Year>	2008-##-##	####-##-##
@@ -12092,7 +12092,7 @@
 <Jack_Park>	<created>	<Maidstone_Club>	1924-##-##	####-##-##
 <Troy_Donahue>	<isMarriedTo>	<Suzanne_Pleshette>	1964-##-##	1964-##-##
 <Rui_Sacramento>	<playsFor>	<C.D._Feirense>	2011-##-##	####-##-##
-<Artur_Kirilenko>	<owns>	<Stroymontazh>	100--##-##	####-##-##
+<Artur_Kirilenko>	<owns>	<Stroymontazh>	0100-##-##	####-##-##
 <Milena_Dravić>	<isMarriedTo>	<Dragan_Nikolić>	1972-##-##	2016-##-##
 <Silvestre_Varela>	<playsFor>	<FC_Porto>	2009-##-##	2017-##-##
 <Power_Corporation_of_Canada>	<owns>	<Trio_(TV_network)>	1994-##-##	2000-##-##
@@ -12196,7 +12196,7 @@
 <Reece_Brown>	<playsFor>	<Coventry_City_F.C.>	2012-##-##	2013-##-##
 <Hannah_Waterman>	<wasBornIn>	<London>	1975-##-##	1975-##-##
 <Tommy_Flanagan>	<diedIn>	<New_York_City>	2001-##-##	2001-##-##
-<Yasovarman_I>	<created>	<Phnom_Bok>	889--##-##	910--##-##
+<Yasovarman_I>	<created>	<Phnom_Bok>	0889-##-##	0910-##-##
 <Matt_Smith_(footballer,_born_1989)>	<wasBornIn>	<Birmingham>	1989-##-##	1989-##-##
 <Stephen_Smale>	<hasWonPrize>	<Sloan_Fellowship>	1960-##-##	####-##-##
 <Hugo_Gräf>	<isAffiliatedTo>	<Social_Democratic_Party_of_Germany>	1910-##-##	####-##-##
@@ -12234,7 +12234,7 @@
 <Jochen_Küpper>	<worksAt>	<University_of_Hamburg>	2010-##-##	####-##-##
 <Walter_Murphy>	<created>	<Hunter_(U.S._TV_series)>	1990-##-##	####-##-##
 <Serhiy_Harashchenkov>	<playsFor>	<FC_Shakhtar_Donetsk>	2007-##-##	2011-##-##
-<Privately_held_company>	<owns>	<Terason>	100--##-##	####-##-##
+<Privately_held_company>	<owns>	<Terason>	0100-##-##	####-##-##
 <Benjamin_Henry_Latrobe>	<created>	<Hammerwood_Park>	1764-##-##	1820-##-##
 <Mario_Rosas>	<playsFor>	<Cádiz_CF>	2003-##-##	2004-##-##
 <Michelle_Gomez>	<isMarriedTo>	<Jack_Davenport>	2000-##-##	####-##-##
@@ -12293,7 +12293,7 @@
 <Hendrik_Lorentz>	<hasWonPrize>	<Franklin_Medal>	1917-##-##	####-##-##
 <Jane_Pauley>	<wasBornIn>	<Indianapolis>	1950-##-##	1950-##-##
 <Martyn_Evans>	<isAffiliatedTo>	<Independent_politician>	1984-##-##	1993-##-##
-<China_International_Capital_Corporation>	<owns>	<China_Investment_Securities>	100--##-##	####-##-##
+<China_International_Capital_Corporation>	<owns>	<China_Investment_Securities>	0100-##-##	####-##-##
 <Sangeeta_N._Bhatia>	<graduatedFrom>	<Brown_University>	1990-##-##	####-##-##
 <Dai_Xiangyu>	<isMarriedTo>	<Chen_Zihan>	2016-##-##	####-##-##
 <Yvonne_de_Gaulle>	<isMarriedTo>	<Charles_de_Gaulle>	1921-##-##	1970-##-##
@@ -12351,7 +12351,7 @@
 <George_Paget_Thomson>	<hasWonPrize>	<Hughes_Medal>	1939-##-##	####-##-##
 <Kyrylo_Petrov>	<playsFor>	<Ukraine_national_under-18_football_team>	2007-##-##	2009-##-##
 <Fletcher_Markle>	<diedIn>	<Pasadena,_California>	1991-##-##	1991-##-##
-<George_Harrison>	<created>	<Flying_(Beatles_instrumental)>	1988-##-##	123--##-##
+<George_Harrison>	<created>	<Flying_(Beatles_instrumental)>	1988-##-##	0123-##-##
 <Jane_Hadley_Barkley>	<diedIn>	<Washington,_D.C.>	1964-##-##	1964-##-##
 <Woodrow_Wilson>	<diedIn>	<Washington,_D.C.>	1924-##-##	1924-##-##
 <Peter_Crouch>	<wasBornIn>	<Macclesfield>	1981-##-##	1981-##-##
@@ -12472,7 +12472,7 @@
 <Chris_Waddle>	<playsFor>	<Tottenham_Hotspur_F.C.>	1985-##-##	1989-##-##
 <Metromedia>	<owns>	<The_Samuel_Goldwyn_Company>	1996-##-##	1997-##-##
 <Manjul_Bhargava>	<hasWonPrize>	<SASTRA_Ramanujan_Prize>	2005-##-##	####-##-##
-<UniCredit>	<owns>	<UniCredit_Banca>	100--##-##	####-##-##
+<UniCredit>	<owns>	<UniCredit_Banca>	0100-##-##	####-##-##
 <Ricardo_Lancaster-Jones_y_Verea>	<diedIn>	<Guadalajara>	1983-##-##	1983-##-##
 <Doug_Savant>	<wasBornIn>	<Burbank,_California>	1964-##-##	1964-##-##
 <Christina_Kirk>	<wasBornIn>	<Manhattan>	1970-##-##	1970-##-##
@@ -12501,7 +12501,7 @@
 <Jane_Goodall>	<wasBornIn>	<London>	1934-##-##	1934-##-##
 <John_W._Albaugh>	<owns>	<Lafayette_Square_Opera_House>	1895-##-##	1905-##-##
 <Gremlin_Interactive>	<created>	<Monopoly_video_games>	1997-##-##	####-##-##
-<James_Brown_Lord>	<created>	<St._Nicholas_Historic_District>	138--##-##	####-##-##
+<James_Brown_Lord>	<created>	<St._Nicholas_Historic_District>	0138-##-##	####-##-##
 <Rosie_Perez>	<isMarriedTo>	<Eric_Haze>	2013-##-##	####-##-##
 <Robert_Lee_Moore>	<graduatedFrom>	<University_of_Chicago>	1905-##-##	####-##-##
 <Harry_Solter>	<diedIn>	<El_Paso,_Texas>	1920-##-##	1920-##-##
@@ -12567,7 +12567,7 @@
 <Carol_V._Robinson>	<hasWonPrize>	<Davy_Medal>	2010-##-##	####-##-##
 <Jesús_Cabrero>	<playsFor>	<Spain_national_under-20_football_team>	2001-##-##	####-##-##
 <June_Collyer>	<isMarriedTo>	<Stuart_Erwin>	1931-##-##	1967-##-##
-<Government_of_India>	<owns>	<Rail_Wheel_Plant,_Bela>	100--##-##	####-##-##
+<Government_of_India>	<owns>	<Rail_Wheel_Plant,_Bela>	0100-##-##	####-##-##
 <William_Edmond_Logan>	<hasWonPrize>	<Royal_Medal>	1867-##-##	####-##-##
 <Roger_Williams_(British_politician)>	<isAffiliatedTo>	<Social_Democratic_Party_(UK)>	1981-##-##	1988-##-##
 <Sylvester_Perry_Ryan>	<isAffiliatedTo>	<Progressive_Conservative_Party_of_Canada>	1970-##-##	1972-##-##
@@ -12628,7 +12628,7 @@
 <George_Cleveland>	<diedIn>	<Burbank,_California>	1957-##-##	1957-##-##
 <Robin_Padilla>	<wasBornIn>	<Philippines>	1969-##-##	1969-##-##
 <NBCUniversal>	<owns>	<Das_Vierte>	2005-##-##	2008-##-##
-<Ukraine>	<owns>	<Ukrainian_Railways>	100--##-##	####-##-##
+<Ukraine>	<owns>	<Ukrainian_Railways>	0100-##-##	####-##-##
 <Albert_Riera>	<playsFor>	<Spain_national_under-18_football_team>	2000-##-##	2001-##-##
 <Juan_Sordo_Madaleno>	<created>	<Sheraton_Mexico_City_Maria_Isabel_Hotel>	1962-##-##	####-##-##
 <André_Cruz>	<playsFor>	<Standard_Liège>	1990-##-##	1994-##-##
@@ -12739,7 +12739,7 @@
 <William_Black_(novelist)>	<created>	<A_Daughter_of_Heth>	1871-##-##	####-##-##
 <Martin_Luther_King_Jr.>	<hasWonPrize>	<Nobel_Peace_Prize>	1964-##-##	####-##-##
 <Besart_Berisha>	<playsFor>	<Hamburger_SV>	2004-##-##	2007-##-##
-<International_Petroleum_Investment_Company>	<owns>	<Compañía_Española_de_Petróleos>	100--##-##	####-##-##
+<International_Petroleum_Investment_Company>	<owns>	<Compañía_Española_de_Petróleos>	0100-##-##	####-##-##
 <Corporation_for_Public_Broadcasting>	<owns>	<National_Educational_Television>	1967-##-##	1970-##-##
 <Shamshi_Kaldayakov>	<created>	<Meniñ_Qazaqstanım>	1956-##-##	####-##-##
 <Joseph_Hubert_McGuire>	<created>	<Holy_Trinity_Church_(Manhattan)>	1910-##-##	1912-##-##
@@ -12845,7 +12845,7 @@
 <Hugh_Rodham_(born_1911)>	<isMarriedTo>	<Dorothy_Howell_Rodham>	1942-##-##	1993-##-##
 <David_Freeman_(footballer)>	<wasBornIn>	<Dublin>	1979-##-##	1979-##-##
 <Arno_Allan_Penzias>	<hasWonPrize>	<IRI_Medal>	1998-##-##	####-##-##
-<Eggers_&_Higgins>	<created>	<Immaculate_Conception_Church_(Manhattan)>	542--##-##	1945-##-##
+<Eggers_&_Higgins>	<created>	<Immaculate_Conception_Church_(Manhattan)>	0542-##-##	1945-##-##
 <Michael_Smith_(chemist)>	<wasBornIn>	<Blackpool>	1932-##-##	1932-##-##
 <Philippe_Viard>	<created>	<Sacred_Heart_Cathedral,_Wellington>	1851-##-##	1901-##-##
 <Edwin_Stanton>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1862-##-##	1869-##-##
@@ -12990,7 +12990,7 @@
 <Geoffrey_Holder>	<diedIn>	<New_York_City>	2014-##-##	2014-##-##
 <Jay_Asher>	<created>	<Thirteen_Reasons_Why>	2007-##-##	####-##-##
 <Albert_Bunjaku>	<playsFor>	<Grasshopper_Club_Zürich>	1998-##-##	2000-##-##
-<Chubu_Electric_Power>	<owns>	<Gorgon_gas_project>	417--##-##	####-##-##
+<Chubu_Electric_Power>	<owns>	<Gorgon_gas_project>	0417-##-##	####-##-##
 <Francisco_Montañés>	<playsFor>	<Levante_UD>	2016-##-##	####-##-##
 <Robert_Hess_(artist)>	<wasBornIn>	<Brooklyn>	1935-##-##	1935-##-##
 <Samuel_McConnell_Brown>	<diedIn>	<Perth>	1923-##-##	1923-##-##
@@ -13069,7 +13069,7 @@
 <Joan_Finney>	<diedIn>	<Topeka,_Kansas>	2001-##-##	2001-##-##
 <Kevin_Hagen>	<isMarriedTo>	<Susanne_Cramer>	1967-##-##	1969-##-##
 <Davey_Holmes>	<isMarriedTo>	<Sonya_Walger>	2009-##-##	####-##-##
-<Overseas_Chinese_Town_Enterprises>	<owns>	<OCT_Bay>	100--##-##	####-##-##
+<Overseas_Chinese_Town_Enterprises>	<owns>	<OCT_Bay>	0100-##-##	####-##-##
 <Ashley_Hamilton>	<wasBornIn>	<Los_Angeles>	1974-##-##	1974-##-##
 <Roy_J._Glauber>	<hasWonPrize>	<Dannie_Heineman_Prize_for_Mathematical_Physics>	1996-##-##	####-##-##
 <Joanna_Frank>	<wasBornIn>	<New_York_City>	1941-##-##	1941-##-##
@@ -13244,7 +13244,7 @@
 <Darren_Randolph>	<playsFor>	<Republic_of_Ireland_national_under-21_football_team>	2006-##-##	2008-##-##
 <Lucile_Browne>	<diedIn>	<Lexington,_Virginia>	1976-##-##	1976-##-##
 <Roderick_MacKinnon>	<hasWonPrize>	<Albert_Lasker_Award_for_Basic_Medical_Research>	1999-##-##	####-##-##
-<Government_of_Greece>	<owns>	<Hellenic_Aerospace_Industry>	100--##-##	####-##-##
+<Government_of_Greece>	<owns>	<Hellenic_Aerospace_Industry>	0100-##-##	####-##-##
 <Nagita_Slavina>	<isMarriedTo>	<Raffi_Ahmad>	2014-##-##	####-##-##
 <Gerald_Ford>	<isMarriedTo>	<Betty_Ford>	1948-##-##	####-##-##
 <Rebecca_Herbst>	<isMarriedTo>	<Michael_Saucedo>	2001-##-##	####-##-##
@@ -13483,9 +13483,9 @@
 <David_Gest>	<wasBornIn>	<Los_Angeles>	1953-##-##	1953-##-##
 <Bill_Thompson_(voice_actor)>	<created>	<Droopy>	1943-##-##	1958-##-##
 <Yul_Kwon>	<graduatedFrom>	<Stanford_University>	1997-##-##	####-##-##
-<Banca_Monte_dei_Paschi_di_Siena>	<owns>	<Banca_Agricola_Mantovana>	100--##-##	####-##-##
+<Banca_Monte_dei_Paschi_di_Siena>	<owns>	<Banca_Agricola_Mantovana>	0100-##-##	####-##-##
 <Pierre_Colas>	<diedIn>	<Nashville,_Tennessee>	2008-##-##	2008-##-##
-<Beijing_Enlight_Media>	<owns>	<Beijing_Enlight_Pictures>	100--##-##	####-##-##
+<Beijing_Enlight_Media>	<owns>	<Beijing_Enlight_Pictures>	0100-##-##	####-##-##
 <John_N._Bahcall>	<diedIn>	<New_York_City>	2005-##-##	2005-##-##
 <John_W._Brunius>	<isMarriedTo>	<Pauline_Brunius>	1909-##-##	1935-##-##
 <Edward_Zorinsky>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1946-##-##	1976-##-##
@@ -13517,7 +13517,7 @@
 <Herbert_Friedman>	<hasWonPrize>	<William_Bowie_Medal>	1981-##-##	####-##-##
 <Brigitte_Bardot>	<isMarriedTo>	<Roger_Vadim>	1952-##-##	####-##-##
 <John_Connally>	<isAffiliatedTo>	<Republican_Party_(United_States)>	1973-##-##	1993-##-##
-<Barnhouse_Effect>	<created>	<Castle_of_Shikigami_III>	360--##-##	####-##-##
+<Barnhouse_Effect>	<created>	<Castle_of_Shikigami_III>	0360-##-##	####-##-##
 <Fernando_Codá_Marques>	<wasBornIn>	<Brazil>	1979-##-##	1979-##-##
 <Getúlio_Vargas>	<isMarriedTo>	<Darci_Vargas>	1911-##-##	####-##-##
 <Marge_Champion>	<wasBornIn>	<Los_Angeles>	1919-##-##	1919-##-##
@@ -13570,7 +13570,7 @@
 <Bruce_Weber_(basketball)>	<hasWonPrize>	<NABC_Coach_of_the_Year>	2005-##-##	####-##-##
 <Don_L._Anderson>	<hasWonPrize>	<Gold_Medal_of_the_Royal_Astronomical_Society>	1988-##-##	####-##-##
 <Yang_Zishan>	<wasBornIn>	<China>	1986-##-##	1986-##-##
-<Qatar_Investment_Authority>	<owns>	<Sainsbury's>	999--##-##	####-##-##
+<Qatar_Investment_Authority>	<owns>	<Sainsbury's>	0999-##-##	####-##-##
 <Tamás_Priskin>	<playsFor>	<Preston_North_End_F.C.>	2008-##-##	####-##-##
 <James_Black_(pharmacologist)>	<hasWonPrize>	<Mullard_Award>	1978-##-##	####-##-##
 <Ramesh_Parekh>	<hasWonPrize>	<Uma-Snehrashmi_Prize>	1978-##-##	####-##-##
@@ -13814,7 +13814,7 @@
 <Amale_Andraos>	<graduatedFrom>	<Harvard_University>	1999-##-##	####-##-##
 <Jerome_Kern>	<created>	<Roberta_(1935_film)>	1933-##-##	####-##-##
 <Carl_Sagan>	<isMarriedTo>	<Lynn_Margulis>	1957-##-##	1965-##-##
-<D._Imman>	<created>	<Chellamay>	318--##-##	550--##-##
+<D._Imman>	<created>	<Chellamay>	0318-##-##	0550-##-##
 <Bunga_Citra_Lestari>	<wasBornIn>	<Jakarta>	1983-##-##	1983-##-##
 <Mike_Gravel>	<isAffiliatedTo>	<Libertarian_Party_(United_States)>	2008-##-##	2010-##-##
 <Dolunay_Soysert>	<wasBornIn>	<Turkey>	1973-##-##	1973-##-##
@@ -13895,7 +13895,7 @@
 <Jermaine_Beckford>	<playsFor>	<Jamaica_national_football_team>	2013-##-##	####-##-##
 <Charles_Lyell>	<hasWonPrize>	<Wollaston_Medal>	1866-##-##	####-##-##
 <Season_Hubley>	<isMarriedTo>	<Kurt_Russell>	1979-##-##	1983-##-##
-<Seibu_Holdings>	<owns>	<Seibu_Railway>	100--##-##	####-##-##
+<Seibu_Holdings>	<owns>	<Seibu_Railway>	0100-##-##	####-##-##
 <Rosalyn_Sussman_Yalow>	<diedIn>	<The_Bronx>	2011-##-##	2011-##-##
 <David_Rodríguez_Sánchez>	<playsFor>	<Ciudad_de_Murcia>	2005-##-##	####-##-##
 <Alon_Mizrahi>	<playsFor>	<Israel_national_under-21_football_team>	1990-##-##	1993-##-##
@@ -14069,10 +14069,10 @@
 <Thierry_Breton>	<wasBornIn>	<France>	1955-##-##	1955-##-##
 <Éamon_de_Valera>	<wasBornIn>	<New_York_City>	1882-##-##	1882-##-##
 <John_Calley>	<wasBornIn>	<Jersey_City,_New_Jersey>	1930-##-##	1930-##-##
-<Government_of_India>	<owns>	<Carriage_&_Wagon_Workshop,_Jagadhari>	100--##-##	####-##-##
+<Government_of_India>	<owns>	<Carriage_&_Wagon_Workshop,_Jagadhari>	0100-##-##	####-##-##
 <Carlos_Fuentes>	<created>	<The_Old_Gringo>	1985-##-##	####-##-##
 <Craig_Dobson>	<playsFor>	<Barnet_F.C.>	2004-##-##	####-##-##
-<UBI_Banca>	<owns>	<Banca_Tirrenica>	100--##-##	####-##-##
+<UBI_Banca>	<owns>	<Banca_Tirrenica>	0100-##-##	####-##-##
 <Hasse_Ekman>	<isMarriedTo>	<Eva_Henning>	1946-##-##	1953-##-##
 <Stingray_Digital>	<owns>	<Stingray_Retro>	2016-##-##	####-##-##
 <Marcos_García_Barreno>	<playsFor>	<Real_Sociedad>	2008-##-##	2009-##-##
@@ -14368,7 +14368,7 @@
 <Gilbert_Stanley_Underwood>	<created>	<William_Kenzo_Nakamura_United_States_Courthouse>	2006-##-##	2009-##-##
 <Jacques_Goudstikker>	<wasBornIn>	<Amsterdam>	1897-##-##	1897-##-##
 <David_Baulcombe>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	2001-##-##	####-##-##
-<Heavy_Iron_Studios>	<created>	<WALL-E_(video_game)>	360--##-##	####-##-##
+<Heavy_Iron_Studios>	<created>	<WALL-E_(video_game)>	0360-##-##	####-##-##
 <James_Neill>	<diedIn>	<Glendale,_California>	1931-##-##	1931-##-##
 <Jason_Biggs>	<isMarriedTo>	<Jenny_Mollen>	2008-##-##	####-##-##
 <Sheryl_Lee_Ralph>	<wasBornIn>	<Waterbury,_Connecticut>	1956-##-##	1956-##-##
@@ -14634,7 +14634,7 @@
 <Marcello_Gandini>	<created>	<Maserati_Biturbo>	1988-##-##	1991-##-##
 <Miquel_Robusté>	<playsFor>	<Xerez_CD>	2011-##-##	2012-##-##
 <Donald_Tusk>	<isAffiliatedTo>	<Civic_Platform>	2001-##-##	####-##-##
-<UniCredit>	<owns>	<UniCredit_Bank_Serbia>	100--##-##	####-##-##
+<UniCredit>	<owns>	<UniCredit_Bank_Serbia>	0100-##-##	####-##-##
 <Edward_King_(jurist)>	<diedIn>	<Philadelphia>	1873-##-##	1873-##-##
 <Rivaldo>	<playsFor>	<Olympiacos_F.C.>	2004-##-##	2007-##-##
 <Heisuke_Hironaka>	<hasWonPrize>	<Order_of_Culture>	1975-##-##	####-##-##
@@ -14718,7 +14718,7 @@
 <Rod_Serling>	<diedIn>	<Rochester,_New_York>	1975-##-##	1975-##-##
 <Conyers_Herring>	<hasWonPrize>	<Wolf_Prize>	1984-##-##	####-##-##
 <Gary_Loveman>	<wasBornIn>	<Boston>	1960-##-##	1960-##-##
-<Mongolia_Energy_Corporation>	<owns>	<Beida_Jade_Bird_Universal_Sci-Tech>	100--##-##	####-##-##
+<Mongolia_Energy_Corporation>	<owns>	<Beida_Jade_Bird_Universal_Sci-Tech>	0100-##-##	####-##-##
 <James_McNulty_(footballer)>	<playsFor>	<Scunthorpe_United_F.C.>	2010-##-##	####-##-##
 <Jorge_Madureira>	<playsFor>	<Vilanovense_F.C.>	2001-##-##	2002-##-##
 <José_Luis_Morales_Martín>	<playsFor>	<Spain_national_under-16_football_team>	1989-##-##	1990-##-##
@@ -14821,7 +14821,7 @@
 <Robert_Broom>	<hasWonPrize>	<Daniel_Giraud_Elliot_Medal>	1946-##-##	####-##-##
 <Maria_Tam>	<isAffiliatedTo>	<Hong_Kong_Progressive_Alliance>	1997-##-##	2005-##-##
 <George_Emlen_Roosevelt>	<graduatedFrom>	<Harvard_University>	1909-##-##	####-##-##
-<Anthony_Watsham>	<created>	<Scelionidae>	123--##-##	####-##-##
+<Anthony_Watsham>	<created>	<Scelionidae>	0123-##-##	####-##-##
 <James_Frenkel>	<isMarriedTo>	<Joan_D._Vinge>	1980-##-##	####-##-##
 <Paul_Bracq>	<created>	<Mercedes-Benz_W108>	1963-##-##	####-##-##
 <Fernando_Torres_(actor)>	<wasBornIn>	<Brazil>	1927-##-##	1927-##-##
@@ -14869,7 +14869,7 @@
 <Tiffani_Thiessen>	<isMarriedTo>	<Brady_Smith_(actor)>	2005-##-##	####-##-##
 <Nathan_Eccleston>	<playsFor>	<Blackpool_F.C.>	2012-##-##	2014-##-##
 <John_Jay_O'Connor>	<diedIn>	<Phoenix,_Arizona>	2009-##-##	2009-##-##
-<Saraju_Mohanty>	<created>	<McGraw-Hill_Education>	2015-##-##	978--##-##
+<Saraju_Mohanty>	<created>	<McGraw-Hill_Education>	2015-##-##	0978-##-##
 <Nicole_Krauss>	<created>	<Man_Walks_Into_a_Room>	2002-##-##	####-##-##
 <Stan_Collymore>	<playsFor>	<Leicester_City_F.C.>	2000-##-##	####-##-##
 <Kōri_Hisataka>	<diedIn>	<Tokyo>	1988-##-##	1988-##-##
@@ -14947,7 +14947,7 @@
 <Nicole_Ari_Parker>	<isMarriedTo>	<Boris_Kodjoe>	2005-##-##	####-##-##
 <Antonio_Puche>	<playsFor>	<Spain_national_under-16_football_team>	1988-##-##	1989-##-##
 <Ken_Detzner>	<wasBornIn>	<Chicago>	1952-##-##	1952-##-##
-<Poland>	<owns>	<Polish_State_Railways>	100--##-##	####-##-##
+<Poland>	<owns>	<Polish_State_Railways>	0100-##-##	####-##-##
 <Eduardo_Roquero>	<isAffiliatedTo>	<Lakas–CMD_(1991)>	2004-##-##	2007-##-##
 <Jack_Reynolds_(footballer,_born_1869)>	<playsFor>	<England_national_football_team>	1892-##-##	1897-##-##
 <Margaret_Burbidge>	<hasWonPrize>	<Albert_Einstein_World_Award_of_Science>	1988-##-##	####-##-##
@@ -14986,7 +14986,7 @@
 <Nicklas_Bendtner>	<playsFor>	<Arsenal_F.C.>	2005-##-##	2014-##-##
 <James_Black_(pharmacologist)>	<hasWonPrize>	<Royal_Medal>	2004-##-##	####-##-##
 <Chris_Waddle>	<playsFor>	<England_national_under-21_football_team>	1984-##-##	####-##-##
-<Cassa_Depositi_e_Prestiti>	<owns>	<Poste_italiane>	696--##-##	####-##-##
+<Cassa_Depositi_e_Prestiti>	<owns>	<Poste_italiane>	0696-##-##	####-##-##
 <Simon_Baker>	<isMarriedTo>	<Rebecca_Rigg>	1996-##-##	####-##-##
 <Lee_Morris_(footballer)>	<playsFor>	<Leicester_City_F.C.>	2004-##-##	2006-##-##
 <Archibald_Cox>	<graduatedFrom>	<Harvard_Law_School>	1937-##-##	####-##-##
@@ -15010,7 +15010,7 @@
 <Robert_McNamara>	<diedIn>	<Washington,_D.C.>	2009-##-##	2009-##-##
 <Efren_Ramirez>	<wasBornIn>	<Los_Angeles>	1973-##-##	1973-##-##
 <Phyllis_Huffman>	<isMarriedTo>	<David_Huffman>	1967-##-##	1985-##-##
-<CRRC_Corporation>	<owns>	<Zhuzhou_Electric_Locomotive_Works>	100--##-##	####-##-##
+<CRRC_Corporation>	<owns>	<Zhuzhou_Electric_Locomotive_Works>	0100-##-##	####-##-##
 <Ernest_William_Brown>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1897-##-##	####-##-##
 <Johnny_Bryan>	<owns>	<Milwaukee_Badgers>	1926-##-##	####-##-##
 <J._Michael_Bishop>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	2008-##-##	####-##-##
@@ -15028,7 +15028,7 @@
 <Gray_Tollison>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	1996-##-##	2011-##-##
 <Caitlyn_Jenner>	<isMarriedTo>	<Kris_Jenner>	1991-##-##	2015-##-##
 <Kim_Delaney>	<wasBornIn>	<Philadelphia>	1961-##-##	1961-##-##
-<Maggie_McNamara>	<isMarriedTo>	<David_Swift_(director)>	1951-##-##	195--##-##
+<Maggie_McNamara>	<isMarriedTo>	<David_Swift_(director)>	1951-##-##	0195-##-##
 <Paddy_McCourt>	<playsFor>	<Brighton_&_Hove_Albion_F.C.>	2014-##-##	2015-##-##
 <Joyce_Moreno_(footballer)>	<playsFor>	<Real_Madrid_Castilla>	1993-##-##	1997-##-##
 <Lindsley_Parsons>	<diedIn>	<Los_Angeles>	1992-##-##	1992-##-##
@@ -15054,7 +15054,7 @@
 <Conor_Wilkinson>	<playsFor>	<Republic_of_Ireland_national_under-17_football_team>	2011-##-##	2012-##-##
 <Raffi_Ahmad>	<wasBornIn>	<Bandung>	1987-##-##	1987-##-##
 <Ann_M._Martin>	<created>	<The_Baby-Sitters_Club>	1986-##-##	2000-##-##
-<Turner_Broadcasting_System>	<owns>	<CNN_Chile>	100--##-##	####-##-##
+<Turner_Broadcasting_System>	<owns>	<CNN_Chile>	0100-##-##	####-##-##
 <Luke_Rhinehart>	<wasBornIn>	<Albany,_New_York>	1932-##-##	1932-##-##
 <Sebino_Plaku>	<playsFor>	<KF_Tirana>	2009-##-##	2010-##-##
 <C._F._Powell>	<hasWonPrize>	<Nobel_Prize_in_Physics>	1950-##-##	####-##-##
@@ -15134,7 +15134,7 @@
 <Andros_Townsend>	<wasBornIn>	<Leytonstone>	1991-##-##	1991-##-##
 <John_Bennett_Ramsey>	<isMarriedTo>	<Patsy_Ramsey>	1980-##-##	2006-##-##
 <Charles_Russell_(actor)>	<diedIn>	<Beverly_Hills,_California>	1985-##-##	1985-##-##
-<Bruce_Price>	<created>	<St._Nicholas_Historic_District>	138--##-##	139--##-##
+<Bruce_Price>	<created>	<St._Nicholas_Historic_District>	0138-##-##	0139-##-##
 <Volodymyr_Lysenko>	<playsFor>	<FC_Dynamo-2_Kyiv>	2004-##-##	2007-##-##
 <Margot_Honecker>	<isMarriedTo>	<Erich_Honecker>	1953-##-##	####-##-##
 <Linda_Purl>	<wasBornIn>	<Greenwich,_Connecticut>	1955-##-##	1955-##-##
@@ -15200,7 +15200,7 @@
 <William_Anders>	<graduatedFrom>	<United_States_Naval_Academy>	1955-##-##	####-##-##
 <Catherine_Tizard>	<wasBornIn>	<Auckland>	1931-##-##	1931-##-##
 <Adriana_Caselotti>	<wasBornIn>	<Bridgeport,_Connecticut>	1916-##-##	1916-##-##
-<Pininfarina>	<created>	<Lancia_Flaminia>	335--##-##	####-##-##
+<Pininfarina>	<created>	<Lancia_Flaminia>	0335-##-##	####-##-##
 <Uxbridge_Cricket_Club>	<owns>	<Uxbridge_Cricket_Club_Ground>	1971-##-##	####-##-##
 <Marge_Champion>	<isMarriedTo>	<Gower_Champion>	1947-##-##	####-##-##
 <Joan_Greenwood>	<diedIn>	<London>	1987-##-##	1987-##-##
@@ -15221,7 +15221,7 @@
 <Bill_Snyder>	<hasWonPrize>	<Associated_Press_College_Football_Coach_of_the_Year_Award>	1998-##-##	####-##-##
 <Sewall_Wright>	<hasWonPrize>	<Thomas_Hunt_Morgan_Medal>	1982-##-##	####-##-##
 <John_J._Crittenden>	<isAffiliatedTo>	<Unionist_Party_(United_States)>	1861-##-##	1863-##-##
-<Generali_Italia>	<owns>	<Genertellife>	100--##-##	####-##-##
+<Generali_Italia>	<owns>	<Genertellife>	0100-##-##	####-##-##
 <John_Huggins>	<isMarriedTo>	<Ericka_Huggins>	1967-##-##	1969-##-##
 <Carlos_Brandão>	<isAffiliatedTo>	<Liberal_Front_Party_(Brazil)>	1985-##-##	####-##-##
 <Alma_Rubens>	<wasBornIn>	<San_Francisco>	1897-##-##	1897-##-##
@@ -15415,7 +15415,7 @@
 <Terry_Dunfield>	<playsFor>	<Canada_men's_national_under-23_soccer_team>	2002-##-##	2003-##-##
 <Emmanuel_Duah>	<playsFor>	<Torino_F.C.>	1992-##-##	1993-##-##
 <Norman_Chandler>	<isMarriedTo>	<Dorothy_Buffum_Chandler>	1922-##-##	1973-##-##
-<Marc_Birkigt>	<created>	<Hispano-Suiza_J12>	1990-##-##	642--##-##
+<Marc_Birkigt>	<created>	<Hispano-Suiza_J12>	1990-##-##	0642-##-##
 <Conor_Clifford>	<playsFor>	<Leicester_City_F.C.>	2013-##-##	####-##-##
 <Jordan_Spence>	<playsFor>	<West_Ham_United_F.C.>	2007-##-##	2014-##-##
 <Carl_Sagan>	<hasWonPrize>	<Public_Welfare_Medal>	1994-##-##	####-##-##
@@ -15516,7 +15516,7 @@
 <Franco_Frattini>	<wasBornIn>	<Rome>	1957-##-##	1957-##-##
 <Kārlis_Šadurskis>	<wasBornIn>	<Riga>	1959-##-##	1959-##-##
 <Jorge_Cadete>	<playsFor>	<C.F._Estrela_da_Amadora>	2000-##-##	2001-##-##
-<Eurobank_Ergasias>	<owns>	<New_TT_Hellenic_Postbank>	100--##-##	####-##-##
+<Eurobank_Ergasias>	<owns>	<New_TT_Hellenic_Postbank>	0100-##-##	####-##-##
 <Rachel_Rosenthal>	<diedIn>	<Los_Angeles>	2015-##-##	2015-##-##
 <Independent_business>	<owns>	<Taito>	1953-##-##	1986-##-##
 <Quentin_Davies>	<isAffiliatedTo>	<Labour_Party_(UK)>	2007-##-##	####-##-##
@@ -15547,7 +15547,7 @@
 <Bertram_Ellis>	<wasBornIn>	<Boston>	1860-##-##	1860-##-##
 <Stanko_Todorov>	<diedIn>	<Sofia>	1996-##-##	1996-##-##
 <Ozzie_Nelson>	<isMarriedTo>	<Harriet_Nelson>	1935-##-##	####-##-##
-<Stoyan_N._Karastoyanoff>	<created>	<Our_Saviour's_Atonement_Lutheran_Church_(New_York_City)>	220--##-##	1925-##-##
+<Stoyan_N._Karastoyanoff>	<created>	<Our_Saviour's_Atonement_Lutheran_Church_(New_York_City)>	0220-##-##	1925-##-##
 <Cesar_Maia>	<isAffiliatedTo>	<Democrats_(Brazil)>	1996-##-##	1999-##-##
 <Oriol_Riera>	<playsFor>	<FC_Barcelona_C>	2004-##-##	2006-##-##
 <Walther_Neye>	<diedIn>	<Berlin>	1989-##-##	1989-##-##
@@ -15576,7 +15576,7 @@
 <Christiane_Nüsslein-Volhard>	<wasBornIn>	<Magdeburg>	1942-##-##	1942-##-##
 <Isla_Blair>	<wasBornIn>	<Bangalore>	1944-##-##	1944-##-##
 <Denis_O'Dea>	<diedIn>	<Dublin>	1978-##-##	1978-##-##
-<Ken_Keeler>	<created>	<A_Star_Is_Burns>	1997-##-##	156--##-##
+<Ken_Keeler>	<created>	<A_Star_Is_Burns>	1997-##-##	0156-##-##
 <Michael_Grätzel>	<hasWonPrize>	<King_Faisal_International_Prize>	2015-##-##	####-##-##
 <Wendell_Meredith_Stanley>	<hasWonPrize>	<Willard_Gibbs_Award>	1947-##-##	####-##-##
 <Ismael_Urzaiz>	<playsFor>	<RCD_Espanyol>	1995-##-##	1996-##-##
@@ -15718,7 +15718,7 @@
 <Shaggy_(musician)>	<created>	<Luv_Me,_Luv_Me>	1998-##-##	2001-##-##
 <Manuel_Diego_Tello>	<playsFor>	<Spain_national_under-20_football_team>	2003-##-##	####-##-##
 <Iván_Amaya>	<playsFor>	<Rayo_Vallecano>	1998-##-##	2000-##-##
-<Pierre_L._van_den_Berghe>	<worksAt>	<University_of_Washington>	1989-##-##	158--##-##
+<Pierre_L._van_den_Berghe>	<worksAt>	<University_of_Washington>	1989-##-##	0158-##-##
 <Judd_Apatow>	<isMarriedTo>	<Leslie_Mann>	1997-##-##	####-##-##
 <John_Huggins>	<diedIn>	<Los_Angeles>	1969-##-##	1969-##-##
 <Edward_Woodruff_Seymour>	<diedIn>	<Litchfield,_Connecticut>	1892-##-##	1892-##-##
@@ -15757,11 +15757,11 @@
 <Michael_White_(producer)>	<created>	<The_Rocky_Horror_Picture_Show>	1975-##-##	####-##-##
 <Adhuna_Akhtar>	<isMarriedTo>	<Farhan_Akhtar>	2000-##-##	2016-##-##
 <Shimon_Peres>	<hasWonPrize>	<Nobel_Peace_Prize>	1994-##-##	####-##-##
-<Silvio_Santos>	<owns>	<Grupo_Silvio_Santos>	100--##-##	####-##-##
+<Silvio_Santos>	<owns>	<Grupo_Silvio_Santos>	0100-##-##	####-##-##
 <John_Drew_Barrymore>	<isMarriedTo>	<Nina_Wayne>	1985-##-##	1994-##-##
 <Marieta_Severo>	<wasBornIn>	<Brazil>	1946-##-##	1946-##-##
 <Allan_Guy>	<isAffiliatedTo>	<Australian_Labor_Party>	1929-##-##	####-##-##
-<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_National_Aviation_Holding>	100--##-##	####-##-##
+<State_Council_of_the_People's_Republic_of_China>	<owns>	<China_National_Aviation_Holding>	0100-##-##	####-##-##
 <Edward_Kellett_(New_Zealand_politician)>	<diedIn>	<New_Zealand>	1922-##-##	1922-##-##
 <Kyel_Reid>	<playsFor>	<Sheffield_United_F.C.>	2009-##-##	2010-##-##
 <Teresa_Wright>	<isMarriedTo>	<Robert_Anderson_(playwright)>	1959-##-##	1978-##-##
@@ -16059,7 +16059,7 @@
 <Charles_A._Beard>	<diedIn>	<New_Haven,_Connecticut>	1948-##-##	1948-##-##
 <Jim_Snyder_(journalist)>	<isMarriedTo>	<Jessica_Moore_(journalist)>	2013-##-##	####-##-##
 <Paul_Lauterbur>	<hasWonPrize>	<National_Medal_of_Science>	1987-##-##	####-##-##
-<Government_of_India>	<owns>	<Mahanagar_Telephone_Nigam>	100--##-##	####-##-##
+<Government_of_India>	<owns>	<Mahanagar_Telephone_Nigam>	0100-##-##	####-##-##
 <David_Sánchez_(footballer)>	<playsFor>	<Deportivo_Alavés>	2005-##-##	####-##-##
 <Milko_Djurovski>	<playsFor>	<Red_Star_Belgrade>	1979-##-##	1986-##-##
 <Adam_Eckersley>	<playsFor>	<England_national_under-18_football_team>	2003-##-##	####-##-##
@@ -16205,7 +16205,7 @@
 <Héctor_Font>	<playsFor>	<Recreativo_de_Huelva>	2011-##-##	2012-##-##
 <James_Arthur_(mathematician)>	<hasWonPrize>	<Leroy_P._Steele_Prize>	2017-##-##	####-##-##
 <John_Marsden_(footballer)>	<playsFor>	<Macclesfield_Town_F.C.>	2015-##-##	####-##-##
-<Credito_Valtellinese>	<owns>	<Cassa_di_Risparmio_di_Fano>	100--##-##	####-##-##
+<Credito_Valtellinese>	<owns>	<Cassa_di_Risparmio_di_Fano>	0100-##-##	####-##-##
 <Hideki_Yukawa>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1963-##-##	####-##-##
 <Jordan_Spence>	<playsFor>	<England_national_under-16_football_team>	2004-##-##	2006-##-##
 <John_L._Hennessy>	<hasWonPrize>	<IEEE_Medal_of_Honor>	2012-##-##	####-##-##
@@ -16241,7 +16241,7 @@
 <Hasbro>	<owns>	<Claster_Television>	1969-##-##	2000-##-##
 <Alexander_Oparin>	<diedIn>	<Russian_Soviet_Federative_Socialist_Republic>	1980-##-##	1980-##-##
 <Nuno_Santos_(footballer,_born_1978)>	<playsFor>	<Portimonense_S.C.>	2010-##-##	####-##-##
-<Camera_di_Commercio,_Industria,_Agricoltura_e_Artigianato>	<owns>	<Aeroporto_Guglielmo_Marconi_di_Bologna_(company)>	559--##-##	510--##-##
+<Camera_di_Commercio,_Industria,_Agricoltura_e_Artigianato>	<owns>	<Aeroporto_Guglielmo_Marconi_di_Bologna_(company)>	0559-##-##	0510-##-##
 <Michael_Dummett>	<diedIn>	<Oxford>	2011-##-##	2011-##-##
 <Jane_Lapotaire>	<isMarriedTo>	<Roland_Joffé>	1974-##-##	1980-##-##
 <Mark_Meily>	<wasBornIn>	<Philippines>	1967-##-##	1967-##-##
@@ -16290,7 +16290,7 @@
 <James_Glimm>	<hasWonPrize>	<Leroy_P._Steele_Prize>	1993-##-##	####-##-##
 <A._Bhimsingh>	<isMarriedTo>	<Sukumari>	1959-##-##	1978-##-##
 <Berthold_Viertel>	<wasBornIn>	<Vienna>	1885-##-##	1885-##-##
-<Government_of_Ireland>	<owns>	<Iarnród_Éireann>	100--##-##	####-##-##
+<Government_of_Ireland>	<owns>	<Iarnród_Éireann>	0100-##-##	####-##-##
 <Seymour_Benzer>	<hasWonPrize>	<Thomas_Hunt_Morgan_Medal>	1986-##-##	####-##-##
 <José_Soares>	<playsFor>	<Portugal_national_under-20_football_team>	1996-##-##	####-##-##
 <Petra_Bläss>	<isAffiliatedTo>	<Socialist_Unity_Party_of_Germany>	1986-##-##	1990-##-##
@@ -16437,7 +16437,7 @@
 <James_Macfarlane>	<isAffiliatedTo>	<Commonwealth_Liberal_Party>	1909-##-##	####-##-##
 <John_Patrick_(dramatist)>	<created>	<The_World_of_Suzie_Wong_(film)>	1960-##-##	####-##-##
 <John_Huggins>	<wasBornIn>	<New_Haven,_Connecticut>	1945-##-##	1945-##-##
-<Crédit_Agricole>	<owns>	<Crédit_Agricole_Srbija>	100--##-##	####-##-##
+<Crédit_Agricole>	<owns>	<Crédit_Agricole_Srbija>	0100-##-##	####-##-##
 <Cândido_Costa>	<playsFor>	<S.C._Salgueiros>	1999-##-##	####-##-##
 <Anne-Aymone_Giscard_d'Estaing>	<wasBornIn>	<Paris>	1933-##-##	1933-##-##
 <Francisco_Rufete>	<playsFor>	<FC_Barcelona_B>	1995-##-##	1997-##-##
@@ -16515,7 +16515,7 @@
 <Gautam_Kaul>	<worksAt>	<University_of_Chicago>	1984-##-##	####-##-##
 <Georg_Wildführ>	<isAffiliatedTo>	<Socialist_Unity_Party_of_Germany>	1946-##-##	1949-##-##
 <Jânio_Quadros>	<isAffiliatedTo>	<Brazilian_Labour_Party_(current)>	1980-##-##	1986-##-##
-<Poste_italiane>	<owns>	<Banca_del_Mezzogiorno_–_MedioCredito_Centrale>	100--##-##	####-##-##
+<Poste_italiane>	<owns>	<Banca_del_Mezzogiorno_–_MedioCredito_Centrale>	0100-##-##	####-##-##
 <Peter_Zoller>	<hasWonPrize>	<Wolf_Prize_in_Physics>	2013-##-##	####-##-##
 <Richard_Brooks>	<wasBornIn>	<Philadelphia>	1912-##-##	1912-##-##
 <Kenneth_G._Wilson>	<hasWonPrize>	<Eringen_Medal>	1984-##-##	####-##-##
@@ -16551,7 +16551,7 @@
 <Jon_Bewers>	<playsFor>	<Aylesbury_United_F.C.>	2005-##-##	2006-##-##
 <Eugene_G._Sander>	<worksAt>	<Texas_A&M_University>	1980-##-##	1987-##-##
 <St._Louis_Cardinals>	<owns>	<Sportsman's_Park>	1953-##-##	1966-##-##
-<Canon_Inc.>	<owns>	<Toshiba_Medical_Systems_Corporation>	100--##-##	####-##-##
+<Canon_Inc.>	<owns>	<Toshiba_Medical_Systems_Corporation>	0100-##-##	####-##-##
 <Caroline_Aherne>	<created>	<Gogglebox>	2013-##-##	2016-##-##
 <Katrin_Cartlidge>	<created>	<Breaking_the_Waves>	1996-##-##	####-##-##
 <Grzegorz_Szamotulski>	<playsFor>	<PAOK_FC>	2000-##-##	####-##-##
@@ -16572,7 +16572,7 @@
 <Gratton_Wilson>	<isAffiliatedTo>	<Commonwealth_Liberal_Party>	1909-##-##	####-##-##
 <Rainn_Wilson>	<isMarriedTo>	<Holiday_Reinhorn>	1995-##-##	####-##-##
 <Joe_Kubert>	<diedIn>	<Morristown,_New_Jersey>	2012-##-##	2012-##-##
-<Sho_Sakurai>	<created>	<Believe/Kumorinochi,_Kaisei>	100--##-##	####-##-##
+<Sho_Sakurai>	<created>	<Believe/Kumorinochi,_Kaisei>	0100-##-##	####-##-##
 <Bill_Pickering_(rocket_scientist)>	<wasBornIn>	<Wellington>	1910-##-##	1910-##-##
 <Lars_Ahlfors>	<hasWonPrize>	<Wolf_Prize_in_Mathematics>	1981-##-##	####-##-##
 <Alec_Jeffreys>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1986-##-##	####-##-##
@@ -16736,7 +16736,7 @@
 <Emery_Roth>	<created>	<The_San_Remo>	1930-##-##	####-##-##
 <Carlos_Beltrán>	<hasWonPrize>	<Roberto_Clemente_Award>	2013-##-##	####-##-##
 <Roger_Penrose>	<hasWonPrize>	<Eddington_Medal>	1975-##-##	####-##-##
-<Matt_Mason_(author)>	<created>	<RWD_Magazine>	800--##-##	####-##-##
+<Matt_Mason_(author)>	<created>	<RWD_Magazine>	0800-##-##	####-##-##
 <Amy_Madigan>	<wasBornIn>	<Chicago>	1950-##-##	1950-##-##
 <William_W._Church>	<graduatedFrom>	<Princeton_University>	1897-##-##	####-##-##
 <Lee_Holmes>	<playsFor>	<England_national_under-17_football_team>	2003-##-##	####-##-##
@@ -16917,7 +16917,7 @@
 <Olof_Winnerstrand>	<wasBornIn>	<Stockholm>	1875-##-##	1875-##-##
 <José_Fonte>	<playsFor>	<Crystal_Palace_F.C.>	2007-##-##	2008-##-##
 <Francis_Ley>	<owns>	<Baseball_Ground>	1924-##-##	####-##-##
-<EA_Canada>	<created>	<NBA_Live_09>	360--##-##	####-##-##
+<EA_Canada>	<created>	<NBA_Live_09>	0360-##-##	####-##-##
 <Charles_Pence_Slichter>	<hasWonPrize>	<National_Medal_of_Science>	2007-##-##	####-##-##
 <John_Marsden_(footballer)>	<playsFor>	<Shrewsbury_Town_F.C.>	2013-##-##	2014-##-##
 <Frederick_Sanger>	<created>	<Dynamite_(Desert_Dolphins_song)>	1918-##-##	2013-##-##
@@ -16957,7 +16957,7 @@
 <Raúl_Bravo>	<playsFor>	<Córdoba_CF>	2013-##-##	2014-##-##
 <Pierre_Chenal>	<diedIn>	<Paris>	1990-##-##	1990-##-##
 <Konrad_Lorenz>	<hasWonPrize>	<Kalinga_Prize>	1969-##-##	####-##-##
-<Veneto_Banca>	<owns>	<Banca_Intermobiliare>	388--##-##	####-##-##
+<Veneto_Banca>	<owns>	<Banca_Intermobiliare>	0388-##-##	####-##-##
 <Rajashree_Choudhury>	<wasBornIn>	<Kolkata>	1965-##-##	1965-##-##
 <Freddie_de_Guingand>	<hasWonPrize>	<Legion_of_Merit>	1945-##-##	####-##-##
 <Micah_Nathan>	<created>	<Gods_of_Aberdeen>	2005-##-##	2011-##-##
@@ -17035,7 +17035,7 @@
 <Dharamvir_Bharati>	<hasWonPrize>	<Padma_Shri>	1972-##-##	####-##-##
 <Toshiya_Sugiuchi>	<hasWonPrize>	<Best_Nine_Award>	2005-##-##	####-##-##
 <Richard_Neustadt>	<diedIn>	<London>	2003-##-##	2003-##-##
-<Datang_Telecom_Group>	<owns>	<Datang_Telecom_Technology>	100--##-##	####-##-##
+<Datang_Telecom_Group>	<owns>	<Datang_Telecom_Technology>	0100-##-##	####-##-##
 <Angus_Wilson>	<created>	<Anglo-Saxon_Attitudes>	1956-##-##	1958-##-##
 <Bright_House_Networks>	<owns>	<InfoMás>	2011-##-##	2016-##-##
 <David_Sánchez_Parrilla>	<playsFor>	<RCD_Espanyol_B>	1996-##-##	1999-##-##
@@ -17135,7 +17135,7 @@
 <Niall_Thompson>	<playsFor>	<Wycombe_Wanderers_F.C.>	2000-##-##	2001-##-##
 <Joanne_Froggatt>	<created>	<A_Street_Cat_Named_Bob_(film)>	2016-##-##	####-##-##
 <William_H._Dana>	<diedIn>	<Phoenix,_Arizona>	2014-##-##	2014-##-##
-<Alpha_Bank>	<owns>	<Alpha_Bank_Srbija>	100--##-##	####-##-##
+<Alpha_Bank>	<owns>	<Alpha_Bank_Srbija>	0100-##-##	####-##-##
 <Shigetada_Nakanishi>	<hasWonPrize>	<Imperial_Prize_of_the_Japan_Academy>	1997-##-##	####-##-##
 <Steve_McQueen>	<isMarriedTo>	<Barbara_Minty>	1980-##-##	####-##-##
 <Rove_McManus>	<wasBornIn>	<Perth>	1974-##-##	1974-##-##
@@ -17176,7 +17176,7 @@
 <Hugo_Marques>	<playsFor>	<F.C._Tirsense>	2008-##-##	2009-##-##
 <Jacinda_Barrett>	<isMarriedTo>	<Gabriel_Macht>	2004-##-##	####-##-##
 <MacKenzie_Bezos>	<wasBornIn>	<San_Francisco>	1970-##-##	1970-##-##
-<Rio_Tinto_Group>	<owns>	<Gladstone_Power_Station>	125--##-##	####-##-##
+<Rio_Tinto_Group>	<owns>	<Gladstone_Power_Station>	0125-##-##	####-##-##
 <Jean_Berko_Gleason>	<wasBornIn>	<Cleveland>	1931-##-##	1931-##-##
 <André_Carneiro_Soares>	<playsFor>	<Gil_Vicente_F.C.>	2015-##-##	2016-##-##
 <Loren_Eiseley>	<diedIn>	<Philadelphia>	1977-##-##	1977-##-##
@@ -17283,7 +17283,7 @@
 <Óscar_Arpón>	<playsFor>	<Spain_national_under-18_football_team>	1992-##-##	####-##-##
 <Tolgahan_Sayışman>	<wasBornIn>	<Turkey>	1981-##-##	1981-##-##
 <Luke_Foster>	<playsFor>	<Rotherham_United_F.C.>	2011-##-##	2012-##-##
-<Eni>	<owns>	<Agenzia_Giornalistica_Italia>	100--##-##	####-##-##
+<Eni>	<owns>	<Agenzia_Giornalistica_Italia>	0100-##-##	####-##-##
 <George_Russell_Callender>	<created>	<Walter_Reed_Tropical_Medicine_Course>	1929-##-##	####-##-##
 <Charles_R._Marshall>	<worksAt>	<University_of_California,_Los_Angeles>	1991-##-##	1999-##-##
 <Natacha_Rambova>	<isMarriedTo>	<Rudolph_Valentino>	1923-##-##	1925-##-##
@@ -17292,7 +17292,7 @@
 <Alice_Joyce>	<wasBornIn>	<Kansas_City,_Missouri>	1890-##-##	1890-##-##
 <Rajashree_Choudhury>	<isMarriedTo>	<Bikram_Choudhury>	1984-##-##	2016-##-##
 <Southern_Region_of_British_Railways>	<owns>	<Wroxall_railway_station>	1948-##-##	1966-##-##
-<Jon_Vitti>	<created>	<Another_Simpsons_Clip_Show>	1997-##-##	151--##-##
+<Jon_Vitti>	<created>	<Another_Simpsons_Clip_Show>	1997-##-##	0151-##-##
 <Harry_B._Gray>	<hasWonPrize>	<Othmer_Gold_Medal>	2013-##-##	####-##-##
 <CenturyLink>	<owns>	<Qwest>	2011-##-##	####-##-##
 <Olive_Thomas>	<diedIn>	<Neuilly-sur-Seine>	1920-##-##	1920-##-##
@@ -17476,7 +17476,7 @@
 <Albert_Puigdollers>	<playsFor>	<CF_Badalona>	2006-##-##	2007-##-##
 <Karen_Sharpe>	<isMarriedTo>	<Stanley_Kramer>	1966-##-##	2001-##-##
 <Emma_Cohen>	<wasBornIn>	<Barcelona>	1946-##-##	1946-##-##
-<EA_Canada>	<created>	<FIFA_09>	360--##-##	####-##-##
+<EA_Canada>	<created>	<FIFA_09>	0360-##-##	####-##-##
 <Raymond_Speaker>	<isAffiliatedTo>	<Conservative_Party_of_Canada>	2003-##-##	####-##-##
 <Sean_Scully_(actor)>	<isMarriedTo>	<Wendy_Hughes>	1971-##-##	1973-##-##
 <Richard_Matheson>	<created>	<'It's_Alive!'>	2010-##-##	####-##-##
@@ -17486,7 +17486,7 @@
 <Bill_Rodgers,_Baron_Rodgers_of_Quarry_Bank>	<isAffiliatedTo>	<Social_Democratic_Party_(UK)>	1981-##-##	1988-##-##
 <Hugo_Marques>	<playsFor>	<FC_Porto_B>	2005-##-##	2006-##-##
 <John_McCook>	<isMarriedTo>	<Laurette_Spang-McCook>	1980-##-##	####-##-##
-<Agoraphobic_Nosebleed>	<created>	<Domestic_Powerviolence>	213--##-##	####-##-##
+<Agoraphobic_Nosebleed>	<created>	<Domestic_Powerviolence>	0213-##-##	####-##-##
 <Francis_Preston_Blair_Jr.>	<wasBornIn>	<Lexington,_Kentucky>	1821-##-##	1821-##-##
 <Kyrylo_Doroshenko>	<playsFor>	<FC_Zorya_Luhansk>	2015-##-##	2016-##-##
 <Victor_Weisskopf>	<hasWonPrize>	<Public_Welfare_Medal>	1991-##-##	####-##-##
@@ -17521,7 +17521,7 @@
 <Maury_Povich>	<wasBornIn>	<Washington,_D.C.>	1939-##-##	1939-##-##
 <Bruno_Moreira>	<playsFor>	<Varzim_S.C.>	2007-##-##	2011-##-##
 <Finnmark_County_Municipality>	<owns>	<Finnmark_Fylkesrederi_og_Ruteselskap>	1916-##-##	2003-##-##
-<Government_of_Austria>	<owns>	<Hypo_Alpe_Adria_Bank>	100--##-##	####-##-##
+<Government_of_Austria>	<owns>	<Hypo_Alpe_Adria_Bank>	0100-##-##	####-##-##
 <Mark_Wood_(violinist)>	<created>	<NASCAR_on_CBS>	1995-##-##	1997-##-##
 <Ivan_Pavlov>	<hasWonPrize>	<Nobel_Prize_in_Physiology_or_Medicine>	1904-##-##	####-##-##
 <Harold_Urey>	<hasWonPrize>	<Fellow_of_the_Royal_Society>	1947-##-##	####-##-##
@@ -17552,7 +17552,7 @@
 <Alexander_R._Todd>	<hasWonPrize>	<Copley_Medal>	1970-##-##	####-##-##
 <Niven_Busch>	<diedIn>	<San_Francisco>	1991-##-##	1991-##-##
 <Alan_Bundy>	<hasWonPrize>	<Order_of_the_British_Empire>	2012-##-##	####-##-##
-<Jeremiah_O'Rourke>	<created>	<St._Agnes'_Church_(New_York_City)>	756--##-##	1904-##-##
+<Jeremiah_O'Rourke>	<created>	<St._Agnes'_Church_(New_York_City)>	0756-##-##	1904-##-##
 <Laurette_Spang-McCook>	<isMarriedTo>	<John_McCook>	1980-##-##	####-##-##
 <Richard_Carmona>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	2011-##-##	####-##-##
 <Ilya_Mikhalyov>	<playsFor>	<FC_Amkar_Perm>	2010-##-##	2012-##-##
@@ -17998,7 +17998,7 @@
 <Kunio_Hatoyama>	<isAffiliatedTo>	<Liberal_Democratic_Party_(Japan)>	1978-##-##	####-##-##
 <Regine_Hildebrandt>	<isAffiliatedTo>	<Social_Democratic_Party_in_the_GDR>	1989-##-##	1990-##-##
 <Chris_Woods>	<playsFor>	<England_national_under-21_football_team>	1979-##-##	1983-##-##
-<Rembrandt>	<created>	<Apollo_100>	100--##-##	####-##-##
+<Rembrandt>	<created>	<Apollo_100>	0100-##-##	####-##-##
 <Joe_Chen>	<created>	<Swordsman_(TV_series)>	2013-##-##	####-##-##
 <Rafael_García_García>	<playsFor>	<Getafe_CF_B>	2006-##-##	2008-##-##
 <Club_Atlético_River_Plate_(Montevideo)>	<created>	<Prostitution_(1963_film)>	2015-##-##	####-##-##
@@ -18125,7 +18125,7 @@
 <David_Foster_Wallace>	<wasBornIn>	<Ithaca,_New_York>	1962-##-##	1962-##-##
 <Robert_Ogden_Doremus>	<diedIn>	<New_York_City>	1906-##-##	1906-##-##
 <Ashok_Chavda>	<created>	<Dalkhi_Thi_Saav_Chhutan>	2012-##-##	####-##-##
-<Dhina>	<created>	<Chellamay>	119--##-##	####-##-##
+<Dhina>	<created>	<Chellamay>	0119-##-##	####-##-##
 <Derek_Asamoah>	<playsFor>	<Hampton_&_Richmond_Borough_F.C.>	1999-##-##	2000-##-##
 <Oleksandr_Maksymov>	<playsFor>	<FC_Dynamo-3_Kyiv>	2002-##-##	2003-##-##
 <John_W._Blodgett>	<diedIn>	<Grand_Rapids,_Michigan>	1951-##-##	1951-##-##
@@ -18212,7 +18212,7 @@
 <Richard_Wilbur>	<wasBornIn>	<New_York_City>	1921-##-##	1921-##-##
 <Richie_Partridge>	<playsFor>	<Republic_of_Ireland_national_under-21_football_team>	1999-##-##	2000-##-##
 <Eurípedes_Amoreirinha>	<playsFor>	<S.L._Benfica>	2004-##-##	2007-##-##
-<Hamburg>	<owns>	<HADAG>	100--##-##	####-##-##
+<Hamburg>	<owns>	<HADAG>	0100-##-##	####-##-##
 <Hendrik_C._van_de_Hulst>	<hasWonPrize>	<Eddington_Medal>	1955-##-##	####-##-##
 <Hans_Kosterlitz>	<hasWonPrize>	<Harvey_Prize>	1981-##-##	####-##-##
 <Fausto_Bertinotti>	<isAffiliatedTo>	<Italian_Communist_Party>	1972-##-##	1991-##-##
@@ -18256,7 +18256,7 @@
 <Osei_Sankofa>	<playsFor>	<Eastleigh_F.C.>	2012-##-##	2013-##-##
 <Abdulai_Bell-Baggie>	<playsFor>	<Tranmere_Rovers_F.C.>	2012-##-##	2015-##-##
 <Mike_Gravel>	<isAffiliatedTo>	<Democratic_Party_(United_States)>	2008-##-##	2010-##-##
-<Buchman_&_Fox>	<created>	<Henry_Street_Settlement>	267--##-##	####-##-##
+<Buchman_&_Fox>	<created>	<Henry_Street_Settlement>	0267-##-##	####-##-##
 <Costas_Panagopoulos>	<worksAt>	<Fordham_University>	2005-##-##	####-##-##
 <Lise_Meitner>	<hasWonPrize>	<Enrico_Fermi_Award>	1966-##-##	####-##-##
 <Gary_Collins_(actor)>	<hasWonPrize>	<Emmy_Award>	1983-##-##	####-##-##
@@ -18324,7 +18324,7 @@
 <Mike_Trout>	<hasWonPrize>	<Silver_Slugger_Award>	2012-##-##	2016-##-##
 <Albert_Riera>	<playsFor>	<Liverpool_F.C.>	2008-##-##	2010-##-##
 <Richard_Clarke_Cabot>	<diedIn>	<Cambridge,_Massachusetts>	1939-##-##	1939-##-##
-<Sayyid_Ahmedullah_Qadri>	<created>	<Mahatma_Gandhi>	100--##-##	1969-##-##
+<Sayyid_Ahmedullah_Qadri>	<created>	<Mahatma_Gandhi>	0100-##-##	1969-##-##
 <Mark_Webber_(actor)>	<wasBornIn>	<Minneapolis>	1980-##-##	1980-##-##
 <Rubén_González_Rocha>	<playsFor>	<Spain_national_under-18_football_team>	2000-##-##	2001-##-##
 <James_McNulty_(footballer)>	<playsFor>	<Macclesfield_Town_F.C.>	2006-##-##	2008-##-##
@@ -18763,7 +18763,7 @@
 <Rui_Fonte>	<playsFor>	<S.L._Benfica>	2013-##-##	2016-##-##
 <Robert_Donat>	<isMarriedTo>	<Renée_Asherson>	1953-##-##	1958-##-##
 <Corbin_Bleu>	<wasBornIn>	<Brooklyn>	1989-##-##	1989-##-##
-<Matthew_Collins>	<playsFor>	<Wales_national_under-17_football_team>	200--##-##	2003-##-##
+<Matthew_Collins>	<playsFor>	<Wales_national_under-17_football_team>	0200-##-##	2003-##-##
 <Karl_von_Vincent>	<hasWonPrize>	<Military_Order_of_Maria_Theresa>	1790-##-##	1806-##-##
 <Setsuro_Ebashi>	<hasWonPrize>	<Order_of_Culture>	1975-##-##	####-##-##
 <Penny_Nichols>	<isMarriedTo>	<Harry_Shearer>	1974-##-##	1977-##-##
@@ -19178,7 +19178,7 @@
 <Eurípedes_Amoreirinha>	<playsFor>	<Portugal_national_under-21_football_team>	2004-##-##	2007-##-##
 <Craig_Davies_(footballer)>	<playsFor>	<Port_Vale_F.C.>	2010-##-##	####-##-##
 <Bruno_Vale>	<playsFor>	<FC_Porto>	2003-##-##	2010-##-##
-<David_Swift_(director)>	<isMarriedTo>	<Maggie_McNamara>	1951-##-##	195--##-##
+<David_Swift_(director)>	<isMarriedTo>	<Maggie_McNamara>	1951-##-##	0195-##-##
 <Lyndall_Ryan>	<wasBornIn>	<Paddington,_New_South_Wales>	1943-##-##	1943-##-##
 <Lorraine_Bracco>	<isMarriedTo>	<Edward_James_Olmos>	1994-##-##	2002-##-##
 <Bobby_Van>	<isMarriedTo>	<Elaine_Joyce>	1968-##-##	1980-##-##
@@ -19414,7 +19414,7 @@
 <Franchot_Tone>	<isMarriedTo>	<Dolores_Dorn>	1956-##-##	1959-##-##
 <Pat_Paterson>	<isMarriedTo>	<Charles_Boyer>	1934-##-##	1978-##-##
 <Gaetano_Monachello>	<playsFor>	<Inter_Milan>	2007-##-##	2012-##-##
-<Stanford_White>	<created>	<St._Nicholas_Historic_District>	139--##-##	####-##-##
+<Stanford_White>	<created>	<St._Nicholas_Historic_District>	0139-##-##	####-##-##
 <Iago_Falque>	<playsFor>	<Real_Madrid_C.F.>	2000-##-##	2001-##-##
 <Miquel_Soler>	<playsFor>	<Sevilla_FC>	1993-##-##	1995-##-##
 <Dean_Leacock>	<playsFor>	<Crawley_Town_F.C.>	2014-##-##	2015-##-##
@@ -19778,7 +19778,7 @@
 <Virginia_E._Johnson>	<diedIn>	<St._Louis>	2013-##-##	2013-##-##
 <Charles_Boyer>	<diedIn>	<Phoenix,_Arizona>	1978-##-##	1978-##-##
 <Kay_Johnson>	<isMarriedTo>	<John_Cromwell_(director)>	1928-##-##	1946-##-##
-<Charlie_Taylor_(footballer,_born_1985)>	<playsFor>	<Billericay_Town_F.C.>	2012-##-##	201--##-##
+<Charlie_Taylor_(footballer,_born_1985)>	<playsFor>	<Billericay_Town_F.C.>	2012-##-##	0201-##-##
 <Scott_Carpenter>	<graduatedFrom>	<University_of_Colorado_Boulder>	1962-##-##	####-##-##
 <Schuyler_Colfax>	<diedIn>	<Mankato,_Minnesota>	1885-##-##	1885-##-##
 <Reto_Ziegler>	<playsFor>	<FC_Lokomotiv_Moscow>	2012-##-##	2013-##-##
