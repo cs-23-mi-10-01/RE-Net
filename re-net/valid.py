@@ -115,6 +115,9 @@ def train(args):
             total_data = total_data.cuda()
 
         if epoch % args.valid_every == 0 or epoch == args.max_epochs:
+            model.eval()
+            global_model.eval()
+            model.latest_time = valid_data[0][3]
             total_loss = 0
             total_ranks = np.array([])
 
