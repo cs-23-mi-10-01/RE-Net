@@ -206,6 +206,7 @@ def train(args):
             print("Saving " + epoch_model_graph_file)
             utils.touch(epoch_model_graph_file)
             with open(epoch_model_graph_file, 'wb') as fp:
+                print(model.graph_dict)
                 pickle.dump(model.graph_dict, fp)
 
             ############## VALIDATION REMOVED FROM THIS FILE, see valid.py ##############

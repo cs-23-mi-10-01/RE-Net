@@ -97,6 +97,7 @@ def train(args):
             graph_dict = pickle.load(fp)
         
         model.graph_dict = graph_dict
+        print(model.graph_dict)
 
         with open('./data/' + args.dataset+valid_sub, 'rb') as f:
             s_history_valid_data = pickle.load(f)
