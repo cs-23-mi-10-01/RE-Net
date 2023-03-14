@@ -210,43 +210,43 @@ def train(args):
                 pickle.dump(model.graph_dict, fp)
 
             ############## VALIDATION REMOVED FROM THIS FILE, see valid.py ##############
-            # total_loss = 0
-            # total_ranks = np.array([])
+            total_loss = 0
+            total_ranks = np.array([])
 
-            # for j in range(len(valid_data)):
-            #     if j % 1000 == 0:
-            #         print("valid_data " + str(j) + "/" + str(len(valid_data)))
+            for j in range(len(valid_data)):
+                if j % 1000 == 0:
+                    print("valid_data " + str(j) + "/" + str(len(valid_data)))
 
-            #     batch_data = valid_data[j]
-            #     s_hist = s_history_valid[j]
-            #     o_hist = o_history_valid[j]
-            #     s_hist_t = s_history_valid_t[j]
-            #     o_hist_t = o_history_valid_t[j]
+                batch_data = valid_data[j]
+                s_hist = s_history_valid[j]
+                o_hist = o_history_valid[j]
+                s_hist_t = s_history_valid_t[j]
+                o_hist_t = o_history_valid_t[j]
 
-            #     if use_cuda:
-            #         batch_data = batch_data.cuda()
+                if use_cuda:
+                    batch_data = batch_data.cuda()
 
-            #     with torch.no_grad():
-            #         ranks, loss = model.evaluate_filter(batch_data, (s_hist, s_hist_t), (o_hist, o_hist_t), global_model, total_data)
-            #         total_ranks = np.concatenate((total_ranks, ranks))
-            #         total_loss += loss.item()
+                with torch.no_grad():
+                    ranks, loss = model.evaluate_filter(batch_data, (s_hist, s_hist_t), (o_hist, o_hist_t), global_model, total_data)
+                    total_ranks = np.concatenate((total_ranks, ranks))
+                    total_loss += loss.item()
 
-            # mrr = np.mean(1.0 / total_ranks)
-            # mr = np.mean(total_ranks)
-            # hits = []
-            # for hit in [1, 3, 10]:
-            #     avg_count = np.mean((total_ranks <= hit))
-            #     hits.append(avg_count)
-            #     print("valid Hits (filtered) @ {}: {:.6f}".format(hit, avg_count))
-            # print("valid MRR (filtered): {:.6f}".format(mrr))
-            # print("valid MR (filtered): {:.6f}".format(mr))
-            # print("valid Loss: {:.6f}".format(total_loss / (len(valid_data))))
+            mrr = np.mean(1.0 / total_ranks)
+            mr = np.mean(total_ranks)
+            hits = []
+            for hit in [1, 3, 10]:
+                avg_count = np.mean((total_ranks <= hit))
+                hits.append(avg_count)
+                print("valid Hits (filtered) @ {}: {:.6f}".format(hit, avg_count))
+            print("valid MRR (filtered): {:.6f}".format(mrr))
+            print("valid MR (filtered): {:.6f}".format(mr))
+            print("valid Loss: {:.6f}".format(total_loss / (len(valid_data))))
 
-            # if mrr > best_mrr:
-            #     best_mrr = mrr
-            #     best_state = epoch_model_state_file
-            #     best_global2 = epoch_model_state_global_file2
-            #     best_graph = epoch_model_graph_file
+            if mrr > best_mrr:
+                best_mrr = mrr
+                best_state = epoch_model_state_file
+                best_global2 = epoch_model_state_global_file2
+                best_graph = epoch_model_graph_file
 
     print("training done")
     # print("Best model state: " + best_state)

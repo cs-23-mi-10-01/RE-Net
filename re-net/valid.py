@@ -6,6 +6,7 @@ import utils
 import os
 from model import RENet
 from global_model import RENet_global
+from sklearn.utils import shuffle
 import pickle
 
 
@@ -39,33 +40,31 @@ def train(args):
     os.makedirs('models', exist_ok=True)
     os.makedirs('models/'+ args.dataset, exist_ok=True)
 
+    model_state_file = 'models/' + args.dataset + '/rgcn.pth'
+    model_graph_file = 'models/' + args.dataset + '/rgcn_graph.pth'
+    model_state_global_file2 = 'models/' + args.dataset + '/max' + str(args.maxpool) + 'rgcn_global2.pth'
     model_state_global_file = 'models/' + args.dataset + '/max' + str(args.maxpool) + 'rgcn_global.pth'
+    model_state_file_backup = 'models/' + args.dataset + '/rgcn_backup.pth'
 
     epoch = args.start_epoch
 
     print("start validation...")
-
-    best_mrr = 0
-    while True:
-        if epoch == args.max_epochs:
-            break
-        epoch += 1
-        
-        model = RENet(num_nodes,
+    model = RENet(num_nodes,
+                    args.n_hidden,
+                    num_rels,
+                    dropout=args.dropout,
+                    model=args.model,
+                    seq_len=args.seq_len,
+                    num_k=args.num_k, use_cuda=use_cuda)
+    global_model = RENet_global(num_nodes,
                         args.n_hidden,
                         num_rels,
                         dropout=args.dropout,
                         model=args.model,
                         seq_len=args.seq_len,
-                        num_k=args.num_k, use_cuda=use_cuda)
-        global_model = RENet_global(num_nodes,
-                            args.n_hidden,
-                            num_rels,
-                            dropout=args.dropout,
-                            model=args.model,
-                            seq_len=args.seq_len,
-                            num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
-        
+                        num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
+    
+    while epoch <= args.max_epochs:
         epoch_model_state_file = 'models/' + args.dataset + "/" + str(epoch) + "/rgcn.pth"
         epoch_model_state_global_file2 = 'models/' + args.dataset + "/" + str(epoch) + "/max" + str(args.maxpool) + "rgcn_global2.pth"
 
@@ -76,7 +75,7 @@ def train(args):
 
         model.load_state_dict(model_dict['state_dict'])
         global_model.load_state_dict(global_model_dict['state_dict'])
-    
+
         checkpoint_global = torch.load(model_state_global_file, map_location=lambda storage, loc: storage)
         global_model.load_state_dict(checkpoint_global['state_dict'])
         global_emb = checkpoint_global['global_emb']
@@ -86,22 +85,19 @@ def train(args):
             global_model.cuda()
         train_sub = '/train_history_sub.txt'
         train_ob = '/train_history_ob.txt'
-        # if args.dataset == 'icews_know':
-        #     valid_sub = '/test_history_sub.txt'
-        #     valid_ob = '/test_history_ob.txt'
-        # else:
-        valid_sub = '/dev_history_sub.txt'
-        valid_ob = '/dev_history_ob.txt'
+        if args.dataset == 'icews_know':
+            valid_sub = '/test_history_sub.txt'
+            valid_ob = '/test_history_ob.txt'
+        else:
+            valid_sub = '/dev_history_sub.txt'
+            valid_ob = '/dev_history_ob.txt'
 
-        model_graph_file = "models/" + args.dataset + "/" + str(epoch) + "/rgcn_graph.pth"
-        #model_graph_file = "./data/" + args.dataset + "/train_graphs.txt"
-        print("loading " + model_graph_file)
-        with open(model_graph_file, 'rb') as fp:
+        epoch_model_graph_file = "models/" + args.dataset + "/" + str(epoch) + "/rgcn_graph.pth"
+        print("loading " + epoch_model_graph_file)
+        with open(epoch_model_graph_file, 'rb') as fp:
             graph_dict = pickle.load(fp)
         
         model.graph_dict = graph_dict
-        # print(model)
-        # print(global_model)
 
         with open('data/' + args.dataset+'/test_history_sub.txt', 'rb') as f:
             s_history_test_data = pickle.load(f)
@@ -112,20 +108,17 @@ def train(args):
         s_history_test_t = s_history_test_data[1]
         o_history_test = o_history_test_data[0]
         o_history_test_t = o_history_test_data[1]
-        
+
         with open('./data/' + args.dataset+train_sub, 'rb') as f:
             s_history_data = pickle.load(f)
         with open('./data/' + args.dataset+train_ob, 'rb') as f:
             o_history_data = pickle.load(f)
-            
+
         with open('./data/' + args.dataset+valid_sub, 'rb') as f:
             s_history_valid_data = pickle.load(f)
         with open('./data/' + args.dataset+valid_ob, 'rb') as f:
             o_history_valid_data = pickle.load(f)
         valid_data = torch.from_numpy(valid_data)
-
-        # print(s_history_valid_data[0])
-        # print(s_history_valid_data[1])
 
         s_history = s_history_data[0]
         s_history_t = s_history_data[1]
@@ -140,13 +133,16 @@ def train(args):
         if use_cuda:
             total_data = total_data.cuda()
 
+        best_mrr = 0
+
         if epoch % args.valid_every == 0 or epoch == args.max_epochs:
             model.eval()
             global_model.eval()
             model.init_history(train_data, (s_history, s_history_t), (o_history, o_history_t), valid_data,
-                           (s_history_valid, s_history_valid_t), (o_history_valid, o_history_valid_t), test_data,
-                           (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
+                        (s_history_valid, s_history_valid_t), (o_history_valid, o_history_valid_t), test_data,
+                        (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
             model.latest_time = valid_data[0][3]
+            
             total_loss = 0
             total_ranks = np.array([])
 
@@ -183,7 +179,7 @@ def train(args):
                 best_mrr = mrr
                 best_state = epoch_model_state_file
                 best_global2 = epoch_model_state_global_file2
-                best_graph = model_graph_file
+                best_graph = epoch_model_graph_file
 
     print("validation done")
     print("Best model state: " + best_state)
@@ -218,7 +214,7 @@ if __name__ == '__main__':
     parser.add_argument("--valid-every", type=int, default=1)
     parser.add_argument('--valid', action='store_true')
     parser.add_argument('--raw', action='store_true')
-    parser.add_argument('--start-epoch', type=int, default=0)
+    parser.add_argument('--start-epoch', type=int, default=1)
 
     args = parser.parse_args()
     print(args)
