@@ -84,27 +84,53 @@ def train(args):
         if use_cuda:
             model.cuda()
             global_model.cuda()
-        if args.dataset == 'icews_know':
-            valid_sub = '/test_history_sub.txt'
-            valid_ob = '/test_history_ob.txt'
-        else:
-            valid_sub = '/dev_history_sub.txt'
-            valid_ob = '/dev_history_ob.txt'
+        train_sub = '/train_history_sub.txt'
+        train_ob = '/train_history_ob.txt'
+        # if args.dataset == 'icews_know':
+        #     valid_sub = '/test_history_sub.txt'
+        #     valid_ob = '/test_history_ob.txt'
+        # else:
+        valid_sub = '/dev_history_sub.txt'
+        valid_ob = '/dev_history_ob.txt'
 
-        epoch_model_graph_file = "models/" + args.dataset + "/" + str(epoch) + "/rgcn_graph.pth"
-        print("loading " + epoch_model_graph_file)
-        with open(epoch_model_graph_file, 'rb') as fp:
+        model_graph_file = "models/" + args.dataset + "/" + str(epoch) + "/rgcn_graph.pth"
+        #model_graph_file = "./data/" + args.dataset + "/train_graphs.txt"
+        print("loading " + model_graph_file)
+        with open(model_graph_file, 'rb') as fp:
             graph_dict = pickle.load(fp)
         
         model.graph_dict = graph_dict
-        print(model.graph_dict)
+        # print(model)
+        # print(global_model)
 
+        with open('data/' + args.dataset+'/test_history_sub.txt', 'rb') as f:
+            s_history_test_data = pickle.load(f)
+        with open('data/' + args.dataset+'/test_history_ob.txt', 'rb') as f:
+            o_history_test_data = pickle.load(f)
+
+        s_history_test = s_history_test_data[0]
+        s_history_test_t = s_history_test_data[1]
+        o_history_test = o_history_test_data[0]
+        o_history_test_t = o_history_test_data[1]
+        
+        with open('./data/' + args.dataset+train_sub, 'rb') as f:
+            s_history_data = pickle.load(f)
+        with open('./data/' + args.dataset+train_ob, 'rb') as f:
+            o_history_data = pickle.load(f)
+            
         with open('./data/' + args.dataset+valid_sub, 'rb') as f:
             s_history_valid_data = pickle.load(f)
         with open('./data/' + args.dataset+valid_ob, 'rb') as f:
             o_history_valid_data = pickle.load(f)
         valid_data = torch.from_numpy(valid_data)
 
+        # print(s_history_valid_data[0])
+        # print(s_history_valid_data[1])
+
+        s_history = s_history_data[0]
+        s_history_t = s_history_data[1]
+        o_history = o_history_data[0]
+        o_history_t = o_history_data[1]
         s_history_valid = s_history_valid_data[0]
         s_history_valid_t = s_history_valid_data[1]
         o_history_valid = o_history_valid_data[0]
@@ -117,6 +143,9 @@ def train(args):
         if epoch % args.valid_every == 0 or epoch == args.max_epochs:
             model.eval()
             global_model.eval()
+            model.init_history(train_data, (s_history, s_history_t), (o_history, o_history_t), valid_data,
+                           (s_history_valid, s_history_valid_t), (o_history_valid, o_history_valid_t), test_data,
+                           (s_history_test, s_history_test_t), (o_history_test, o_history_test_t))
             model.latest_time = valid_data[0][3]
             total_loss = 0
             total_ranks = np.array([])
@@ -154,7 +183,7 @@ def train(args):
                 best_mrr = mrr
                 best_state = epoch_model_state_file
                 best_global2 = epoch_model_state_global_file2
-                best_graph = epoch_model_graph_file
+                best_graph = model_graph_file
 
     print("validation done")
     print("Best model state: " + best_state)

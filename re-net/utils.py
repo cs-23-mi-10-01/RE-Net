@@ -136,7 +136,9 @@ def make_subgraph(g, nodes):
     nodes = list(nodes)
     relabeled_nodes = []
 
+    print(type(g))
     for node in nodes:
+        print(node)
         relabeled_nodes.append(g.ids[node])
     sub_g = g.subgraph(relabeled_nodes)
 
