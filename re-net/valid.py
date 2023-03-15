@@ -64,6 +64,11 @@ def train(args):
                         seq_len=args.seq_len,
                         num_k=args.num_k, maxpool=args.maxpool, use_cuda=use_cuda, use_libxsmm=use_libxsmm)
     
+    valid_data = torch.from_numpy(valid_data)
+    total_data = torch.from_numpy(total_data)
+    if use_cuda:
+        total_data = total_data.cuda()
+    
     while epoch <= args.max_epochs:
         epoch_model_state_file = 'models/' + args.dataset + "/" + str(epoch) + "/rgcn.pth"
         epoch_model_state_global_file2 = 'models/' + args.dataset + "/" + str(epoch) + "/max" + str(args.maxpool) + "rgcn_global2.pth"
@@ -118,7 +123,6 @@ def train(args):
             s_history_valid_data = pickle.load(f)
         with open('./data/' + args.dataset+valid_ob, 'rb') as f:
             o_history_valid_data = pickle.load(f)
-        valid_data = torch.from_numpy(valid_data)
 
         s_history = s_history_data[0]
         s_history_t = s_history_data[1]
@@ -129,9 +133,6 @@ def train(args):
         o_history_valid = o_history_valid_data[0]
         o_history_valid_t = o_history_valid_data[1]
 
-        total_data = torch.from_numpy(total_data)
-        if use_cuda:
-            total_data = total_data.cuda()
 
         best_mrr = 0
 
@@ -180,6 +181,8 @@ def train(args):
                 best_state = epoch_model_state_file
                 best_global2 = epoch_model_state_global_file2
                 best_graph = epoch_model_graph_file
+        
+        epoch += 1
 
     print("validation done")
     print("Best model state: " + best_state)

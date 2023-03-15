@@ -415,8 +415,8 @@ class RENet(nn.Module):
         loss, sub_pred, ob_pred = self.predict(triplet, s_hist, o_hist, global_model)
         o_label = o
         s_label = s
-        sub_pred = F.sigmoid(sub_pred)
-        ob_pred = F.sigmoid(ob_pred)
+        sub_pred = torch.sigmoid(sub_pred)
+        ob_pred = torch.sigmoid(ob_pred)
 
         ground = ob_pred[o].clone()
 

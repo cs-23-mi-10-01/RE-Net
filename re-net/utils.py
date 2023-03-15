@@ -136,7 +136,7 @@ def make_subgraph(g, nodes):
     nodes = list(nodes)
     relabeled_nodes = []
 
-    print(type(g))
+    print(g.ids)
     for node in nodes:
         print(node)
         relabeled_nodes.append(g.ids[node])
@@ -185,8 +185,10 @@ def get_g_list_id(neighs_t, graph_dict):
     g_id_dict = {}
     g_list = []
     idx = 0
+    print("neighs_t " + str(neighs_t))
     for tim in neighs_t.keys():
         g_id_dict[tim] = idx
+        print("tim: " + str(tim))
         g_list.append(make_subgraph(graph_dict[tim], neighs_t[tim]))
         if idx == 0:
             g_list[idx].start_id = 0
@@ -307,6 +309,8 @@ def get_s_r_embed_rgcn(s_hist_data, s, r, ent_embeds, graph_dict, global_emb, us
 
     s_tem = s[s_idx]
     r_tem = r[s_idx]
+
+    print("s_tem " + str(s_tem))
 
     neighs_t = get_neighs_by_t(s_hist_sorted, s_hist_t_sorted, s_tem)
 
