@@ -83,7 +83,7 @@ def create_train_valid_test(entity2id_path, relation2id_path, timestamp2id_path,
         records = csv.DictReader(dataset, fieldnames=["timestamp", "id"], delimiter='\t')
         for row in records:
             timestamp2id[row["timestamp"]] = int(row["id"])
-    
+
     test_str = ""
     train_str = ""
     valid_str = ""
