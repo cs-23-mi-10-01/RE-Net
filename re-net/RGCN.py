@@ -5,12 +5,12 @@ import dgl.function as fn
 
 class RGCNLayer(nn.Module):
     def __init__(self, in_feat, out_feat, bias=None, activation=None,
-                 self_loop=False, dropout=0.0, use_libxsmm=True):
+                 self_loop=False, dropout=0.0, use_libxsmm=True, use_cuda=True):
         super(RGCNLayer, self).__init__()
         self.bias = bias
         self.activation = activation
         self.self_loop = self_loop
-        self.use_cuda = True
+        self.use_cuda = use_cuda
 
         if self.bias == True:
             b = torch.Tensor(out_feat)
@@ -63,10 +63,10 @@ class RGCNLayer(nn.Module):
 
 class RGCNBlockLayer(RGCNLayer):
     def __init__(self, in_feat, out_feat, num_rels, num_bases, bias=None,
-                 activation=None, self_loop=False, dropout=0.0, use_libxsmm=True):
+                 activation=None, self_loop=False, dropout=0.0, use_libxsmm=True, use_cuda=True):
         super(RGCNBlockLayer, self).__init__(in_feat, out_feat, bias,
                                              activation, self_loop=self_loop,
-                                             dropout=dropout, use_libxsmm=use_libxsmm)
+                                             dropout=dropout, use_libxsmm=use_libxsmm, use_cuda=use_cuda)
         self.num_rels = num_rels
         self.num_bases = num_bases
         assert self.num_bases > 0

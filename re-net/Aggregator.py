@@ -19,9 +19,9 @@ class RGCNAggregator_global(nn.Module):
 
 
         self.rgcn1 = RGCNLayer(self.h_dim, self.h_dim, 2 * self.num_rels, num_bases,
-                               activation=F.relu, self_loop=True, dropout=dropout, use_libxsmm=use_libxsmm)
+                               activation=F.relu, self_loop=True, dropout=dropout, use_libxsmm=use_libxsmm, use_cuda=use_cuda)
         self.rgcn2 = RGCNLayer(self.h_dim, self.h_dim, 2 * self.num_rels, num_bases,
-                               activation=None, self_loop=True, dropout=dropout, use_libxsmm=use_libxsmm)
+                               activation=None, self_loop=True, dropout=dropout, use_libxsmm=use_libxsmm, use_cuda=use_cuda)
         
         self.use_cuda = use_cuda
 
@@ -132,9 +132,9 @@ class RGCNAggregator(nn.Module):
         self.model = model
 
         self.rgcn1 = RGCNLayer(self.h_dim, self.h_dim, 2*self.num_rels, num_bases,
-                               activation=F.relu, self_loop=True, dropout=dropout)
+                               activation=F.relu, self_loop=True, dropout=dropout, use_cuda=use_cuda)
         self.rgcn2 = RGCNLayer(self.h_dim, self.h_dim, 2*self.num_rels, num_bases,
-                               activation=None, self_loop=True, dropout=dropout)
+                               activation=None, self_loop=True, dropout=dropout, use_cuda=use_cuda)
         
         self.use_cuda = use_cuda
 
