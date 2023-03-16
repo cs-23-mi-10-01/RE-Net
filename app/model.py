@@ -238,6 +238,11 @@ class RENet(nn.Module):
         o = triplet[2]
         t = triplet[3].cpu()
 
+        s_test = s.item()
+        r_test = r.item()
+        o_test = o.item()
+        t_test = t.item()
+
         if self.latest_time != t:
             _, sub, prob_sub = global_model.predict(self.latest_time, self.graph_dict, subject=True)
             
@@ -321,9 +326,11 @@ class RENet(nn.Module):
 
 
             self.data = get_data(self.s_his_cache, self.o_his_cache)
-            self.graph_dict[self.latest_time.item()] = get_big_graph(self.data, self.num_rels)
+            test1 = self.latest_time.item()
+            self.graph_dict[test1] = get_big_graph(self.data, self.num_rels)
             global_emb_prev_t, _, _ = global_model.predict(self.latest_time, self.graph_dict, subject=True)
-            self.global_emb[self.latest_time.item()] = global_emb_prev_t
+            test2 = self.latest_time.item()
+            self.global_emb[test2] = global_emb_prev_t
 
             for ee in range(self.in_dim):
                 if len(self.s_his_cache[ee]) != 0:

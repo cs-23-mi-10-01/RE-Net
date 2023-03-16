@@ -7,9 +7,14 @@ from dgl import DGLGraph
 from pathlib import Path
 
 
+def windowsify_path(path):
+    windows = True
+    if windows == False:
+        return path
+    return path.replace('/', '\\')
 
 def get_total_number(inPath, fileName):
-    with open(os.path.join(inPath, fileName), 'r') as fr:
+    with open(os.path.join(windowsify_path(inPath), fileName), 'r') as fr:
         for line in fr:
             line_split = line.split()
             return int(line_split[0]), int(line_split[1])
